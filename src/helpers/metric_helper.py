@@ -51,15 +51,15 @@ class Rouge:
 
 
 class ICL:
-    def __init__(self):
+    def __init__(self, base_url=None, model="gpt-4-0613"):
         self.icl_eval = ICLEvaluation()
-        self.openai_client = OpenAIClient()
+        self.openai_client = OpenAIClient(base_url=base_url)
+        self.model = model
 
     def score(
         self,
         reference,
         candidate,
-        model="gpt-4-0613",
         prompt_type="gpt4_icl_prompt",
     ):
         icl_prompt = self.icl_eval.get_prompt(prompt_type=prompt_type)
@@ -69,7 +69,7 @@ class ICL:
 
         evaluation = self.openai_client.get_text(
             text=formatted_icl_prompt,
-            model=model,
+            model=self.model,
             max_tokens=10,
         )
 

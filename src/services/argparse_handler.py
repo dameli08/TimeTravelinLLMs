@@ -19,7 +19,7 @@ class ArgumentParser:
             "--task",
             required=True,
             type=str,
-            choices=["cls", "nli", "sum", "xsum"],
+            choices=["cls", "nli", "sum", "xsum", "qa"],
             help="The task corresponding to the dataset. "
             "For NLI and classification tasks, label column should be specified. "
             "(Choices: %(choices)s)",
@@ -90,6 +90,33 @@ class ArgumentParser:
             type=int,
             default=42,
             help="Set the seed value upon which random text splits will be based.",
+        )
+        self.parser.add_argument(
+            "--base_url",
+            type=str,
+            default=None,
+            help="Base URL for a local OpenAI-compatible API (e.g., vLLM). "
+                 "If not set, uses the OpenAI API with OPENAI_API_KEY.",
+        )
+        self.parser.add_argument(
+            "--sleep_time",
+            type=float,
+            default=3.0,
+            help="Seconds to sleep between API calls. Set to 0 for local endpoints.",
+        )
+        self.parser.add_argument(
+            "--sample_fraction",
+            type=float,
+            default=None,
+            help="If set, randomly sample this fraction of the dataset (e.g. 0.3 for 30%%). "
+            "A fresh random sample is drawn each run. No fixed seed, so each run gets a different subset.",
+        )
+        self.parser.add_argument(
+            "--system_message",
+            type=str,
+            default=None,
+            help="Optional system message prepended to every API call. Useful for "
+            "restricting model output (e.g. disabling thinking mode with /no_think).",
         )
         self.parser.add_argument(
             "--bleurt_eval",

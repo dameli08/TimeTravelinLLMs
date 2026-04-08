@@ -1,3 +1,0 @@
-Metric               p-value    Significance
---------------------------------------------------
-BLEURT score:        0.319      Not Significant

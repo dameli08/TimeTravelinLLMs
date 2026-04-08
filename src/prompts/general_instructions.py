@@ -37,6 +37,14 @@ FIRST PIECE:
 
 SECOND PIECE:
 """,
+            "qa": """INSTRUCTION:
+Finish the SECOND PIECE based on the FIRST PIECE to complete the original text.
+
+FIRST PIECE:
+{first_piece}
+
+SECOND PIECE:
+""",
         }
 
     def get_prompt(self, prompt_type):

@@ -19,7 +19,8 @@ class ReplicationPhase(ExperimentResultSaver):
         self.instruction = instruction
         self.instruction_type = str(instruction.__class__.__name__).lower()
         self.generated_text_column = f"generated_{self.instruction_type}_completion"
-        self.openai_client = OpenAIClient()
+        self.openai_client = OpenAIClient(base_url=getattr(args, 'base_url', None))
+        self.sleep_time = getattr(args, 'sleep_time', 3.0)
 
     def split_text(self):
         if self.args.task == "nli" or all(
@@ -61,7 +62,7 @@ class ReplicationPhase(ExperimentResultSaver):
             for index, row in self.df.iterrows():
                 self._perform_task(index, row)
                 pbar.update(1)
-                time.sleep(3)
+                time.sleep(self.sleep_time)
 
             pbar.close()
             self.save_to_csv()
@@ -82,7 +83,9 @@ class ReplicationPhase(ExperimentResultSaver):
             logger.info(f"Input prompt:\n\n{formatted_prompt}")
 
         self.df.at[index, self.generated_text_column] = self.openai_client.get_text(
-            text=formatted_prompt, model=self.args.model
+            text=formatted_prompt,
+            model=self.args.model,
+            system_message=getattr(self.args, 'system_message', None),
         )
 
     def _prepare_prompt(self, prompt, row, first_piece):

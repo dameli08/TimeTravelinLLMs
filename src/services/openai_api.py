@@ -2,8 +2,11 @@ from openai import OpenAI
 
 
 class OpenAIClient:
-    def __init__(self):
-        self.client = OpenAI()
+    def __init__(self, base_url=None):
+        if base_url:
+            self.client = OpenAI(api_key="EMPTY", base_url=base_url)
+        else:
+            self.client = OpenAI()
 
     def get_text(
         self,
@@ -14,7 +17,13 @@ class OpenAIClient:
         top_p=1.00,
         frequency_penalty=0.0,
         presence_penalty=0.0,
+        system_message=None,
     ):
+        messages = []
+        if system_message:
+            messages.append({"role": "system", "content": system_message})
+        messages.append({"role": "user", "content": text})
+
         # Try making the API call
         try:
             response = self.client.chat.completions.create(
@@ -24,7 +33,7 @@ class OpenAIClient:
                 top_p=top_p,
                 frequency_penalty=frequency_penalty,
                 presence_penalty=presence_penalty,
-                messages=[{"role": "user", "content": text}],
+                messages=messages,
             )
         except Exception as e:
             raise Exception(f"Failed to create completion with OpenAI API: {str(e)}")

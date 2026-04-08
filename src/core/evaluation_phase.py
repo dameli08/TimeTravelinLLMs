@@ -104,6 +104,7 @@ class Alg2EvalPhase(ExperimentResultSaver):
         self.scorer = scorer
         self.pattern_severity = pattern_severity
         self.filepath = Path(self.args.filepath)
+        self.sleep_time = getattr(args, 'sleep_time', 3.0)
 
     def evaluate(self):
         logger.info("Starting evaluation using GPT-4 ICL ...")
@@ -137,7 +138,7 @@ class Alg2EvalPhase(ExperimentResultSaver):
                 self.df.at[index, "gpt4_icl_evaluation"] = icl_evaluation
 
                 pbar.update(1)
-                time.sleep(3)
+                time.sleep(self.sleep_time)
 
             pbar.close()
             self.save_to_csv()

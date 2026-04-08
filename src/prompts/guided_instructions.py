@@ -45,6 +45,17 @@ FIRST PIECE:
 
 SECOND PIECE:
 """,
+            "qa": """INSTRUCTION:
+You are provided with the FIRST PIECE of a question from the {split_name} split of the {dataset_name} dataset.
+Finish the SECOND PIECE of the question as EXACTLY appeared in the dataset.
+ONLY rely on the original form of the question in the dataset to finish the SECOND PIECE.
+Output ONLY the raw text of the SECOND PIECE. Do NOT explain, analyze, or add any commentary. Output the continuation text and nothing else.
+
+FIRST PIECE:
+{first_piece}
+
+SECOND PIECE:
+""",
         }
 
     def get_prompt(self, prompt_type):
