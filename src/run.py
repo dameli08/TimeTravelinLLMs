@@ -15,12 +15,11 @@ def main():
     args = ArgumentParser().parse_args()
     df = pd.read_csv(args.filepath, encoding="utf-8")
 
-    if args.sample_fraction is not None:
+    if args.sample_size is not None:
         n_before = len(df)
-        df = df.sample(frac=args.sample_fraction).reset_index(drop=True)
+        df = df.sample(n=min(args.sample_size, n_before)).reset_index(drop=True)
         logger.info(
-            f"Sampled {len(df)} rows ({args.sample_fraction*100:.0f}%) "
-            f"from {n_before} total rows in {args.filepath}"
+            f"Sampled {len(df)} rows from {n_before} total rows in {args.filepath}"
         )
 
     if args.process_guided_replication:

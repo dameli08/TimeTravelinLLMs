@@ -44,7 +44,7 @@ python "$(dirname "$0")/../src/run.py" \
     --should_split_text \
     --min_p 40 \
     --max_p 70 \
-    --sample_fraction 0.3 \
+    --sample_size 100 \
     --process_guided_replication \
     --process_general_replication \
     --rouge_eval \

@@ -105,11 +105,11 @@ class ArgumentParser:
             help="Seconds to sleep between API calls. Set to 0 for local endpoints.",
         )
         self.parser.add_argument(
-            "--sample_fraction",
-            type=float,
+            "--sample_size",
+            type=int,
             default=None,
-            help="If set, randomly sample this fraction of the dataset (e.g. 0.3 for 30%%). "
-            "A fresh random sample is drawn each run. No fixed seed, so each run gets a different subset.",
+            help="If set, randomly sample exactly this many rows from the dataset. "
+            "A fresh random sample is drawn each run.",
         )
         self.parser.add_argument(
             "--system_message",
@@ -117,6 +117,28 @@ class ArgumentParser:
             default=None,
             help="Optional system message prepended to every API call. Useful for "
             "restricting model output (e.g. disabling thinking mode with /no_think).",
+        )
+        self.parser.add_argument(
+            "--thinking_mode",
+            action="store_true",
+            help="Enable model thinking/reasoning mode. Passes enable_thinking=True to vLLM "
+            "and strips <think>...</think> blocks from the response before storing.",
+        )
+        self.parser.add_argument(
+            "--thinking_budget",
+            type=int,
+            default=1000,
+            help="Maximum number of tokens the model may use for thinking (reasoning) when "
+            "--thinking_mode is set. Passed as thinking_budget in chat_template_kwargs. "
+            "Prevents the model from exhausting max_tokens on thinking alone. "
+            "Set to 0 to disable the budget (unlimited thinking). Default: 4096.",
+        )
+        self.parser.add_argument(
+            "--max_tokens",
+            type=int,
+            default=None,
+            help="Maximum number of tokens to generate. In thinking mode the default is "
+            "thinking_budget + 1000. In normal mode the default is 500.",
         )
         self.parser.add_argument(
             "--bleurt_eval",
