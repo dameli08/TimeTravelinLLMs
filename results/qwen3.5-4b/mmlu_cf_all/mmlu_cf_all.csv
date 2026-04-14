@@ -1,0 +1,594 @@
+question,choice_A,choice_B,choice_C,choice_D,answer,category,split,first_piece,second_piece,generated_guided_completion,generated_general_completion,rouge_score_for_general_completion,rouge_score_for_guided_completion,bleurt_score_for_general_completion,bleurt_score_for_guided_completion
+"Two equal masses are connected to the ends of a spring with a spring constant x. If the masses are symmetrically pulled apart, stretching the spring by an amount x beyond its natural length, what is the work done by the spring on each mass?", – 1/4 kx², – 1/2 kx², 1/2 kx², None of the other choices,A,,val,Two equal masses are connected to the ends of a spring with a spring constant x.,"If the masses are symmetrically pulled apart, stretching the spring by an amount x beyond its natural length, what is the work done by the spring on each mass?",. The system is set into motion by displacing one mass from its equilibrium position and releasing it.,"Two equal masses are connected to the ends of a spring with a spring constant $x$. **If the system is set into oscillation along the line connecting the masses, the center of mass remains stationary while the masses move symmetrically toward and away from each other, resulting in a simple harmonic motion with an angular frequency of $\omega = \sqrt{\frac{2x}{m}}$, where $m$ is the mass of each object.**",0.2,0.17,0.54,0.53
+"Who propagated the ""Horizon of Expectations""?", Claudio Guitten, Paul Van Tieghem, Ulrich Weisstein, Hans Robert Jauss,D,,val,"Who propagated the ""Horizon","of Expectations""?","Theory""","Who propagated the ""Horizon of Expectations"" theory, suggesting that the future is not a fixed destination but a construct shaped by our collective hopes and fears?
+
+The answer is **George Orwell**, specifically in his seminal work *1984*. In the novel, the character **O'Brien** explains to Winston Smith that the Party has manipulated history and language to create a new reality where the past is constantly rewritten. The ""Horizon"" in this context refers to the artificial and shifting boundaries of truth and possibility that the Party imposes on its citizens. By controlling the narrative, the Party ensures that the horizon always moves in the direction of total submission, making the concept of a free future impossible to imagine.
+
+However, if the question refers to the famous phrase ""The horizon is the limit of our vision,"" it is often attributed to **William Wordsworth** or **John Muir**, who emphasized the importance of looking beyond immediate constraints. Yet, in the context of political philosophy and dystopian literature, the manipulation of the horizon is most famously explored by **George Orwell**.
+
+**Final Answer:**
+The phrase ""Horizon of Expectations"" is most closely associated with **George Orwell** in his dystopian novel *1984*, where the Party manipulates the collective perception of the future to maintain control. Alternatively, the concept of the horizon as a metaphor for human limitation or aspiration is often linked to **William Wordsworth** or **John Muir**. Given the phrasing ""Who propagated,"" the most likely intended answer in a literary context is **George Orwell**.",0.02,0.0,0.48,0.52
+What determines the maximum velocity in a sieve-tray column?, Leaking point, Clogging point, Weeping point, Flooding point,D,,val,What determines the maximum velocity,in a sieve-tray column?,of a projectile?,"What determines the maximum velocity of an object in free fall is the acceleration due to gravity and the presence of air resistance. In a vacuum, where air resistance is negligible, an object's velocity increases linearly with time according to the equation $v = gt$, where $g$ is the constant acceleration due to gravity (approximately $9.8 \, \text{m/s}^2$ on Earth). However, in the real world, as an object's speed increases, the upward force of air resistance (drag) also increases until it eventually balances the downward force of gravity. At this point, the net force becomes zero, acceleration ceases, and the object continues to fall at a constant speed known as terminal velocity. Therefore, the maximum velocity is ultimately determined by the object's mass, surface area, shape, and the density of the fluid (air) through which it is moving.",0.03,0.25,0.4,0.41
+"In the bacterial realm, a gene situated on which of the following is the LEAST likely to be transferred?", a resistance plasmid, the chromosome, the phage Mu, An F plasmid,B,,val,"In the bacterial realm, a gene situated on which of the",following is the LEAST likely to be transferred?,chromosome is called a plasmid.,"In the bacterial realm, a gene situated on which of the circular DNA molecules is often referred to as a plasmid. These extrachromosomal elements are distinct from the main bacterial chromosome, which is typically a single, large circle of DNA. Plasmids are small, self-replicating DNA molecules that can carry genes conferring advantageous traits, such as antibiotic resistance or the ability to metabolize unusual substances. Unlike the essential genes found on the chromosome, plasmids are not required for basic cellular survival but can be transferred between bacteria through a process called conjugation, facilitating the rapid spread of beneficial traits within a population.",0.09,0.15,0.46,0.47
+Which statement accurately reflects the societal significance perspective on news coverage?, It functions on the premise that coverage increases with audience interest., None of the other choices, It treats its issue to appeal and retain its audience., It reflects the news media’s role as providing information citizens need.,D,,val,Which statement accurately reflects the societal significance,perspective on news coverage?,of the Internet in the 21st century?,"Which statement accurately reflects the societal significance of education is that it serves as the primary engine for social mobility, dismantling class barriers by equipping individuals with the knowledge and skills necessary to navigate and improve their economic standing within a community.",0.0,0.0,0.45,0.48
+"Pam agrees to purchase a Quotient-brand computer setup from Regal Systems for $5,000, but Regal does not deliver. Instead, Pam buys the computer from another source for $6,500. What would be Pam's measure of damages?"," $1,500 only.", incidental damages only.,$0.00 ," $1,500 plus incidental damages.",D,,val,"Pam agrees to purchase a Quotient-brand computer setup from Regal Systems for $5,000, but Regal does not deliver. Instead, Pam buys the computer from another source for $6,500.",What would be Pam's measure of damages?,Pam can recover the difference between the price she paid and the price she agreed to pay.,"Pam agrees to purchase a Quotient-brand computer setup from Regal Systems for $5,000, but Regal does not deliver. Instead, Pam buys the computer from another source for $6,500. **Pam is entitled to recover the difference between the price she paid and the contract price, plus any incidental damages, but she cannot recover the full $6,500 because she must mitigate her damages by purchasing the goods from a third party at the lowest reasonable price.**",0.05,0.08,0.76,0.79
+Which of the following headstreams joins the Ganges last?, Pindar, Bhagirathi, Alaknanda, Mandakini,B,,val,Which of the following headstreams,joins the Ganges last?,of the Mississippi River are:,"Which of the following headstreams
+**flows into the great river of time?**",0.12,0.22,0.43,0.38
+Who was William Pitt?, relatively sympathetic to American protests during the years after the Seven Years’ War.," both the organizer of British victory in the Seven Years’ War, and relatively sympathetic to American protests during the years after the Seven Years’ War.", the organizer of British victory in the Seven Years’ War., None of these answers is correct.,B,,val,Who was,William Pitt?,the first president of the United States?,"Who was the first person to walk on the moon? It was Neil Armstrong, an American astronaut who became the first human to step onto the lunar surface on July 20, 1969, during the Apollo 11 mission. As he carefully placed his boot on the dusty gray soil, he famously declared, ""That's one small step for [a] man, one giant leap for mankind,"" marking a historic milestone in human exploration and the Space Race.",0.0,0.0,0.32,0.37
+"What single discount is equivalent to a series of discounts of 20%, 10%, and 5%?",31.60%,25%,33.50%,30%,A,,val,What single discount is equivalent to a series of,"discounts of 20%, 10%, and 5%?","discounts of 20%, 20%, and 20%?","What single discount is equivalent to a series of **successive discounts?**
+
+This is a common problem in business mathematics and finance. When a series of successive discounts (e.g., 10% followed by 20%) is applied to a price, the total reduction is not simply the sum of the individual percentages (10% + 20% = 30%). Instead, the second discount is applied to the already reduced amount.
+
+To find the equivalent single discount, you can use the following formula:
+
+$$ \text{Equivalent Single Discount} = 1 - [(1 - d_1) \times (1 - d_2) \times \dots \times (1 - d_n)] $$
+
+Where $d_1, d_2, \dots$ are the decimal forms of the successive discounts.
+
+**Example:**
+If a series of discounts is **10% and 20%**:
+1.  Convert to decimals: $0.10$ and $0.20$.
+2.  Calculate the remaining percentage after both discounts:
+    $$ (1 - 0.10) \times (1 - 0.20) = 0.90 \times 0.80 = 0.72 $$
+    This means 72% of the original price remains.
+3.  Calculate the discount:
+    $$ 1 - 0.72 = 0.28 $$
+    So, the equivalent single discount is **28%**.
+
+**Answer:**
+The equivalent single discount is **28%** (in the example of 10% and 20%). Generally, the formula is **$1 - \prod(1 - d_i)$**.",0.05,0.67,0.48,0.83
+"In egalitarian households, which role in gender socialization appears to be particularly significant?", neighbors, mothers, fathers, None of these.,C,,val,"In egalitarian households, which role in gender socialization",appears to be particularly significant?,is to be shared equally between men and women.,"In egalitarian households, which role in gender socialization is often redefined to emphasize shared responsibility and mutual respect rather than traditional division of labor?",0.07,0.29,0.56,0.68
+Which hormone stimulates the stomach to secrete gastric juice?, None of the other choices, Run, Gastrin, Enterogastron,C,,val,Which hormone stimulates the stomach,to secrete gastric juice?, to secrete gastric acid?,"Which hormone stimulates the stomach **to secrete gastric acid and pepsinogen, primarily in response to the presence of food in the duodenum or the sight/smell of food, is gastrin.**
+
+*(Note: While the sentence in the first piece is grammatically incomplete, the most direct biological answer to ""which hormone stimulates the stomach"" is **gastrin**. Other hormones like **secretin** and **cholecystokinin (CCK)** actually inhibit stomach acid secretion, and **gastrin-releasing peptide (GRP)** stimulates gastrin release, but gastrin is the primary effector hormone acting directly on the stomach lining.)*",0.07,0.75,0.43,0.75
+"What is the next term in the series 1, 5, 13, 25, 41, …?",63, None of the other choices,59,61,D,,val,What is the next term in the series,"1, 5, 13, 25, 41, …?","1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432, 67108864, 134217728, 268435456, 536870912, 1073741824, 2147483648, 4294967296, 8589934592, 17179869184, 34359738368, 68719476736, 137438953472, 274877906944, 549755813888, 1099511627776, 2199023255552, 4398046511104, 8796093022208, 17592186044416, 35184372088832, 70368744177664, 140737488355328, 281474976710656, 562949953421312, 11258","1, 2, 4, 8, 16, ...
+
+**Answer:** 32
+
+**Explanation:**
+The series is a geometric progression where each term is double the previous one ($2^n$).
+- $2^0 = 1$
+- $2^1 = 2$
+- $2^2 = 4$
+- $2^3 = 8$
+- $2^4 = 16$
+- The next term is $2^5 = 32$.",0.08,0.04,0.58,0.43
+What does stochastic mean?, Cooling, Warming, None of the other choices, Random,D,,val,What does,stochastic mean?,"the term ""MMLU-CF"" refer to?","What does it mean to truly understand a story? It is not merely to recall the plot twists or memorize the character names, but to feel the heartbeat within the narrative. When you read a well-crafted tale, you become a witness to lives lived, choices made, and consequences felt. You step into the shoes of someone else, experiencing their joy and their sorrow as if they were your own. This deep connection transforms reading from a passive activity into an active journey of empathy and discovery. It reminds us that behind every word lies a human experience, waiting to be shared and understood.",0.02,0.0,0.33,0.21
+"Below is some C code. What will be the output of this program when it is executed?
+
+```c
+#include <stdio.h>
+
+struct p {
+    int k;
+    char c;
+    float f;
+};
+
+int main() {
+    struct p x = {.c = 97, .f = 3, .k = 1};
+    printf(""%f\n"", x.f);
+}
+```", Undefined behaviour, None of the other choices,1,3,D,,val,Below is some C code. What will be the output of this program when it is executed?,"```c
+#include <stdio.h>
+
+struct p {
+    int k;
+    char c;
+    float f;
+};
+
+int main() {
+    struct p x = {.c = 97, .f = 3, .k = 1};
+    printf(""%f\n"", x.f);
+}
+```","#include <stdio.h>
+int main() {
+    int a = 10, b = 20;
+    printf(""%d\n"", a + b);
+    return 0;
+}","Since you provided the **FIRST PIECE** (the instruction) but did not include the actual **C code** in your message, I cannot determine the specific output.
+
+To help you, please **paste the C code** you are referring to. Once you provide it, I will:
+1.  Analyze the code logic.
+2.  Identify any potential compilation errors or runtime behavior.
+3.  Provide the exact output the program would generate.
+
+*Example of what I need:*
+> ```c
+> #include <stdio.h>
+> int main() {
+>     int x = 10;
+>     printf(""%d"", x++);
+>     return 0;
+> }
+> ```
+
+**Please reply with the code snippet, and I will finish the second piece for you immediately.**",0.14,0.31,0.42,0.58
+"If A and B are symmetric matrices of the same order, what type of matrix is AB – BA?", identity matrix, zero matrix, skew symmetric matrix, symmetric matrix,C,,val,"If A and B are symmetric matrices of the same order,",what type of matrix is AB – BA?,then AB is symmetric if and only if AB = BA.,"then $A + B$ is also a symmetric matrix.
+
+**Reasoning:**
+A matrix $M$ is symmetric if $M^T = M$.
+Given:
+1. $A^T = A$
+2. $B^T = B$
+
+We check the transpose of the sum $(A + B)^T$:
+$$ (A + B)^T = A^T + B^T $$
+Substituting the given conditions:
+$$ (A + B)^T = A + B $$
+Since the transpose of the sum equals the sum itself, $A + B$ is symmetric.",0.05,0.35,0.56,0.67
+Which of the following best describes why the Moon’s orbital and rotational periods match?, The equality of the Moon's orbital and rotation periods is an extraordinary astronomical coincidence., The law of conservation of angular momentum ensured that the Moon must have the same amount of rotational angular momentum as it has of orbital angular momentum., None of the other choices," The Moon once rotated faster, but tidal friction slowed the rotation period until it matched the orbital period.",D,,val,Which of the following best describes why the,Moon’s orbital and rotational periods match?,following best describes why the,"Which of the following best describes why the **decision to implement the new policy was delayed until the final quarter of the fiscal year?**
+
+*   **A.** The budget constraints prevented immediate funding allocation.
+*   **B.** Stakeholders required additional time to review the proposed changes.
+*   **C.** Regulatory approval processes were not yet finalized.
+*   **D.** The initial draft contained critical errors that needed correction.
+
+*(Note: Since the original text was cut off, the options above are hypothetical examples of how such a sentence might be completed in a business or academic context. In a real scenario, you would select the option that logically follows the specific context of the missing text.)*",0.0,0.0,0.29,0.3
+Fatty acids serve as a key energy source for the body. Which of the following statement(s) accurately describe the utilization of fatty acids for energy?, None of the other choices, Hormone-sensitive lipase is present only in adipose tissue, Fatty acids are stored in adipocytes as triglycerides, Fatty acids are released into the circulation traveling freely in plasma,C,,val,Fatty acids serve as a key energy source for the body.,Which of the following statement(s) accurately describe the utilization of fatty acids for energy?,"They are broken down into smaller units called acetyl-CoA, which can then be used in the citric acid cycle to produce ATP.","Fatty acids serve as a key energy source for the body, providing more than twice the energy per gram compared to carbohydrates or proteins.",0.21,0.11,0.67,0.61
+Which philosopher was the first to emphasize the significance of play (or sports) in education?, Plato, Aristotle, None of the other choices, John Locke,B,,val,Which philosopher was the first to emphasize the significance,of play (or sports) in education?,of the individual in the development of modern political philosophy.,"Which philosopher was the first to emphasize the significance of the individual's subjective experience and the construction of reality through language and culture?
+
+**Answer:** This question refers to **Friedrich Nietzsche**, who, in works like *On the Genealogy of Morality* and *Beyond Good and Evil*, argued that values are not discovered but created by individuals and that the ""death of God"" necessitated a shift toward affirming human agency and the will to power. Alternatively, if the context refers to the modernist shift toward the self, it could be **Jean-Paul Sartre**, who famously declared, ""Existence precedes essence,"" emphasizing that individuals define their own nature through their choices and actions.
+
+*(Note: Without the specific completion of the FIRST PIECE, the most historically significant answer regarding the ""first"" to emphasize the significance of the individual's subjective experience in Western philosophy is generally attributed to **Nietzsche** or, in a more modern context, **Sartre**.)*",0.04,0.25,0.39,0.44
+_______ level of price discrimination eliminates the entire consumer surplus., Second, First, None, None of the other choices,B,,val,_______ level of price discrimination eliminates,the entire consumer surplus.,the ability of a firm to charge different prices to different consumers for the same product.,"_______ level of price discrimination eliminates **all consumer surplus**.
+
+### Explanation:
+In economics, there are three levels of price discrimination:
+1.  **First-degree (Perfect):** The seller charges each consumer their maximum willingness to pay. This captures **all** consumer surplus.
+2.  **Second-degree:** The seller charges different prices based on the quantity purchased or self-selection (e.g., bulk discounts). This captures most, but not necessarily all, consumer surplus.
+3.  **Third-degree:** The seller charges different prices to different groups based on observable characteristics (e.g., student discounts). This captures a portion of consumer surplus.
+
+Therefore, **first-degree** price discrimination is the only one that theoretically eliminates all consumer surplus by extracting the entire surplus from every buyer.",0.05,0.1,0.53,0.51
+Which of the following is not considered a source of Islamic law?, Riwayah and Dirayah, The Holy Qur’ān, Qiyās, Ijmā’,A,,val,Which of the following is not considered,a source of Islamic law?,a major factor in the success of a new product?,"Which of the following is not considered a renewable energy source?
+
+A. Solar power
+B. Wind energy
+C. Geothermal heat
+D. Coal",0.15,0.27,0.36,0.37
+Which of the following statements accurately describes an approach-avoidance conflict?, The avoidance tendency is stronger nearer the goal than the approach tendency., The strength of the approach tendency increases as the goal is approached., The strength of the avoidance tendency increases as the goal is approached., all of the above,D,,val,Which of the following statements accurately,describes an approach-avoidance conflict?,describes the relationship between the number of neurons in a neural network and its ability to learn complex functions?,"Which of the following statements accurately reflects the core principles of sustainable development?
+
+A) It prioritizes economic growth above all other concerns.
+B) It seeks to meet the needs of the present without compromising the ability of future generations to meet their own needs.
+C) It focuses solely on environmental conservation at the expense of human welfare.
+D) It advocates for the immediate abandonment of all industrial activities.
+
+**Correct Answer: B**
+
+**Explanation:**
+The definition of sustainable development was famously established by the Brundtland Commission (World Commission on Environment and Development) in their 1987 report, *Our Common Future*. Option B is the exact definition provided in that report. Option A is incorrect because sustainable development requires balancing economic, social, and environmental factors. Option C is incorrect because it ignores the social and economic dimensions. Option D is incorrect because sustainable development does not call for abandoning industry but rather for managing it responsibly.",0.0,0.08,0.45,0.31
+What is the primary 'Ras' in 'Bisal Dev Raso'?, Veer Ras, Shringar Ras, Hasya Ras, Veebhatsa Ras,A,,val,What is the primary 'Ras',in 'Bisal Dev Raso'?,GTPase that is mutated in neurofibromatosis type 1?,"What is the primary 'Ras' that governs the flow of a river? It is the **source**, the high-altitude origin where snowmelt and rainfall converge to carve the path through the landscape, setting the rhythm and direction for every drop that follows.",0.0,0.17,0.43,0.34
+Why is a laser beam used for locating distant objects?, is coherent, is not absorbed, None of the other choices, has small angular spread,D,,val,Why is a laser beam used,for locating distant objects?, in a laser printer?,"Why is a laser beam used in precision surgery? Unlike traditional light sources that scatter and illuminate, a laser beam is highly focused and coherent, allowing surgeons to cut through tissue with extreme accuracy while simultaneously cauterizing blood vessels to minimize bleeding. This unique combination of precision and hemostasis makes lasers indispensable in delicate procedures such as retinal repair, neurosurgery, and minimally invasive organ removal, where traditional tools might cause excessive tissue damage or uncontrolled hemorrhage.",0.0,0.0,0.47,0.5
+Which of the following individuals serves at the pleasure of the President of India?, None of the other choices, Comptroller and Auditor General of India, Chief Election Commissioner, Governor of a State,D,,val,Which of the following individuals serves at the,pleasure of the President of India?,highest level of the United States government?,"Which of the following individuals serves at the **head of the United Nations Security Council?**
+
+A. The Secretary-General
+B. The President of the General Assembly
+C. A non-permanent member state
+D. A permanent member state
+
+**Correct Answer:** D. A permanent member state (specifically, the President of the Security Council is elected by the Council, but the question likely implies a specific role or context where a permanent member holds significant sway, or it is a trick question where the answer is ""None of the above"" if strictly asking for a single individual's title without election).
+
+*Wait, let's re-evaluate based on common trivia patterns.*
+
+Actually, the most logical completion for a standard trivia question format is:
+
+**Which of the following individuals serves at the head of the United Nations Security Council?**
+
+A. The Secretary-General
+B. The President of the General Assembly
+C. The President of the Security Council
+D. The Secretary-General of the UN
+
+**Correct Answer:** C. The President of the Security Council.
+
+*(Note: Since the prompt asks to ""finish the SECOND PIECE based on the FIRST PIECE to complete the original text,"" and the first piece ends abruptly at ""serves at the"", the second piece must provide the object of the preposition ""at the"" and the rest of the sentence.)*
+
+**Revised Completion:**
+
+FIRST PIECE:
+Which of the following individuals serves at the
+
+SECOND PIECE:
+**head of the United Nations Security Council?**
+
+A. The Secretary-General
+B. The President of the General Assembly
+C. The President of the Security Council
+D. The Director-General of WHO
+
+**Correct Answer:** C. The President of the Security Council.",0.03,0.31,0.36,0.52
+What is the crystal structure of gamma iron?, Body centered cubic, Cubic structure, Face centered cubic, Hexagonal close packed,A,,val,What is the crystal structure,of gamma iron?,of diamond?,"What is the crystal structure? It is the specific, repeating three-dimensional arrangement of atoms, ions, or molecules within a solid material. This ordered pattern extends indefinitely in all directions, distinguishing crystalline solids from amorphous ones, where particles are arranged randomly. The structure is defined by a unit cell—the smallest repeating block that, when stacked, generates the entire lattice—and is characterized by specific symmetry elements and lattice parameters. Understanding crystal structures is fundamental to materials science, as they directly dictate a substance's physical properties, such as hardness, electrical conductivity, optical behavior, and melting point.",0.02,0.4,0.42,0.52
+Which of the following is not involved in the installation of a transformer?, Conservator, Breather, Exciter, Buchholz relay,C,,val,Which of the following is not involved in,the installation of a transformer?,the formation of the blood-brain barrier?,"Which of the following is not involved in the process of photosynthesis?
+
+A. Carbon dioxide
+B. Water
+C. Glucose
+D. Oxygen
+
+**Answer:** D. Oxygen
+
+**Explanation:**
+Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy. The general equation for photosynthesis is:
+
+$$6CO_2 + 6H_2O + \text{light energy} \rightarrow C_6H_{12}O_6 (\text{glucose}) + 6O_2$$
+
+*   **Carbon dioxide (A)** and **Water (B)** are the raw materials (reactants) required for the process.
+*   **Glucose (C)** is the sugar produced as a result of the process (a product).
+*   **Oxygen (D)** is released as a byproduct. While oxygen is involved in the overall chemical reaction as a product, in the context of multiple-choice questions asking what is ""not involved"" in the *input* or *consumption* phase, or if the question implies ""which is not a reactant,"" oxygen is the distinct answer. However, strictly speaking, oxygen is a product.
+
+*Note: If the original question intended to ask ""Which of the following is not a **reactant**,"" then Oxygen is the correct answer. If the question is phrased exactly as ""not involved,"" it is technically a trick question because oxygen is a product. However, in standard biology quizzes of this format, the intended answer is almost always **Oxygen** because it is the output, whereas the others are inputs or the primary goal of the reaction.*
+
+**Corrected Context for the Question:**
+Usually, the full question reads: ""Which of the following is not involved as a **reactant** in photosynthesis?""
+In that case:
+*   Carbon dioxide: Reactant
+*   Water: Reactant
+*   Glucose: Product (not a reactant)
+*   Oxygen: Product (not a reactant)
+
+*Wait, let's re-evaluate based on standard test patterns.*
+Often, the question is: ""Which of the following is **not** a product of photosynthesis?""
+*   Glucose: Product
+*   Oxygen: Product
+*   Water: Reactant (not a product)
+*   Carbon dioxide: Reactant (",0.02,0.33,0.45,0.34
+"What does Mrs. Vijaya Lakshmi Pandit say was the best advice she ever received, and from whom did it come?", None of the other choices, Maulana Azad, Lala Lajpat Rai, Jawaharlal Nehru,A,,val,What does Mrs. Vijaya Lakshmi Pandit say was the best advice she,"ever received, and from whom did it come?",received from her father?,"received from her father? He told her, ""Never let anyone tell you what you can't do."" This simple yet powerful lesson became the cornerstone of her life's philosophy, guiding her through decades of navigating the complex political landscape of post-colonial India. With unwavering confidence and a sharp intellect, she rose to become one of the most influential foreign ministers in history, famously serving as the first woman to chair the United Nations General Assembly. Her advice to her daughter, who later became a renowned diplomat herself, echoed through generations: ""Your potential is limitless; the only thing that can hold you back is your own doubt.""",0.03,0.33,0.52,0.7
+Pyrolysis gas chromatography is a useful technique for characterizing which paint components?, Lacquer, Solvent, None of the other choices, Binder,D,,val,Pyrolysis gas chromatography is a useful technique,for characterizing which paint components?,for the analysis of complex organic mixtures.,"Pyrolysis gas chromatography is a useful technique **for analyzing the complex organic mixtures found in geological samples, allowing researchers to identify specific biomarkers that serve as fingerprints for ancient biological processes and environmental conditions.**",0.05,0.17,0.49,0.61
+"During an isochoric process, what do we have...", ∆U = 0, ∆T = 0, None of the other choices, Q = 0,C,,val,"During an isochoric process, what",do we have...,is the change in internal energy of the system equal to the heat added to the system?,"During an isochoric process, what happens to the internal energy of an ideal gas is equal to the heat added to the system, since no work is performed by the gas as its volume remains constant.",0.0,0.0,0.46,0.54
+What is the name of the corporate social reporting (CSR) theory that suggests environmental disclosures are made due to a demand for environmental and social information?, Superfund theory., stakeholder theory., None of the other choices, legitimacy theory.,B,,val,What is the name of the corporate social reporting (CSR) theory that suggests environmental disclosures,are made due to a demand for environmental and social information?,are more likely to be made by firms that have a higher level of stakeholder salience.,"What is the name of the corporate social reporting (CSR) theory that suggests environmental disclosures are not merely a cost but a strategic investment that can enhance a company's reputation, attract investors, and ultimately improve long-term financial performance?
+
+The theory you are referring to is **Stakeholder Theory** (often associated with R. Edward Freeman), which posits that corporations should consider the interests of all stakeholders—including employees, customers, suppliers, communities, and the environment—rather than focusing solely on shareholders.
+
+However, if the specific context implies a theory that explicitly frames environmental reporting as a mechanism to manage uncertainty and reduce the cost of capital, it might be **Signaling Theory**. Signaling Theory suggests that voluntary environmental disclosures act as a ""signal"" of a firm's quality and commitment to sustainability, distinguishing it from competitors and thereby reducing information asymmetry in the market.
+
+Another strong candidate, particularly regarding the *value* of the disclosure, is **Legitimacy Theory**. This theory suggests that firms disclose environmental information to gain or maintain social legitimacy and to align their actions with societal expectations, thereby avoiding regulatory scrutiny and reputational damage.
+
+**Conclusion:**
+The most comprehensive answer that encompasses the strategic value of these disclosures is **Signaling Theory** (when focusing on market differentiation) or **Legitimacy Theory** (when focusing on social acceptance). If the text specifically mentions ""strategic investment"" or ""reputation,"" **Stakeholder Theory** is the foundational framework. Without the full original text, **Signaling Theory** is often the specific answer used in academic contexts regarding the *economic benefit* of voluntary environmental reporting.",0.05,0.22,0.51,0.68
+"Compared to an effective voltage of 120 VAC, how does the average heat energy dissipated by a resistor compare when subjected to a voltage of 120 VDC?", higher, the same, nonexistent, lower,B,,val,"Compared to an effective voltage of 120 VAC, how does the average heat energy dissipated by",a resistor compare when subjected to a voltage of 120 VDC?,a 120 VAC to 120 VDC converter?,"Compared to an effective voltage of 120 VAC, how does the average heat energy dissipated by a resistive load connected to a 120 VDC source compare?
+
+**Answer:** The average heat energy dissipated is **identical**.
+
+**Reasoning:**
+The ""effective"" (or RMS) voltage of an AC source is defined specifically as the DC voltage that would produce the same average power dissipation in a resistive load.
+*   For a DC source, Power $P = \frac{V^2}{R}$.
+*   For an AC source, the average power is $P_{avg} = \frac{V_{rms}^2}{R}$.
+
+Since the problem states the AC voltage is **120 VAC** (referring to its effective/RMS value) and the DC source is **120 VDC**, the voltage values used in the power calculation are the same ($120^2 / R$). Therefore, the average heat energy dissipated over a given time period is exactly the same in both cases.",0.09,0.44,0.57,0.56
+One factor contributing to the evolutionary success of the kingdom Monera is the nutritional diversity of its members. Which of the following method(s) do they use to obtain energy?, Chemoheterotrophy, Photoheterotrophy, Photoautotrophy, All of the above,D,,val,One factor contributing to the evolutionary success of the kingdom Monera is the nutritional diversity of its members.,Which of the following method(s) do they use to obtain energy?,"This is because the kingdom includes both autotrophs and heterotrophs, and it contains organisms that can live in a wide variety of environments.","This diversity allows organisms within the kingdom to exploit a wide range of environmental niches, ranging from autotrophs that synthesize their own food using sunlight or inorganic chemicals to heterotrophs that obtain nutrients by consuming organic matter or other organisms.",0.12,0.06,0.6,0.59
+Which dietary risk factors are believed to contribute to the development of colorectal cancer?, None of the other choices, Low fiber intake, High smoked food intake, High fat intake,D,,val,Which dietary risk factors are believed to contribute,to the development of colorectal cancer?, to the development of type 2 diabetes?,"to the development of cardiovascular disease, according to recent epidemiological studies?",0.47,0.62,0.61,0.65
+When was the Fertilizer Control Order established?,1968,1989,1985,1995,C,,val,When was the Fertilizer,Control Order established?,Fertilizer Institute of America founded?,"When was the Fertilizer **first developed and widely adopted to revolutionize global agriculture?**
+
+The history of fertilizers is a long one, but the modern era of intensive farming began with the **1840s**, when German chemist **Justus von Liebig** published his groundbreaking work, *The Chemistry of Agriculture*. Liebig demonstrated that plants require specific mineral nutrients—primarily nitrogen, phosphorus, and potassium—to grow, shifting agriculture from reliance on natural manure and crop rotation to the scientific application of chemical inputs.
+
+This scientific foundation led to the first commercial production of synthetic fertilizers in the **1850s**. In 1852, the first plant to produce superphosphate (a phosphorus-rich fertilizer) opened in Germany. Shortly after, in 1860, the first plant to produce ammonium sulfate (a nitrogen-rich fertilizer) began operations in the United States. These early developments marked the transition from traditional farming to the industrial age of agriculture, eventually paving the way for the Haber-Bosch process in the early 20th century, which allowed for the mass production of synthetic nitrogen fertilizers and continues to support a significant portion of the world's food supply today.",0.0,0.0,0.39,0.32
+What occurs if you apply the brakes firmly while navigating a right-hand turn? Choose one answer., Most of the weight of the car will be transferred onto the rear nearside wheel, Most of the weight of the car will be transferred onto the front offside wheel, Most of the weight of the car will be transferred onto the rear offside wheel, Most of the weight of the car will be transferred onto the front nearside wheel,D,,val,What occurs if you apply the brakes firmly while navigating a right-hand turn?,Choose one answer.,the vehicle will tend to skid outward.,"The vehicle will likely understeer, meaning the front tires lose their ability to grip the road and the car will continue to travel in a straight line rather than following the curve. This happens because the weight of the car shifts forward during braking, reducing traction on the rear wheels, while the centrifugal force of the turn pushes the car outward. If the driver does not ease off the brake pedal slightly to allow the tires to regain traction, the car may slide wide of the intended path, potentially leading to a loss of control or a collision with obstacles on the outside of the turn.",0.0,0.0,0.58,0.7
+How does the modified DuPont formula connect a firm's return on total assets (ROA) to its other financial metrics?, total asset turnover., None of the other choices, return on equity (ROE)., net profit margin.,C,,val,How does the modified DuPont formula connect a firm's return on,total assets (ROA) to its other financial metrics?,equity to its return on assets and profit margin?,"How does the modified DuPont formula connect a firm's return on **equity to its operating performance, financial leverage, and capital structure?**
+
+The modified DuPont formula breaks down Return on Equity (ROE) into three distinct components: **Net Profit Margin**, **Total Asset Turnover**, and **Financial Leverage**. By isolating these factors, analysts can determine whether a company's profitability is driven by efficient operations, effective use of assets, or simply by borrowing money to amplify returns. This decomposition allows for a deeper understanding of the sources of a firm's earnings power and helps identify potential risks associated with high levels of debt.",0.06,0.24,0.56,0.67
+An I&D procedure is typically done to treat what condition?, a laceration, None of the other choices, psoriasis, shingles,B,,val,An I&D procedure is typically done,to treat what condition?,to remove a portion of the intestine and connect the remaining ends.,"An I&D procedure is typically done to drain an abscess or infected fluid collection, allowing the pus to escape and promoting healing.",0.07,0.12,0.48,0.5
+What specific instructions did Lord Mountbatten have when he came to India as Viceroy?, keep India united if possible, persuade the Congress to accept partition, accept Jinnah’s demand for pakistan, balkanize the Indian subcontinent,A,,val,What specific instructions did Lord Mountbatten have when,he came to India as Viceroy?,he was to form the Government of India?,"What specific instructions did Lord Mountbatten have when he arrived in India as the last Viceroy of the British Empire, tasked with overseeing the transition of power to India and Pakistan? His primary directive was to ensure a peaceful transfer of sovereignty, a goal he pursued with remarkable speed and diplomatic skill despite the escalating tensions between the Hindu and Muslim communities. Mountbatten famously reduced the timeline for independence from June to August 1947, a decision that, while controversial, ultimately prevented a full-scale civil war. He emphasized the need for unity and cooperation between the two new nations, urging leaders like Jawaharlal Nehru and Muhammad Ali Jinnah to work together to establish stable governments. However, his efforts were met with deep skepticism and resistance, as the political landscape was already fracturing along religious lines. Despite his best intentions, the partition resulted in one of the largest mass migrations in human history and a tragic loss of life, leaving Mountbatten with a legacy of both necessary pragmatism and profound regret.",0.05,0.43,0.5,0.71
+How is MLG wheel brake wear measured?, A hydraulic pressure safety switch that monitors the amount of fluid pressure required to slow the aircraft, A squeal indicating pin that connects to the pressure plate, A self-adjusting return spring that connects to the pressure plate, A brake-wear depth guage,C,,val,How is MLG wheel,brake wear measured?,suspension?,"How is MLG wheel? It's a classic reference to the ""MLG"" (My Life Goes) culture, often associated with gaming and internet memes. The phrase ""MLG wheel"" might be a playful or niche reference to a specific game mechanic, a meme, or even a misunderstanding of the term. If you're asking about its current status or relevance, it's worth noting that while MLG was once a dominant force in online gaming communities, its cultural footprint has evolved over time. Let me know if you'd like to dive deeper into a specific context!",0.0,0.0,0.36,0.43
+What is the cytoplasm of a muscle fiber called?, Sarcoplasm, Endoplasm, Karyoplasm, None of the other choices,A,,val,What is the cytoplasm of,a muscle fiber called?,a cell?,"What is the cytoplasm of a cell?
+
+The cytoplasm is the gel-like substance that fills the interior of a cell, suspended within the cell membrane. It is composed primarily of water, salts, and various organic molecules, including proteins, lipids, and carbohydrates. This medium serves as the site for many essential metabolic reactions and houses the cell's organelles, such as the mitochondria, ribosomes, and the endoplasmic reticulum, allowing them to function and interact with one another.",0.02,0.33,0.38,0.43
+"Under the Constitution of India, what is the maximum number of members that can be elected to the House of the People through direct elections?",552,550, None of the other choices,530,A,,val,"Under the Constitution of India, what is the maximum number of members that can be",elected to the House of the People through direct elections?,elected to the Lok Sabha?,"Under the Constitution of India, what is the maximum number of members that can be elected to the Lok Sabha?
+
+**Answer:** The maximum number of members that can be elected to the Lok Sabha (the House of the People) is **545**.
+
+**Explanation:**
+*   **Article 81** of the Constitution of India stipulates that the total strength of the House shall not exceed 550 members.
+*   However, the maximum number of members that can be *elected* is **545**.
+*   This is because the Constitution provides for a **National Advisory Council** of 12 members (Article 279) and a **National Commission for Scheduled Castes** of 12 members (Article 339), which are not elected but appointed.
+*   Therefore, 550 (total strength) minus 5 (reserved seats for the National Advisory Council and National Commission for Scheduled Castes) equals 545.
+*   Additionally, the maximum number of seats in any single state is 530 (Article 81), and the maximum number of seats in the Union Territory of Delhi is 7.
+
+So, while the total strength of the House cannot exceed 550, the maximum number of *elected* members is **545**.",0.08,0.4,0.62,0.8
+"In human geography, isotims and isodapanes are associated with:", retailing, transport cost, barter trade, none of these,B,,val,"In human geography, isotims and",isodapanes are associated with:,isotopes are groups of atoms that have the same number of neutrons but different numbers of protons.,"isotims and isohyets are both types of isopleths used in human geography to visualize spatial patterns. Isotims, which map lines of equal temperature, help researchers understand how climate influences settlement patterns, agricultural practices, and the distribution of human populations across different regions. Similarly, isohyets, representing lines of equal precipitation, provide critical insights into water resource availability and the resulting adaptations in human societies. Together, these tools allow geographers to analyze the complex interplay between environmental factors and human behavior, revealing how physical conditions shape cultural landscapes and demographic trends.",0.02,0.1,0.49,0.55
+"Which type of pollution can be controlled using adsorption, absorption, and condensation techniques?", Air, Soil, Water, None of the other choices,A,,val,Which type of pollution can be controlled using,"adsorption, absorption, and condensation techniques?", air quality monitoring and management systems.,"Which type of pollution can be controlled using **advanced filtration systems and renewable energy sources?**
+
+*Note: Since the original text was cut off, the completion above provides a logical and grammatically correct conclusion that fits the context of environmental science and pollution control.*",0.04,0.18,0.46,0.58
+Which monolithic rock cut Ratha at Mahabalipuram features an apsidal plan?, None of the other choices, Dharmaraj Rath, Nakul-Sahdev Rath, Draupadi Rath,C,,val,Which monolithic rock cut Ratha at Mahabalipuram,features an apsidal plan?,s are listed in the correct order?,"Which monolithic rock cut Ratha at Mahabalipuram is the largest and most famous?
+
+The answer is the **Arjuna Ratha** (also known as the Warrior's Chariot).
+
+Located in the Great Court of the Shore Temple complex, the Arjuna Ratha is a massive monolithic structure carved from a single block of granite. It stands approximately 18 meters (59 feet) high and 12 meters (39 feet) wide. The sculpture depicts the Hindu deity Arjuna, one of the Pandava brothers from the Mahabharata, seated in a chariot drawn by seven horses. The intricate details of the chariot, the horses, and the warrior's armor are masterfully carved, making it a prime example of the Pallava dynasty's architectural and sculptural prowess during the 7th century.",0.0,0.0,0.48,0.57
+What is the purpose of using adaptive DPCM?, Increase SNR, Decrease bandwidth, Increase bandwidth, None of the mentioned,C,,val,What is the purpose of,using adaptive DPCM?,"the ""purpose of""","What is the purpose of **this conversation?**
+
+To provide you with accurate, helpful, and contextually appropriate information based on your request. Whether you need assistance with writing, analysis, coding, or simply exploring a topic, I am here to support your goals.",0.0,0.0,0.39,0.34
+"Can pyruvate, acetyl-CoA, fructose-6-phosphate, oxaloacetate, and other small organic compounds be part of a(n)", metagenome., transcriptome., metabolome., None of the other choices,C,,val,"Can pyruvate, acetyl-CoA, fructose-6-phosphate, oxaloacetate, and other small",organic compounds be part of a(n),molecules are intermediates in the citric acid cycle?,"SECOND PIECE:
+molecules act as substrates for the citric acid cycle? While pyruvate and acetyl-CoA are central to aerobic respiration, fructose-6-phosphate and oxaloacetate play distinct roles in glycolysis and gluconeogenesis, respectively. However, under specific metabolic conditions, such as during intense exercise or in certain pathological states, these intermediates can be diverted or modified to influence energy production and biosynthetic pathways, though they do not all directly enter the cycle in the same manner as acetyl-CoA.",0.02,0.0,0.38,0.59
+What types of configurations can a linear SONET network have?, both (a) and (b), point-to-point, multi-point, none of the mentioned,B,,val,What types of configurations can a,linear SONET network have?,router support?,"What types of configurations can a **server support?**
+
+Depending on the hardware and software architecture, a server can support various configurations, including:
+
+*   **Single-Node (Standalone):** A single physical or virtual machine handling all workloads independently.
+*   **Clustered:** Multiple servers working together as a single logical unit to improve availability, scalability, and performance.
+*   **Load-Balanced:** Configured with multiple instances behind a load balancer to distribute traffic evenly.
+*   **High-Availability (HA):** Set up with redundant components (power, storage, network) to ensure continuous operation during failures.
+*   **Containerized:** Orchestrated using tools like Kubernetes to manage microservices across a distributed environment.
+*   **Virtualized:** Running multiple virtual machines (VMs) on a single physical host to maximize resource utilization.
+
+The specific configuration chosen depends on the application's requirements for performance, reliability, and cost.",0.02,0.0,0.42,0.47
+Which type of marriage is considered the most prestigious in ancient literature?, Brahma, Arsha, Gandharva, None of the other choices,A,,val,Which type of marriage is considered the,most prestigious in ancient literature?,most common in the United States?,"Which type of marriage is considered the most enduring and fulfilling?
+
+This question often sparks debate among sociologists, psychologists, and couples themselves. While there is no single ""perfect"" formula that applies to every individual, research consistently points to marriages built on a foundation of **emotional intimacy, mutual respect, and effective communication** as the most resilient.
+
+Unlike marriages based solely on legal contracts, financial necessity, or social pressure, those rooted in deep emotional connection tend to weather storms better. When partners feel truly seen, heard, and valued, they are more likely to prioritize the relationship during difficult times. Furthermore, the ability to communicate openly without fear of judgment allows couples to resolve conflicts constructively rather than letting resentment fester.
+
+Ultimately, the ""best"" type of marriage is not defined by a specific structure or duration, but by the quality of the bond between the two people. It is a dynamic partnership where both individuals grow together, support each other's dreams, and choose each other every single day.",0.02,0.36,0.47,0.44
+What impact does operant conditioning have on attitudes?, It can be used to strengthen desirable attitudes and weaken undesirable ones.," It creates positive emotional reactions to an object, person, or event.", It leads to cognitive dissonance., It can change attitudes after observing the behavior of others.,A,,val,What impact does operant conditioning,have on attitudes?,have on the development of behavior?,"What impact does operant conditioning have on human behavior and learning?
+
+Coined by B.F. Skinner, this psychological theory posits that behaviors are shaped by their consequences. When a behavior is followed by a positive outcome (reinforcement), the likelihood of that behavior recurring increases; conversely, if the behavior is followed by a negative outcome (punishment), the likelihood of it happening again decreases. This mechanism is fundamental to how we learn from experience, from a child learning to share toys to an employee adjusting their work habits based on performance reviews. By manipulating the environment to provide specific rewards or penalties, individuals and organizations can effectively guide and modify future actions, making operant conditioning a powerful tool in education, therapy, and behavioral management.",0.03,0.44,0.49,0.74
+Which of the following unit operations is suitable for making tablets from medicinal powders?, Solid blending, Grinding, Pelletizing, Crushing,C,,val,Which of the following unit operations is suitable,for making tablets from medicinal powders?,for the removal of suspended solids from water?,"Which of the following unit operations is suitable **for separating a mixture of immiscible liquids based on their different densities?**
+
+**Answer:** Decantation or Liquid-Liquid Extraction.
+
+**Explanation:**
+The question asks to identify a unit operation based on the physical property of **density** in **immiscible liquids**.
+*   **Decantation** relies on gravity to allow denser liquids to settle at the bottom, enabling the lighter liquid to be poured off.
+*   **Liquid-Liquid Extraction** (or separation) uses a separatory funnel to drain the denser phase after the two liquids have separated into distinct layers.
+*   Other operations like distillation (based on boiling point) or filtration (based on particle size) would not be the primary method for separating two liquid phases solely by density.",0.02,0.29,0.47,0.51
+Why is it easier for a small animal to run uphill compared to a large animal?, it is easier to carry a small body weight, the efficiency of muscles in large animals is less than in the small animals, smaller animals have a higher metabolic rate., small animals have a lower O2 requirement,C,,val,Why is it easier for a small animal to,run uphill compared to a large animal?,jump than for a large animal?,"Why is it easier for a small animal to jump higher than a large animal?
+
+This phenomenon is explained by the principles of physics, specifically the relationship between mass, force, and acceleration. When an animal jumps, it must generate enough force to overcome its own weight (gravity). However, the force an animal can generate relative to its body size is often more consistent across species than the absolute force required to lift a specific mass.
+
+For a small animal, its mass is very low, meaning the gravitational force pulling it down is minimal. Consequently, even a small burst of muscular energy can produce a significant acceleration, allowing the animal to launch itself high into the air. In contrast, a large animal has a much greater mass, which results in a much stronger gravitational pull. To achieve the same height, the large animal would need to generate a proportionally massive amount of force, which is often physically impossible due to the square-cube law (where volume and mass increase faster than surface area and muscle cross-section).
+
+Therefore, while a large animal might have more total strength, its strength is distributed over a much heavier body, making the ratio of force to weight lower. This is why a mouse can leap several times its own height, while a horse can only clear a few inches off the ground relative to its size. The smaller the animal, the less mass it needs to displace, making the act of jumping relatively easier and more impressive.",0.03,0.46,0.54,0.69
+Place the following events in the correct sequence based on when they happened. Use the provided code.," Yom Kippur War, Arab Spring, Fukushima Nuclear Disaster, Chinese intrusion in India’s DBO sector.", None of the other choices," Chinese intrusion in India’s DBO sector, Yom Kippur War, Fukushima Nuclear Disaster, Arab Spring."," Yom Kippur War, Fukushima Nuclear Disaster, Arab Spring, Chinese intrusion in India’s DBO sector.",A,,val,Place the following events in the correct sequence based on when they happened.,Use the provided code.,"1. The first atomic bomb was detonated.
+2. The first atomic bomb was used in combat.
+3. The first hydrogen bomb was detonated.
+4. The first hydrogen bomb was used in combat.","Since you have provided the **FIRST PIECE** (the instructions and the prompt) but **no specific list of events** to sequence, I cannot complete the text yet.
+
+To finish the **SECOND PIECE**, please provide the list of events you would like me to arrange.
+
+**Example of how you can reply:**
+> *Events:*
+> 1. The sun rose.
+> 2. I woke up.
+> 3. I brushed my teeth.
+
+Once you provide the events, I will immediately generate the completed **SECOND PIECE** with the events in the correct chronological order.",0.02,0.06,0.54,0.75
+Longitudinal research can reveal common trends and unique variations in development because the researcher ________., studies groups of participants differing in age at the same point in time, tracks the performance of each person over time, None of the other choices, randomly assigns participants to treatment conditions,B,,val,Longitudinal research can reveal common trends and unique variations,in development because the researcher ________.,"across time, which is essential for understanding the development of phenomena over extended periods.","Longitudinal research can reveal common trends and unique variations **across different populations over extended periods, offering insights that cross-sectional studies often miss.**",0.0,0.11,0.59,0.61
+Which of the following constitutes an invitation to make an offer?, List for sale of goods., Tender for supply of goods in time, Application for loan, None of the other choices,D,,val,Which of the following constitutes an invitation,to make an offer?, to a contract,"Which of the following constitutes an invitation?
+
+A) A text message saying, ""Come over later.""
+B) A formal letter stating, ""We cordially invite you to our wedding on Saturday.""
+C) A casual comment, ""You should come to my party.""
+D) A vague remark, ""Maybe we could hang out sometime.""
+
+**Answer: B**
+
+**Reasoning:**
+In legal and social contexts, an invitation must be clear, definite, and communicated with the intent to create a binding social obligation or expectation of attendance.
+*   **Option A** is too vague regarding the time (""later"").
+*   **Option C** is merely a suggestion or recommendation, not a request for attendance.
+*   **Option D** uses conditional language (""maybe"") and lacks a specific timeframe.
+*   **Option B** is specific (wedding, Saturday), formal, and clearly expresses the host's desire for the guest to attend, making it a definitive invitation.",0.03,0.29,0.53,0.58
+What causes the diamond problem in multiple inheritance?, Derived class can’t distinguish the owner class of any derived method, Methods inherited from the superclass may conflict, Methods with same name creates ambiguity and conflict, None of the other choices,C,,val,What causes the diamond problem,in multiple inheritance?,in object-oriented programming?,"What causes the diamond problem?
+
+The diamond problem arises in object-oriented programming when a class hierarchy contains multiple inheritance paths that lead to a common base class, creating ambiguity in method resolution. Specifically, it occurs when a class inherits from two or more classes that both inherit from the same base class. In this scenario, the compiler or interpreter cannot determine which version of a method defined in the base class should be called, as the derived class has two distinct paths to that method.
+
+For example, if Class A and Class B both inherit from Class C, and a new Class D inherits from both A and B, then Class D inherits from Class C twice. When a method is invoked on an object of Class D, the system faces a conflict: should it use the method from the path through Class A or the path through Class B? This ambiguity is the core of the diamond problem.
+
+To resolve this, most modern languages (such as C++, Java, and Python) require the programmer to explicitly specify which base class's method to use, often through a ""virtual function"" mechanism or by using the `override` and `final` keywords. Some languages, like C++, use a technique called ""virtual inheritance"" to ensure that the base class is included only once in the inheritance chain, thereby eliminating the ambiguity automatically.",0.03,0.29,0.5,0.54
+Why is the influenza vaccine administered annually?, mutations in the viral hemagglutinin may allow the virus to evade the immune response elicited by previous vaccines, it is a polysaccharide vaccine that does not confer long-term protection, the vaccine is sufficiently toxic to make it necessary to administer only a small amount at any one time, none of the above,A,,val,Why is the influenza,vaccine administered annually?,virus considered a major public health concern?,"Why is the influenza virus so dangerous? It's not just the flu itself, but its ability to mutate rapidly. These changes, known as antigenic drift, allow the virus to evade the immune system, meaning previous immunity from infection or vaccination often provides little to no protection against new strains. Furthermore, the virus can undergo antigenic shift, a sudden major change that can lead to pandemics by creating a novel subtype to which most of the population has no immunity. This constant evolution, combined with its high transmissibility and potential to cause severe complications in vulnerable groups, makes influenza a persistent and significant global health challenge.",0.0,0.0,0.43,0.55
+Many factors influence gene activity. The set of chemicals responsible for activating a gene is referred to as the ________., fingerprint, genetic engineer, recombinant gene, epigenome,D,,val,Many factors influence gene activity.,The set of chemicals responsible for activating a gene is referred to as the ________.,"Transcription factors, hormones, and environmental signals are just a few of the many factors that can influence gene activity.","Many factors influence gene activity. **While the DNA sequence provides the blueprint, environmental signals, cellular context, and epigenetic modifications determine which genes are expressed, when they are expressed, and at what levels.**",0.09,0.12,0.54,0.51
+What is not a characteristic of knowledge representation?, Inferential Adequacy, Inferential Efficiency, Representational Adequacy, Representational Verification,D,,val,What is not a characteristic,of knowledge representation?,of a good leader?,"What is not a characteristic
+
+**of a true friend**
+
+A true friend is not someone who only shows up when you are winning, nor is it someone who keeps your secrets only to share them with others. They are not defined by their ability to fix every problem you face, nor are they someone who expects you to be their emotional support 24/7 without offering anything in return.
+
+Instead, a true friend is not a person who changes their mind just to please you, nor is it someone who judges your flaws while pretending to love you. They are not a constant source of drama, nor are they someone who takes credit for your successes.
+
+Ultimately, a true friend is not a character you play a role in, but a person who stands by you when the script ends.",0.01,0.29,0.37,0.4
+"In the conventional notation for research designs, what does R represent?", None of the other choices, independent variable., random assignment of participants to a group., dependent variable.,C,,val,"In the conventional notation for research designs,",what does R represent?,experimental designs are classified as either true experimental designs or quasi-experimental designs.,"In the conventional notation for research designs, **the independent variable is placed on the left side of the arrow, and the dependent variable is placed on the right side, with the arrow indicating the direction of the causal effect.**",0.0,0.0,0.44,0.5
+How does venoarterial ECMO compare to venovenous ECMO?, Can be performed with less anticoagulation., Provides both cardiac and respiratory support., Requires cannulation of a major artery and vein., Usually maintains a normal pulse pressure.,C,,val,How does venoarterial ECMO compare,to venovenous ECMO?,to cardiopulmonary bypass?,"to conventional cardiopulmonary bypass in terms of hemodynamic stability, organ perfusion, and long-term outcomes for patients with acute cardiac arrest or severe cardiogenic shock. While both modalities provide circulatory support, venoarterial (VA) ECMO offers a distinct advantage by simultaneously supporting both ventilation and systemic blood flow, making it particularly effective when the heart is too weak to generate adequate pressure or when the lungs are non-functional. Unlike cardiopulmonary bypass, which requires cannulation of the aorta and often necessitates deep hypothermia to protect the brain, VA ECMO can be initiated at normothermia, allowing for better cerebral and renal perfusion. However, the reliance on the native heart for some degree of function in VA ECMO can lead to complications such as ventricular thrombus formation or arrhythmias if the heart remains under-perfused. Consequently, the choice between the two depends heavily on the specific clinical scenario, the patient's anatomy, and the availability of specialized teams, with VA ECMO increasingly becoming the preferred bridge-to-recovery strategy in modern critical care settings.",0.02,0.33,0.46,0.63
+"When a patient with altered level of consciousness due to head trauma from a car accident is brought to the emergency department, which specific intervention should the charge nurse consider as the least priority during assessment?", Inserting a Foley catheter, Assessing motor function and muscle strength bilaterally, Establishing IV fluid access, Assess for airway patency,A,,val,When a patient with altered level of consciousness due to head trauma from a car accident is brought to the emergency,"department, which specific intervention should the charge nurse consider as the least priority during assessment?","room, the physician should first","When a patient with altered level of consciousness due to head trauma from a car accident is brought to the emergency **department, the immediate priority is to secure the airway, ensure adequate breathing, and support circulation while rapidly assessing the Glasgow Coma Scale to determine the severity of the injury.**",0.09,0.1,0.5,0.54
+"In the reaction A2(g) + 4B2(g) ⇌ 2AB4 with ∆H < 0, under what conditions will the formation of AB4 be favored?"," High temperature, low pressure"," Low temperature, low pressure"," Low temperature, high pressure", None of the other choices,C,,val,"In the reaction A2(g) + 4B2(g) ⇌ 2AB4 with ∆H < 0, under",what conditions will the formation of AB4 be favored?,"equilibrium conditions, which of the following changes will shift the equilibrium to the right?","In the reaction $A_2(g) + 4B_2(g) \rightleftharpoons 2AB_4$ with $\Delta H < 0$, under **equilibrium conditions, increasing the temperature will shift the position of equilibrium to the left (towards the reactants), thereby decreasing the yield of $AB_4$.**
+
+### Reasoning:
+1.  **Enthalpy Change ($\Delta H < 0$):** The negative sign indicates that the forward reaction is **exothermic** (releases heat), while the reverse reaction is **endothermic** (absorbs heat). We can treat heat as a product in the equation:
+    $$A_2(g) + 4B_2(g) \rightleftharpoons 2AB_4(g) + \text{Heat}$$
+2.  **Le Chatelier's Principle:** This principle states that if a dynamic equilibrium is disturbed by changing the conditions, the position of equilibrium moves to counteract the change.
+3.  **Effect of Temperature:**
+    *   **Increasing Temperature:** Adds heat to the system. To counteract this, the equilibrium shifts in the direction that consumes heat (the endothermic direction). In this case, the reverse reaction (left) is favored.
+    *   **Decreasing Temperature:** Removes heat. The equilibrium shifts to produce more heat (the exothermic direction), favoring the forward reaction (right).
+
+Therefore, the completion of the text depends on the specific condition mentioned in the ""under"" clause, but the most common context for such questions is the effect of temperature changes.
+
+**Completed Text:**
+""In the reaction $A_2(g) + 4B_2(g) \rightleftharpoons 2AB_4$ with $\Delta H < 0$, under **increased temperature, the equilibrium shifts to the left, reducing the concentration of the product $AB_4$.**""",0.04,0.26,0.46,0.56
+What relationship is depicted by the long-run Phillips curve?, inflation and unemployment when expected inflation does not change., the price level and real GDP in the long run., None of the other choices, inflation and unemployment when expected inflation equals the actual inflation.,D,,val,What relationship is depicted by,the long-run Phillips curve?,the following graph?,"What relationship is depicted by the intricate dance of two stars orbiting a common center, bound not by choice but by gravity, mirrors the profound and often silent connection between a parent and their child—a bond forged in the early moments of life, sustained by an invisible force that keeps them aligned even as they drift through the vast, uncertain expanse of time.",0.03,0.25,0.3,0.51
+On what date was GST implemented in Jammu and Kashmir?, 1.8.2017, 1.7.2017, 8.7.2017, None of the other choices,C,,val,On what date was GST implemented,in Jammu and Kashmir?, in India?,"On what date was GST implemented
+
+The Goods and Services Tax (GST) was officially implemented in India on **July 1, 2017**. This landmark day marked the beginning of the country's unified tax regime, replacing a complex web of indirect taxes with a single, comprehensive system designed to streamline commerce and eliminate the cascading effect of taxes.",0.07,0.33,0.54,0.68
+Which of the following is used as an acetylating reagent in the preparation of heroin?, Sodium hydroxide, Acetic anhydride, Ammonium hydroxide, None of the above,B,,val,Which of the following is used as an acetylating,reagent in the preparation of heroin?,agent?,"Which of the following is used as an acetylating **agent?**
+
+*Note: The original text appears to be a multiple-choice question stem. In a standard chemistry context, common answers to complete this sentence would include reagents like **acetic anhydride** or **acetyl chloride**, which are the primary agents used to introduce an acetyl group (–COCH₃) into organic molecules.*",0.06,0.0,0.39,0.64
+What level of stress must the armature shaft be able to withstand?, twisting strains due to transmission of torque., bending moment due to weight of the armature and commutator., any unbalanced magnetic pull on the armature core., all of the above.,D,,val,What level of stress must the armature,shaft be able to withstand?,coil of a DC motor be reduced to 1/4 of its original value?,What level of stress must the armature withstand before it begins to warp or fail under the intense heat of the engine's combustion cycle?,0.07,0.21,0.5,0.46
+Which two methods can you use to alter the appearance of an object added to a Crystal report? (Select two.), Right-click the object and use the Format Editor., Select the object and use the Formatting toolbar., Drag-and-drop the object to the Formatting toolbar., Hold down CTRL Spacebar and click on the object.,A,,val,Which two methods can you use to alter the appearance of an object added to a Crystal report?,(Select two.),You can use the Format Painter or the Crystal Reports Designer to alter the appearance of an object added to a Crystal report.,"You can use the **Format Painter** tool or the **Properties window** to alter the appearance of an object added to a Crystal Report.
+
+The **Format Painter** allows you to quickly copy the formatting (such as font, color, and size) from one object and apply it to another by clicking the paintbrush icon in the toolbar and then selecting the target object. Alternatively, you can open the **Properties window** (usually accessed via the View menu) to manually adjust specific attributes like font style, background color, border settings, and alignment for the selected object.",0.0,0.0,0.65,0.76
+What is the form factor of an AC voltage?, RMS value/ Average value, Average Value/ RMS Value, Average value/ Instantaneous value, None of the other choices,A,,val,What is the form factor,of an AC voltage?,of the Intel Core i9-13900K processor?,"What is the form factor?
+
+In the world of computing, a form factor is a standardized physical size and shape for computer components, such as motherboards, power supplies, and graphics cards. These standards ensure that parts from different manufacturers can fit together and work with one another, allowing for compatibility across various systems. For example, the ATX form factor defines a specific dimensions and mounting hole pattern for motherboards, while the Micro-ATX form factor offers a smaller footprint for compact builds. By adhering to these specifications, engineers and users can easily swap components, upgrade systems, and build custom computers without worrying about physical incompatibilities.",0.02,0.18,0.46,0.31
+What is the name of the satellite launched by China in August 2016 to protect its maritime rights?, Tiantong-01, Jiuquan Satellite, Wenchang-00, Gaofen-3,A,,val,What is the name of the satellite launched by China in,August 2016 to protect its maritime rights?,2003 to monitor the environment?,"2003? It is the **Shenzhou 5** spacecraft, which carried Chinese astronaut Yang Liwei into orbit, marking China's first manned spaceflight and a major milestone in the nation's space program.",0.0,0.17,0.33,0.47
+What is the seed rate for Muskmelon per acre?, 100 gram, 400 gram., 200 gram, 700 gram,B,,val,What is the seed rate,for Muskmelon per acre?,per acre?,"What is the seed rate? It is the number of seeds planted per unit of area, typically expressed as seeds per square meter or per acre. This metric is crucial for determining the density of a crop, ensuring proper germination, and optimizing resource use. The ideal seed rate varies depending on the specific crop, soil conditions, planting method, and the desired yield, but it generally balances the need for sufficient plant population with the cost of seeds and the risk of overcrowding.",0.05,0.67,0.52,0.67
+Who has tried to demonstrate Saul Bellow’s awareness of Weltliteratur and connect his work to European and American traditions?, None of the other choices, Tony Tanner, D.R. Haggis, James Boyd,B,,val,Who has tried to demonstrate Saul Bellow’s awareness of Weltliteratur and,connect his work to European and American traditions?,"his work in the context of German literature, according to the scholar Hans-Jörg Uther.","Who has tried to demonstrate Saul Bellow's awareness of *Weltliteratur* and the transnational dimensions of his fiction has largely overlooked the specific role of the German language and the German-Jewish intellectual tradition in shaping his narrative voice. While critics have frequently noted Bellow's engagement with American modernism and his complex relationship with the European past, few have examined how his early exposure to German literature—particularly the works of Goethe, Kafka, and Mann—provided a structural and thematic framework for his exploration of displacement, identity, and the universal human condition. This essay argues that Bellow's concept of *Weltliteratur* was not merely an aesthetic preference but a necessary condition for his ability to articulate the fragmented experience of the post-Holocaust individual within a globalized cultural landscape. By tracing the trajectory of his literary development from his childhood in Chicago to his mature works such as *Herzog* and *Humboldt's Gift*, we can see how the tension between the particular and the universal, the local and the global, remains central to his project. Ultimately, Bellow's engagement with *Weltliteratur* serves as a testament to the enduring power of literature to transcend borders, languages, and histories, offering a vision of humanity that is both deeply rooted and universally resonant.",0.03,0.25,0.48,0.57
+Creating loops on a K-map consistently leads to the removal of which elements?, Variables that remain unchanged within the loop, None of the other choices, Variables within the loop that appear in both complemented and uncomplemented form, Variables within the loop that appear only in their complemented form,C,,val,Creating loops on a K-map consistently leads to,the removal of which elements?,errors.,"Creating loops on a K-map consistently leads to **the identification of the simplest product terms that can be used to simplify the Boolean expression.**
+
+*(Note: In the context of the original text this likely completes, the full sentence usually reads: ""Creating loops on a K-map consistently leads to the identification of the simplest product terms that can be used to simplify the Boolean expression."")*",0.06,0.0,0.53,0.49
+Which two assertions about the SQL Repair Advisor are accurate? (Select two.), None of the other choices, The SQL Repair Advisor can be invoked to tune the performance of the regressed SQL statements., The SQL Repair Advisor is invoked by the Health Monitor when it encounters the problematic SQL statement., The SQL Repair Advisor can be invoked even when the incident is not active for a SQL statement crash.,D,,val,Which two assertions about the SQL Repair Advisor are accurate?,(Select two.),"1. The SQL Repair Advisor is a tool that can automatically fix SQL queries.
+2. The SQL Repair Advisor is a tool that can automatically fix SQL queries.","Which two assertions about the SQL Repair Advisor are accurate?
+
+1. The SQL Repair Advisor is a built-in utility in SQL Server that automatically identifies and fixes common configuration and performance issues.
+2. It can be launched from the SQL Server Management Studio (SSMS) by right-clicking the server node and selecting ""SQL Server Repair Advisor.""
+
+*(Note: While the second option above is a common method to access it, the most technically precise ""accurate assertions"" often found in certification contexts regarding its capabilities are:)*
+
+**Revised Accurate Assertions:**
+1. The SQL Repair Advisor can be used to fix issues related to the SQL Server configuration, such as memory settings, buffer pool size, and startup parameters.
+2. The tool provides a detailed report of the issues found and allows the user to apply fixes directly or review them before execution.",0.01,0.0,0.55,0.87
+Choose the statement that is incorrect. [NCERT Exemplar], Traits which are not inherited over generations do not cause evolution., Reduction in weight of the organism due to starvation is genetically controlled., Frequency of certain genes in a population changes over several generations resulting in evolution., Low weight parents can have heavy weight progeny.,B,,val,Choose the statement that is incorrect.,[NCERT Exemplar],"The statement that ""the Earth is flat"" is incorrect.","The statement that is incorrect is: **""All statements are correct.""**
+
+**Reasoning:**
+The instruction explicitly asks you to ""Choose the statement that is incorrect."" If you select the option claiming ""All statements are correct,"" you are asserting that there is no incorrect statement, which directly contradicts the premise of the question itself. Therefore, that specific option is the logical choice for being the ""incorrect"" one in the context of a multiple-choice logic puzzle.",0.0,0.0,0.55,0.55
+"A 600 km trip takes eight hours if 120 km is covered by train and the rest by car. If 200 km is traveled by train and the remainder by car, the journey will take 20 minutes longer. What is the ratio of the speed of the train to that of the car?", 3 : 2, 3 : 4, None of the other choices, 4 : 3,B,,val,"A 600 km trip takes eight hours if 120 km is covered by train and the rest by car. If 200 km is traveled by train and the remainder by car, the journey will take 20 minutes longer.",What is the ratio of the speed of the train to that of the car?,Find the speed of the train and the car.,"Let $t$ be the time taken to travel 120 km by train, and $c$ be the time taken to travel 120 km by car.
+
+From the first condition:
+$$t + c = 8 \text{ hours}$$
+
+From the second condition, the total distance is $120 + 480 = 600$ km. The train covers 200 km, which is $\frac{200}{120} = \frac{5}{3}$ times the distance of the first train segment. The car covers 400 km, which is $\frac{400}{120} = \frac{10}{3}$ times the distance of the first car segment. The total time increases by 20 minutes ($\frac{1}{3}$ hour).
+$$\frac{5}{3}t + \frac{10}{3}c = 8 + \frac{1}{3}$$
+Multiplying by 3:
+$$5t + 10c = 25$$
+Dividing by 5:
+$$t + 2c = 5$$
+
+Subtracting the first equation from this result:
+$$(t + 2c) - (t + c) = 5 - 8$$
+$$c = -3$$
+
+Since time cannot be negative, the problem statement contains a contradiction. However, assuming the intent was to find the time difference or there is a typo in the numbers, let us re-evaluate the standard interpretation of such problems where the car is faster. If the car is faster, the time should decrease, not increase.
+
+Let's assume the question meant the journey takes **20 minutes shorter** (a common variation).
+Then:
+$$5t + 10c = 25 - 1 = 24$$
+$$t + 2c = 4.8$$
+Subtracting $t+c=8$:
+$$c = -3.2$$
+Still negative. This implies the car is slower than the train, which contradicts the premise of ""rest by car"" usually implying a faster mode for the remainder, or the numbers are simply inconsistent as written.
+
+**Correction/Re-reading the prompt:**
+Perhaps the question asks for the time taken for a specific scenario",0.07,0.58,0.5,0.76
+"HR 511 is a star situated 10 parsecs from Earth. If HR 511 were relocated to a distance of 12 parsecs, its apparent magnitude m would __________, while its absolute visual magnitude MV would __________.", get dimmer; not change., None of the other choices, not change; get dimmer., get brighter; not change.,A,,val,HR 511 is a star situated 10 parsecs from Earth.,"If HR 511 were relocated to a distance of 12 parsecs, its apparent magnitude m would __________, while its absolute visual magnitude MV would __________.",It has a mass of 1.5 solar masses and a radius of 1.2 solar radii.,"HR 511 is a star situated 10 parsecs from Earth, making it one of the closest known stars to our own solar system.",0.17,0.1,0.64,0.61
+The British engineer Benjamin Robins conducted numerous experiments in interior ballistics. His discoveries rightly earned him the title of the., father of interior ballistics, father of modern ballistics, father of modern gunnery, None of the other choices,C,,val,The British engineer Benjamin Robins conducted numerous experiments in interior ballistics.,His discoveries rightly earned him the title of the.,"He found that the velocity of a projectile increased with the charge of powder, but not in direct proportion.","The British engineer Benjamin Robins conducted numerous experiments in interior ballistics. **In 1742, he published *New Experiments for Ascertaining the Force of Musket Balls*, in which he used pendulums to measure the velocity of projectiles and demonstrated that the force of a gunpowder charge was not constant but varied with the distance the ball traveled, laying the groundwork for modern ballistics.**",0.09,0.21,0.47,0.45
+Which of these statements about red blood cell transfusion in critically ill patients is MOST accurate?, A liberal transfusion goal may be associated with an increased risk of nosocomial infections Correct Choice," Transfusion of RBCs that have been stored for a longer period of time is associated with increased infection, organ dysfunction, and mortality Wrong Choice!", Patients with coronary artery disease should have a transfusion threshold of hemoglobin 10 g/dL Wrong Choice!, Transfusion of leukoreduced red blood cells (RBCs) is associated with decreased risk of ARDS in trauma patients Wrong Choice!,A,,val,Which of these statements about red blood cell transfusion,in critically ill patients is MOST accurate?,is false?,"Which of these statements about red blood cell transfusion is incorrect?
+
+A. It is a common treatment for severe anemia.
+B. It can be used to manage acute blood loss.
+C. It is the primary treatment for all types of anemia.
+D. It carries risks such as allergic reactions and transfusion-associated circulatory overload.
+
+**Answer: C**
+
+**Explanation:** While red blood cell transfusion is a vital treatment for severe anemia and acute blood loss, it is not the primary treatment for *all* types of anemia. Most cases of anemia are managed through identifying and treating the underlying cause (such as iron deficiency, vitamin B12 deficiency, or chronic disease) and through dietary changes or oral supplements. Transfusion is generally reserved for cases where the anemia is life-threatening or severely symptomatic.",0.03,0.22,0.55,0.63
+MODVAT is a component of which system?, Central Excise law, Purchase law, None of the other choices, Sales tax law,A,,val,MODVAT is a component,of which system?,of the MMLU-CF dataset.,"MODVAT is a component **of the advanced modular power system, designed to regulate voltage fluctuations in real-time while maintaining high efficiency across diverse load conditions.**",0.14,0.25,0.5,0.53
+"What was India’s GDP growth for the October-December 2019 quarter, as reported on 28 February 2020?",5.20%,6.40%,4.70%,5.50%,C,,val,What was India’s GDP growth for the October-December 2019,"quarter, as reported on 28 February 2020?",quarter?,"What was India's GDP growth for the October-December 2019 quarter? According to the Reserve Bank of India (RBI), the economy expanded by **6.3%** in the third quarter of fiscal year 2020 (October–December 2019), marking a significant slowdown from the 7.6% growth recorded in the preceding quarter. This deceleration was primarily attributed to the onset of the global pandemic and the subsequent lockdown measures implemented across the country, which severely impacted industrial output, services, and consumption.",0.05,0.25,0.52,0.79
+What will consistently present a challenge for psychologists conducting research?, None of the other choices, objectively defining mental functioning, applying the scientific method to psychological questions, finding willing participants,B,,val,What will consistently present a challenge,for psychologists conducting research?,"to the use of the term ""challenge"" in the context of the MMLU-CF dataset, the question likely pertains to a specific concept or scenario where the term ""challenge"" is consistently used. However, without the full context of the question, it is not possible to provide the exact continuation. The MMLU-CF dataset contains questions from various subjects, and the continuation would depend on the specific topic and the structure of the question. If you have more context or the full question, I can provide a more accurate answer.","What will consistently present a challenge is the balance between maintaining our individual integrity and fostering the collective harmony required to thrive in an interconnected world. As we navigate an era of rapid technological advancement and shifting social norms, the pressure to conform often threatens to erode the unique perspectives that drive innovation and empathy. Yet, true progress demands that we hold fast to our core values while remaining open to the diverse voices that surround us. It requires the courage to question established norms without dismissing the wisdom of tradition, and the humility to admit when our understanding is incomplete. This delicate equilibrium is not merely a theoretical ideal but a daily practice that defines the strength of our communities and the resilience of our societies.",0.0,0.0,0.49,0.49
+Why do body fluids in humans have a high buffering capacity?, shifts in blood pH that are required to maintain homeostasis, hydrogen bonding between water molecules in biological fluids, the natural result of water as a solvent, None of the other choices,D,,val,Why do body fluids in humans have,a high buffering capacity?,a pH of 7.4?,"Why do body fluids in humans have a pH that is slightly acidic?
+
+This delicate balance, known as homeostasis, is crucial for maintaining the proper functioning of enzymes, proteins, and cellular processes. If the pH deviates too far from the narrow range of approximately 7.35 to 7.45, it can lead to severe health issues, including acidosis or alkalosis, which can be life-threatening. The body employs sophisticated buffering systems, primarily involving bicarbonate, phosphate, and proteins, to neutralize excess acids or bases and keep the internal environment stable despite external changes.",0.04,0.22,0.5,0.48
+What abbreviation is used in footnotes when a source that has already been cited is referenced again with no other citations in between?, Ibid, Op.Cit, Id, None of the above,A,,val,What abbreviation is used in footnotes when a source that has already been cited,is referenced again with no other citations in between?,previously in the same document is represented by?,"What abbreviation is used in footnotes when a source that has already been cited **is mentioned again?**
+
+The answer is **ibid.**
+
+This Latin term stands for *ibidem*, meaning ""in the same place."" It is used in academic writing (particularly in styles like Chicago Notes and Bibliography) to refer to the immediately preceding footnote, indicating that the source cited in that previous note is the same as the one being referenced again. If the source is not the immediately preceding one, the abbreviation **op. cit.** (*opere citato*, ""in the work cited"") is used instead.",0.08,0.12,0.51,0.62
+"Where can the Windows Security Accounts Manager (SAM) file, which stores passwords in a hashed format, be found in the Windows registry?", C:windowssystem32configSAM, C:windowssystem32BootSAM, C:windowssystem32driversSAM, None of the other choices,A,,val,"Where can the Windows Security Accounts Manager (SAM) file, which stores passwords in","a hashed format, be found in the Windows registry?","plaintext format, be located in the following directory:","Where can the Windows Security Accounts Manager (SAM) file, which stores passwords in an unencrypted format, be found?
+
+**Answer:**
+The SAM file is typically located in the **`%SystemRoot%\System32\config`** directory (usually `C:\Windows\System32\config`).
+
+**Important Note:**
+The SAM file is a **protected system file**. It is locked by the operating system and cannot be opened or modified directly by standard users or even administrators without specific privileges and tools. Furthermore, while the passwords are stored in a format that appears unencrypted to a human reader, they are actually stored using a **hashing algorithm** (specifically, a hash of the password combined with a unique salt and a specific key derived from the system's security identifier). To recover the actual passwords, one must use specialized forensic tools (like `pwdump` or `samdump2`) to extract the hashes and then crack them using password recovery software.",0.08,0.47,0.51,0.69
+Which of these fungi are coprophilous?, Rhizopus, None of the other choices, Entomophthora, Albugo,B,,val,Which of these fungi,are coprophilous?,are known to produce mycotoxins?,"Which of these fungi **are responsible for the most common foodborne illnesses in the United States?**
+
+*(Note: This is a common trivia question where the answer is typically **Aspergillus** or **Penicillium**, though **Aspergillus** is often cited as the leading cause of foodborne mycotoxicosis.)*",0.04,0.29,0.35,0.42
+"In the context of Scrum, what should each sprint deliver?", An increment of potentially shippable product functionality., A release with testable and measurable functionality., A set of documented product requirements and specifications., None of the other choices,A,,val,"In the context of Scrum, what",should each sprint deliver?,is the primary responsibility of the Scrum Master?,"SECOND PIECE:
+is the most effective way to manage uncertainty and deliver value in complex software projects? Scrum provides a framework for this by breaking work into small, manageable increments called Sprints. Within each Sprint, a dedicated team collaborates to define a clear goal, plan the work, execute the tasks, and review the results. This iterative approach allows teams to adapt quickly to changing requirements, ensuring that the final product remains aligned with stakeholder needs while minimizing the risk of building features that are no longer valuable.",0.04,0.0,0.34,0.53
+"Why does water squirt out of the nozzle when you squeeze the trigger of a squirt gun, which operates as a basic water pump with a plunger mechanism?", the Bernoulli effect causes the pressure of water leaving the nozzle to be less than atmospheric pressure., None of the other choices, the Bernoulli effect causes the water's overall energy to increase as it travels through the narrow nozzle., the pressure inside the gun is higher than atmospheric pressure.,D,,val,"Why does water squirt out of the nozzle when you squeeze the trigger of a squirt gun,",which operates as a basic water pump with a plunger mechanism?,"because squeezing the trigger increases the pressure inside the gun, forcing the water out through the nozzle.","Why does water squirt out of the nozzle when you squeeze the trigger of a squirt gun, **is because squeezing the handle compresses the internal spring or lever mechanism, which forces the water stored in the reservoir upward through a narrow tube and out of the nozzle with significant pressure.**",0.1,0.07,0.57,0.7
+What is the widely accepted theory of dental caries?, Proteolytic theory, None of the other choices, Acidogenic theory, Proteolytic chelation theory,C,,val,What is the widely accepted,theory of dental caries?,"definition of a ""theory"" in the context of the scientific method?","What is the widely accepted definition of intelligence?
+
+This question has puzzled philosophers, psychologists, and educators for centuries. While there is no single, universally agreed-upon answer, the most widely accepted definition in modern psychology is that intelligence is the ability to learn from experience, adapt to new situations, understand complex ideas, and use knowledge to manipulate one's environment.
+
+Often referred to as ""g"" or general intelligence, this concept suggests that there is a core cognitive capacity that underlies all mental abilities. However, the definition has evolved over time. Early theories, such as Spearman's two-factor theory, distinguished between general intelligence and specific skills. Later, Howard Gardner's theory of multiple intelligences challenged the notion of a single metric, proposing that humans possess distinct intelligences in areas like musical, spatial, and interpersonal domains.
+
+Despite these nuances, the consensus remains that intelligence is not merely the accumulation of facts or the speed of processing information, but rather the flexible application of cognitive skills to solve problems and achieve goals. As research continues, the definition of intelligence remains dynamic, reflecting our growing understanding of the human mind.",0.02,0.27,0.41,0.45
+ In which component are the status flags needed for data transfer located?, Device driver, Interface circuit, Device, None of the above,C,,val, In which component are the status flags,needed for data transfer located?,set in the CPU?,"In which component are the status flags **stored within the processor's internal register set, specifically in a dedicated Status Register (or Flag Register), which is directly accessible by the CPU to manage arithmetic and logical operations.**",0.0,0.0,0.51,0.59
+At what temperatures are aromatic diazonium salts stable?, room, None of the other choices, warm, high,B,,val,At what temperatures are aromatic,diazonium salts stable?, compounds most stable?,"At what temperatures are aromatic compounds typically synthesized or released? Generally, aromatic compounds are formed through high-temperature processes such as pyrolysis, combustion, or catalytic cracking, often exceeding 400°C (752°F). However, the specific temperature required depends on the compound; for instance, benzene can be produced from coal tar at around 300°C, while polycyclic aromatic hydrocarbons (PAHs) may form at even higher temperatures during incomplete combustion.",0.0,0.33,0.35,0.55
+"On which date will the recommendations of the 7th Pay Commission, approved by the Union Cabinet on 29th June, be implemented?"," January 1, 2017"," June 1, 2016"," July 1, 2016"," January 1, 2016",D,,val,"On which date will the recommendations of the 7th Pay Commission, approved","by the Union Cabinet on 29th June, be implemented?","by the Government of India, be implemented?","On which date will the recommendations of the 7th Pay Commission, approved by the Government of India, be implemented for all government employees across the country? This has been a subject of significant discussion and anticipation among civil servants and the general public, as the implementation date will determine the timeline for salary revisions, grade matrix changes, and other financial benefits associated with the commission's recommendations.",0.11,0.5,0.6,0.82
+"Why are concepts crucial to human thought, and how do they benefit us?", count numbers of objects., transform sensations into perceptions., develop language skills., efficiently categorize new experiences.,D,,val,"Why are concepts crucial to human thought, and",how do they benefit us?,how do they relate to the structure of the mind?,"Why are concepts crucial to human thought, and **how do they enable us to navigate a complex world?**
+
+Concepts act as the fundamental building blocks of our mental architecture, allowing us to categorize the infinite variety of sensory input into manageable units. Without them, every new experience would require a unique, unrepeatable mental processing event, making learning impossible and memory overwhelming. By grouping similar objects, events, and ideas under shared labels—such as ""tree,"" ""justice,"" or ""freedom""—we create a compressed map of reality that allows for rapid retrieval, comparison, and prediction.
+
+Furthermore, concepts are the engine of abstract reasoning. They allow us to detach our thinking from immediate physical presence and engage with hypothetical scenarios, moral dilemmas, and future possibilities. This abstraction is what distinguishes human cognition from animal instinct; it lets us formulate laws, write poetry, build technologies, and construct societies based on shared understandings rather than mere survival reactions. Ultimately, concepts transform the chaotic flux of existence into a coherent narrative, providing the stability necessary for culture, communication, and progress.",0.04,0.4,0.54,0.71
+"Given the statements P: If Sahil bowls, then Saurabh hits a century, and Q: If Raju bowls, then Sahil gets out on the first ball, determine which of the following can be true if P is true and Q is false.", None of the other choices, Sahil bowled and Saurabh hits a century, Sahil bowled and Saurabh got out, Raju did not bowled,B,,val,"Given the statements P: If Sahil bowls, then Saurabh hits a century, and Q: If Raju bowls, then Sahil gets out on the first","ball, determine which of the following can be true if P is true and Q is false.",ball.,"Given the statements P: If Sahil bowls, then Saurabh hits a century, and Q: If Raju bowls, then Sahil gets out on the first **ball, we can deduce that if Raju bowls, Saurabh will not hit a century, because Sahil will be out before he has a chance to bowl.**",0.12,0.11,0.66,0.78
+"Identify the challenge that 5G smart healthcare does not currently face from the list below. (single-choice question, 2 points)", End-to-end service quality cannot be guaranteed at present, Traditional methods have been able to meet medical needs, Relevant laws are not perfect, The quality of coverage in the initial stage of 5G deployment needs to be improved,B,,val,Identify the challenge that 5G smart healthcare does not currently face from the list below.,"(single-choice question, 2 points)","- The lack of sufficient bandwidth to support all the data generated by medical devices.
+- The high cost of implementing 5G infrastructure in rural areas.
+- The absence of standardized protocols for data exchange between different healthcare systems.
+- The potential for increased latency in real-time patient monitoring.
+- The difficulty in ensuring the security and privacy of sensitive patient data.
+- The limited availability of skilled professionals to manage and maintain 5G networks in healthcare settings.
+- The regulatory hurdles associated with deploying 5G technology in the healthcare sector.
+- The challenge of integrating 5G with existing legacy healthcare systems.
+- The issue of interoperability between 5G-enabled devices and traditional medical equipment.
+- The concern over the long-term sustainability of 5G investments in healthcare.","Based on the context of 5G smart healthcare, here is the logical completion of the text. The prompt asks to identify a challenge that does **not** currently exist, implying the answer is a common misconception or a feature that is already solved or inherent to the technology.
+
+**SECOND PIECE:**
+
+**The primary challenge that 5G smart healthcare does not currently face is the lack of high-speed connectivity for remote diagnostics.**
+
+While 5G networks are still being rolled out in many rural areas, the technology itself is specifically designed to solve latency and bandwidth issues, which are the very obstacles preventing real-time telemedicine and remote surgery. Unlike older generations of mobile networks, 5G provides the necessary low latency (as low as 1 millisecond) and high reliability to transmit large medical datasets instantly, meaning the fundamental barrier of ""slow connection"" is not a flaw in the 5G standard, but rather a matter of infrastructure deployment. Other challenges, such as data privacy, interoperability between legacy systems, and the high cost of implementation, do exist; however, the inability to transmit data quickly enough for critical care is a problem that 5G was engineered to eliminate.",0.0,0.0,0.49,0.58
+When is it suitable to use a sequence?, When you want to automatically generate a numeric value that is not tied to any specific column or table., When you want to automatically generate a numeric value for each row that is added to a specific table., When you want to control the order in which triggersare fired., When you want to control the order in which stored procedures can be invoked.,A,,val,When is it suitable to,use a sequence?,use a decision tree?,"When is it suitable to **use a hammer instead of a screwdriver?**
+
+It is suitable to use a hammer when you need to drive a nail into wood, secure a picture frame, or assemble furniture where nails are the fastener of choice. While a hammer can technically be used to drive screws (a technique known as ""hammering screws""), it is generally unsuitable for this purpose because it can damage the screw head, strip the threads, or cause the screw to slip and become difficult to remove. A screwdriver is designed to apply rotational torque, which is essential for properly engaging the threads and ensuring a secure, flush fit. Therefore, the choice of tool depends entirely on the type of fastener and the desired outcome: impact force for nails, rotational force for screws.",0.03,0.57,0.41,0.46
+"According to which principle does the ownership of a damaged product or part, for which insurance has been claimed, transfer to the property insurance company?", Indemnity, Subrogation, Utmost good faith, None of the other choices,B,,val,"According to which principle does the ownership of a damaged product or part, for which","insurance has been claimed, transfer to the property insurance company?","no warranty exists, pass to the buyer?","According to which principle does the ownership of a damaged product or part, for which the manufacturer has not yet paid the full price, pass to the buyer?
+
+**Answer:**
+The ownership generally passes to the buyer under the principle of **risk of loss** (or the specific rule regarding **unpaid goods** in the context of the Uniform Commercial Code).
+
+In most legal jurisdictions, if the buyer has not paid the full price, the seller retains ownership of the goods. Consequently, if the goods are damaged or destroyed before the buyer pays, the **risk of loss** remains with the seller, and the buyer is not liable for the loss. However, if the buyer has paid the full price (or if the contract specifies otherwise), ownership and the risk of loss typically pass to the buyer, meaning they bear the loss of the damaged item.",0.04,0.24,0.52,0.65
+"Which of the following is not a characteristic of the Government of India Act, 1935?", None of the other choices," Dyarchy at the centre as well as in the provinces,"," A bicameral Legislature,"," Provincial autonomy,",B,,val,Which of the following is not a characteristic of,"the Government of India Act, 1935?",theories of personality?,"Which of the following is not a characteristic of **a good leader?**
+
+A. Empathy
+B. Integrity
+C. Arrogance
+D. Vision
+
+**Answer: C. Arrogance**
+
+**Explanation:**
+The original text appears to be a multiple-choice question asking to identify the trait that does *not* belong to the set of positive leadership qualities.
+*   **Empathy**, **Integrity**, and **Vision** are universally recognized as essential characteristics of effective leadership.
+*   **Arrogance** is a negative trait that typically hinders collaboration and decision-making, making it the correct answer to ""which is *not* a characteristic.""",0.04,0.22,0.46,0.4
+"Which shirt brand's ads in the 1950s, featuring the famous man with an eye patch, catapulted David Ogilvy to fame?", Arrow Shirts, Hathaway, Van Heusen, Dockers,B,,val,"Which shirt brand's ads in the 1950s, featuring the famous man with","an eye patch, catapulted David Ogilvy to fame?","the mustache, were the subject of a famous lawsuit?","Which shirt brand's ads in the 1950s, featuring the famous man with the mustache and the slogan ""The Man Who Can't Be Moved,"" were so iconic that they became a cultural phenomenon, leading to the creation of the ""Mr. Clean"" character decades later?
+
+**Answer:** The brand is **Mr. Clean** (originally launched by Procter & Gamble in 1945, but the specific 1950s imagery you are likely thinking of is actually **Polo Ralph Lauren** featuring **Polo** the horse, or perhaps the **Calvin Klein** ads featuring **Calvin** himself, though the most famous ""famous man"" from the 50s in shirt ads is likely **Elvis Presley** for **Polo** or **Frank Sinatra** for **Polo**).
+
+*Correction based on the most famous historical fact:* The specific ad campaign you are referring to is likely the **Polo** ads featuring **Polo** the horse, but the ""famous man"" description often points to **Elvis Presley** wearing **Polo** shirts in the 50s, or **Frank Sinatra** in **Polo** ads. However, the most famous ""famous man"" associated with a specific shirt brand ad campaign in the 50s is **Elvis Presley** with **Polo** Ralph Lauren.
+
+*Wait, let's re-evaluate the ""famous man with..."" clue.* The most famous shirt brand ad from the 1950s featuring a ""famous man"" is actually **Polo** featuring **Polo** the horse, but the ""famous man"" is likely **Elvis Presley** or **Frank Sinatra**.
+
+*Final Correction:* The most famous shirt brand ad from the 1950s featuring a ""famous man"" is actually **Polo** featuring **Polo** the horse, but the ""famous man"" is likely **Elvis Presley** or **Frank Sinatra**.
+
+*Actually, the most famous shirt brand ad from the 1950s featuring a ""famous man"" is **Polo** featuring **Polo** the horse, but the ""famous man"" is likely **Elvis Presley** or **Frank Sinatra**.
+
+*Let's try a different angle:* The most famous shirt brand ad from",0.01,0.0,0.47,0.42
+"When fuel strikes the walls of the combustion chamber, it decomposes and results in the formation of ……… deposits.", carbon, ash, iron, none of the mentioned,C,,val,"When fuel strikes the walls of the combustion chamber, it decomposes",and results in the formation of ……… deposits.,"into a mixture of carbon monoxide, hydrogen, and other gases.","into high-temperature gases that expand rapidly, generating the thrust necessary to propel the rocket forward.",0.09,0.12,0.61,0.65
+The values of the characteristic equation are:, State matrix, Eigen vector, Eigen values, None of the mentioned,C,,val,The values of the,characteristic equation are:,"values of the random variables $X$ and $Y$ are given by the following probability mass functions:
+$$
+\begin{aligned}
+P(X=x) &= \begin{cases} 
+\frac{1}{2} & \text{if } x = 0 \\
+\frac{1}{2} & \text{if } x = 1 \\
+0 & \text{otherwise}
+\end{cases} \\
+P(Y=y) &= \begin{cases} 
+\frac{1}{2} & \text{if } y = 0 \\
+\frac{1}{2} & \text{if } y = 1 \\
+0 & \text{otherwise}
+\end{cases}
+\end{aligned}
+$$
+The joint probability mass function of $X$ and $Y$ is given by:
+$$
+P(X=x, Y=y) = \begin{cases} 
+\frac{1}{4} & \text{if } x = y \\
+0 & \text{otherwise}
+\end{cases}
+$$
+Find the covariance of $X$ and $Y$.","The values of the **individuals within a community are the foundation upon which trust, cooperation, and shared progress are built.** When these values are aligned, they create a resilient social fabric that can withstand challenges and foster an environment where everyone can thrive.",0.04,0.02,0.4,0.51

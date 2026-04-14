@@ -1,0 +1,876 @@
+subject,question,choice_A,choice_B,choice_C,choice_D,answer,answer_letter,error_type,correct_answer,potential_reason,source,first_piece,second_piece,generated_guided_completion,generated_general_completion,rouge_score_for_general_completion,rouge_score_for_guided_completion,bleurt_score_for_general_completion,bleurt_score_for_guided_completion
+college_chemistry,The equation ΔH = ΔU + PΔV is applicable,always,only for constant pressure processes,only for constant temperature processes,only for constant volume processes,1,B,ok,,,GRE Chemistry Practice Test,The equation ΔH = ΔU,+ PΔV is applicable, + PΔV is the equation for the enthalpy change of a system at constant pressure.,The equation ΔH = ΔU + PΔV,0.4,0.32,0.65,0.59
+high_school_microeconomics,Monopolistic competition is often characterized by,strong barriers to entry.,a long-run price that exceeds average total cost.,"a price that exceeds average variable cost, causing excess capacity.",many resources devoted to advertising.,3,D,ok,,,https://www.crackap.com/ap/microeconomics/question-286-answer-and-explanation.html,Monopolistic competition is often,characterized by,described as a market structure that is more competitive than perfect competition but less competitive than perfect competition.,"Monopolistic competition is often characterized by a market structure where many firms sell products that are similar but not identical, allowing each firm to have some degree of market power. Unlike perfect competition, where products are perfect substitutes, the differentiation—whether through branding, quality, or location—enables firms to act as ""price makers"" to a limited extent. This structure creates a unique blend of competitive and monopolistic features: while firms face competition from many rivals, they also benefit from the ability to set prices above marginal cost due to consumer preference for their specific variety. Consequently, in the short run, firms in monopolistic competition may earn economic profits, but in the long run, the entry of new firms driven by these profits tends to erode those profits until the market reaches equilibrium where price equals average total cost.",0.03,0.0,0.47,0.55
+high_school_world_history,"This question refers to the following information.
+""The Chinese are all infidels: they worship images, and burn their dead just like the [Hindus]. The King of China is a Tartar, and one of the descendants of [Ghenghis] Khan…In all the Chinese provinces, there is a town for the [Muslims], and in this they reside. They also have cells, colleges, and mosques, and are made much of by the Kings of China…
+When we approached this city [of Hangzhou] we were met by its judge, the [elders] of Islamism, and the great merchants. The [Muslims] are exceedingly numerous here. This whole city is surrounded by a wall: each of the six [districts of Hangzhou] is also surrounded by a wall. In the first reside the guards, with their commander. I was told that, in the muster-rolls, these amount to twelve thousand…In the second division are the Jews, Christians, and the Turks who worship the sun: these are numerous, their number is not known: and theirs is the most beautiful city. Their streets are well disposed, and their great men are exceedingly wealthy. There are in the city a great number of [Muslims], with some of whom I resided for fifteen days; and was treated most [honorably]…""
+Ibn Battuta, Voyages, 1332–1346 C.E.
+Which of the following changes to Chinese policies regarding trade occurred under the Ming Dynasty of China?",The Chinese government restricted foreign merchants to specific sites in the coastal cities.,"The Chinese government monopolized the production and sale of key resources, such as salt and iron.",The Chinese government endorsed Chinese merchants to conduct trade missions abroad.,The Chinese government abandoned Confucian principles to allow merchants a greater participation in local government.,0,A,ok,,,AP World History Practice Question 128,"This question refers to the following information. ""The Chinese are all infidels: they worship images, and burn their dead just like the [Hindus]. The King of China is a Tartar, and one of the descendants of [Ghenghis] Khan…In all the Chinese provinces, there is a town for the [Muslims], and in this they reside. They also have cells, colleges, and mosques, and are made much of by the Kings of China…
+When we approached this city [of Hangzhou] we were met by its judge, the [elders] of Islamism, and the great merchants. The [Muslims] are exceedingly numerous here. This whole city is surrounded by a wall: each of the six [districts of Hangzhou] is also surrounded by a wall. In the first reside the guards, with their commander.","I was told that, in the muster-rolls, these amount to twelve thousand…In the second division are the Jews, Christians, and the Turks who worship the sun: these are numerous, their number is not known: and theirs is the most beautiful city. Their streets are well disposed, and their great men are exceedingly wealthy. There are in the city a great number of [Muslims], with some of whom I resided for fifteen days; and was treated most [honorably]…""
+Ibn Battuta, Voyages, 1332–1346 C.E. Which of the following changes to Chinese policies regarding trade occurred under the Ming Dynasty of China?","In the second reside the soldiers, with their commander. In the third reside the merchants, with their chief. In the fourth reside the scholars, with their chief. In the fifth reside the artisans, with their chief. In the sixth reside the common people, with their chief.","In the second reside the merchants, with their leaders. In the third reside the Christians, with their bishop. In the fourth reside the Jews, with their rabbi. In the fifth reside the pagans, with their priests. In the sixth reside the Turks, with their sultan. Thus, the city is divided into six distinct quarters, each governed by its own religious community and protected by its own walls, creating a unique tapestry of faiths within a single urban landscape.",0.18,0.19,0.6,0.65
+college_biology,All of the following environmental conditions increase the rate of transpiration from plants EXCEPT,high temperature,high relative humidity,low relative humidity,wind,1,B,ok,,,https://quizlet.com/374968740/acat-review-questions-flash-cards/,All of the following environmental conditions increase the,rate of transpiration from plants EXCEPT,"rate of photosynthesis, except:","All of the following environmental conditions increase the **risk of wildfire ignition and spread: high temperatures, low humidity, and strong winds.**",0.07,0.6,0.36,0.6
+sociology,Butler & Stokes (1969) suggested that working class support for the Labour Party arose from:,socialization into working class families and communities,rational calculation of self-interest,issue-based concerns about culture and lifestyle,false consciousness and the acceptance of hegemonic values,0,A,ok,,,https://global.oup.com/uk/orc/sociology/fulcher4e/01student/mcqs/ch20,Butler & Stokes (1969) suggested that working class support,for the Labour Party arose from:,for the Labour Party was largely based on the perception that the party was the only one that could represent their interests.,"Butler & Stokes (1969) suggested that working class support is primarily determined by the economic performance of the government, rather than by ideological factors or the personal characteristics of the Prime Minister.",0.05,0.29,0.5,0.73
+college_computer_science,"A particular parallel program computation requires 100 seconds when executed on a single processor. If 40 percent of this computation is ""inherently sequential"" (i.e., will not benefit from additional processors), then the theoretically best possible elapsed times for this program running with 2 and 4 processors, respectively, are",20 and 10 seconds,30 and 15 seconds,50 and 25 seconds,70 and 55 seconds,3,D,ok,,,Expert,A particular parallel program computation requires 100 seconds when executed on a single processor.,"If 40 percent of this computation is ""inherently sequential"" (i.e., will not benefit from additional processors), then the theoretically best possible elapsed times for this program running with 2 and 4 processors, respectively, are","If the same program is executed on 100 processors, how long will it take?","A particular parallel program computation requires 100 seconds when executed on a single processor. **However, when distributed across 10 processors with negligible communication overhead, the same computation completes in just 12 seconds, demonstrating the efficiency of parallel processing for this specific workload.**",0.13,0.16,0.51,0.58
+global_facts,"As of 2017, the share of GDP spent on the military by China is about",0.50%,2%,6%,12%,1,B,ok,,,https://chinapower.csis.org/military-spending/,"As of 2017, the share of GDP spent on",the military by China is about,"education in the United States was 15.1 percent, the highest share among the G7 countries.","As of 2017, the share of GDP spent on education in the United States was approximately 6.2%, ranking 29th globally among OECD countries.",0.07,0.09,0.34,0.34
+anatomy,The coronary arteries,arise from the arch of the aorta and fill during diastole.,arise from the ascending aorta and fill during systole.,arise from the arch of the aorta and fill during systole.,arise from the ascending aorta and fill during diastole.,3,D,ok,,,https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch12/,The coronary,arteries,"ary arteries are the blood vessels that supply the heart muscle with oxygen-rich blood. They originate from the aorta, the main artery that carries blood from the heart to the rest of the body. There are two main coronary arteries: the left coronary artery and the right coronary artery. The left coronary artery further divides into the left anterior descending (LAD) artery and the circumflex artery. These arteries are crucial for the heart's function, as the heart muscle requires a constant supply of oxygen and nutrients to pump blood effectively throughout the body. Blockages or narrowing of these arteries can lead to serious conditions such as angina or myocardial infarction (heart attack).","The coronary arteries are the blood vessels that supply oxygen-rich blood to the heart muscle itself. Located within the walls of the heart, these vessels branch off from the aorta and are essential for maintaining the heart's continuous pumping action. When these arteries become narrowed or blocked due to plaque buildup—a condition known as coronary artery disease—the heart muscle can be deprived of oxygen, leading to chest pain (angina) or, in severe cases, a heart attack. Regular exercise, a heart-healthy diet, and managing risk factors like high blood pressure and cholesterol are crucial for keeping these vital vessels clear and functioning properly.",0.02,0.02,0.34,0.41
+high_school_mathematics,"Find $x$, given that\[\dfrac{\sqrt{x}}{x\sqrt{3}+\sqrt{2}} = \dfrac{1}{2x\sqrt{6}+4}.\]",\frac{3}{4},\frac{1}{4},\frac{1}{2},\frac{1}{8},3,D,ok,,,,"Find $x$, given that\[\dfrac{\sqrt{x}}{x\sqrt{3}+\sqrt{2}}",= \dfrac{1}{2x\sqrt{6}+4}.\],\sqrt{2}-\sqrt{3}\right)=\dfrac{1}{\sqrt{3}+\sqrt{2}}$$,"To complete the text logically and mathematically, we must first identify the missing part of the equation in the first piece. The expression $\dfrac{\sqrt{x}}{x\sqrt{3}+\sqrt{2}}$ is incomplete; it lacks an equals sign and a value on the right-hand side.
+
+Based on standard algebraic problems of this type, the missing value is typically **1**. This creates a solvable equation where the goal is to rationalize the denominator.
+
+Here is the completed text:
+
+**SECOND PIECE:**
+$$= 1$$
+
+***
+
+### Full Context (for verification):
+If we combine the pieces, the problem reads:
+""Find $x$, given that $\dfrac{\sqrt{x}}{x\sqrt{3}+\sqrt{2}} = 1$.""
+
+**Solution Steps:**
+1.  Multiply both sides by the denominator:
+    $$\sqrt{x} = x\sqrt{3} + \sqrt{2}$$
+2.  Square both sides to eliminate the square root on the left:
+    $$x = (x\sqrt{3} + \sqrt{2})^2$$
+    $$x = 3x^2 + 2\sqrt{6}x + 2$$
+3.  Rearrange into a standard quadratic form ($ax^2 + bx + c = 0$):
+    $$3x^2 + 2\sqrt{6}x + 2 - x = 0$$
+    $$3x^2 + (2\sqrt{6} - 1)x + 2 = 0$$
+
+*Note: While this quadratic equation has real roots, they are complex numbers involving $\sqrt{6}$ and do not result in a simple integer solution like $x=1$ or $x=2$. However, in the context of ""finishing the text,"" the most natural completion is simply providing the missing equals sign and a value to make the sentence grammatically and structurally complete.*
+
+**Final Answer:**
+$$= 1$$",0.03,0.35,0.41,0.65
+human_sexuality,Stan is out having a few beers with some friends. Which of the following will be DECREASED if Stan only consumes 1 beer?,arousal,erection,inhibition,orgasm,2,C,ok,,,http://www.psy.vanderbilt.edu/courses/psy252/exam2key.html,Stan is out having a few beers with some friends.,Which of the following will be DECREASED if Stan only consumes 1 beer?,"He is sitting at a table in a bar, laughing and telling stories.","Stan is out having a few beers with some friends. They are laughing loudly at a joke one of them just told, the sound echoing off the brick wall of the bar. The air is thick with the smell of stale beer and cheap cologne, and the bass from the jukebox thumps rhythmically against Stan's chest. He raises his glass, clinking it against his friend's, and takes a long swig before the night truly gets going.",0.07,0.0,0.44,0.53
+high_school_macroeconomics,To close a recessionary gap,the aggregate demand curve should be shifted to the right.,the aggregate demand curve should be shifted to the left.,the aggregate supply curve should be shifted to the right.,the aggregate supply curve should be shifted to the left.,0,A,ok,0,,AP Microeconomics/Macroeconomics: 4 Practice Tests + Comprehensive Review + Online Practice ISBN-13: 9781506272184,To close a,recessionary gap,"business, you need to ensure that all necessary documentation is in order, including invoices, contracts, and any other relevant financial records. Additionally, it is crucial to notify all stakeholders, such as employees, clients, and suppliers, about the closure and provide them with any necessary information or assistance. Finally, make sure to settle all outstanding debts and obligations to maintain a positive reputation and avoid legal issues.","To close a deal, trust is often the currency that matters most.",0.0,0.0,0.27,0.3
+public_relations,"Which outcome, from the evaluation phase of public relations planning, documents the impact a program had on its stakeholders?",the quality of the messages and activities,the number who change attitudes and opinions,the number who responded to communications,the number of messages and activities implemented,1,B,ok,,,https://accreditation.prsa.org/aprdemo/htmldemo/item_11_ans.htm,"Which outcome, from the evaluation phase of public relations planning, documents",the impact a program had on its stakeholders?,the effectiveness of the communication strategy?,"Which outcome, from the evaluation phase of public relations planning, documents the effectiveness of the campaign against the original objectives and identifies areas for future improvement?
+
+**Answer:** The **evaluation report** (or **post-campaign evaluation report**).
+
+### Explanation
+In the public relations planning process, the evaluation phase occurs after the campaign is implemented. Its primary purpose is to measure the results of the activities against the specific goals set during the planning phase. The document produced at this stage is the **evaluation report**.
+
+This report typically includes:
+*   **Data Analysis:** Comparing actual results (e.g., media coverage, sentiment, website traffic) with projected goals.
+*   **Effectiveness Assessment:** Determining whether the campaign succeeded in achieving its intended outcomes.
+*   **Recommendations:** Providing insights on what worked well and what did not, serving as a foundation for future strategic planning.",0.03,0.14,0.49,0.69
+moral_disputes,"In the context of Gardiner's article, ""the fragmentation of agency"" refers to what?",an agent's inability to acknowledge his or her contribution to climate change,the fragmentation of the effects of greenhouse gas emissions across generations,the vast number of individuals and agents who contribute to climate change,the idea that it's not rational for each individual to restrict his or her own pollution,2,C,ok,,,,"In the context of Gardiner's article, ""the fragmentation","of agency"" refers to what?","of the text is a key theme in the article.""","In the context of Gardiner's article, ""the fragmentation of the self"" is presented not merely as a pathological symptom of modern alienation, but as a necessary ontological condition for the emergence of authentic subjectivity. Gardiner argues that the rigid, monolithic structures of traditional identity—rooted in fixed social roles and unexamined traditions—have collapsed under the weight of rapid technological and cultural shifts. This collapse, while initially disorienting, creates a void that forces the individual to engage in a continuous, active process of self-constitution rather than passively accepting a pre-determined essence. Consequently, the fragmented self becomes a site of potentiality, where identity is no longer a static destination but a dynamic narrative constructed through the negotiation of conflicting values, digital interactions, and shifting social norms. Ultimately, Gardiner suggests that embracing this fragmentation is the only viable path toward a more resilient and adaptable form of human existence in the contemporary age.",0.03,0.13,0.48,0.59
+conceptual_physics,Consider a ball rolling in a horizontal circular path on the inside surface of a cone. The normal force on the ball,is mg,is greater than mg always,may be greater or less than mg,is less than mg always,1,B,ok,,,https://www.toppr.com/ask/question/consider-a-block-moving-in-a-horizontal-circular-path-on-the-inner-surface-of-a-2/,Consider a ball rolling in a horizontal circular path on the inside surface of a cone.,The normal force on the ball,The ball is moving with a constant speed v. The radius of the circular path is r. The angle between the axis of the cone and the slant height is θ. Find the coefficient of static friction μ between the ball and the cone.,"Consider a ball rolling in a horizontal circular path on the inside surface of a cone. **The forces acting on the ball are gravity pulling it downward, the normal force from the cone's surface pushing perpendicular to the slope, and static friction acting up the slope to prevent the ball from sliding down. The horizontal component of the normal force provides the necessary centripetal acceleration to keep the ball moving in a circle, while the vertical components of the normal force and friction balance the weight of the ball.**",0.1,0.12,0.55,0.42
+abstract_algebra,Statement 1 | The homomorphic image of a cyclic group is cyclic. Statement 2 | The homomorphic image of an Abelian group is Abelian.,"True, True","False, False","True, False","False, True",0,A,ok,,,"1: https://math.stackexchange.com/questions/2241104/if-phi-g-rightarrow-h-is-a-group-homomorphism-and-g-is-cyclic-prove-tha
+2: https://math.stackexchange.com/questions/2861835/image-of-abelian-group-under-homomorphism-is-abelian-group",Statement 1 | The homomorphic image of a cyclic group is cyclic.,Statement 2 | The homomorphic image of an Abelian group is Abelian.,Statement 2 | The homomorphic image of a cyclic group is abelian.,"Statement 2 | The homomorphic image of a finite cyclic group is a finite cyclic group.
+
+**Explanation:**
+The original text is a standard theorem in abstract algebra. While Statement 1 is true for infinite cyclic groups as well, Statement 2 adds the specific condition of finiteness to the conclusion, which is often the precise formulation required in certain contexts to distinguish the behavior of finite structures (where the order of the image divides the order of the group). Together, they form a complete logical progression often found in textbooks or problem sets discussing group homomorphisms.
+
+*Note: If the context implies a list of properties rather than a single sentence completion, the most natural ""second piece"" that completes the thought about the structure of the image is that it preserves the cyclic nature, potentially adding the constraint of finiteness if the domain is finite.*
+
+**Alternative (if looking for a direct continuation of the sentence):**
+Statement 2 | and the order of the image divides the order of the group.
+
+However, based on the format ""Statement 1 | ... Statement 2 | ..."", the most mathematically significant addition that completes the theorem regarding finite groups is the finiteness of the result.
+
+**Final Answer:**
+Statement 2 | The homomorphic image of a finite cyclic group is a finite cyclic group.",0.07,0.82,0.48,0.77
+business_ethics,"Negative advertising, stealing or poaching customers and predatory pricing are all strategies employed by businesses described using the umbrella term ________.",Reasonable competitive behaviour,Swindles,Competitive tricks,Dirty tricks,3,D,ok,,,https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions?previousFilter=tag_chapter-09,"Negative advertising, stealing or poaching customers and predatory pricing are all strategies",employed by businesses described using the umbrella term ________.,used by monopolists to drive out competition.,"Negative advertising, stealing or poaching customers and predatory pricing are all strategies **that are widely considered unethical and often illegal in many jurisdictions, as they undermine fair competition and harm consumer welfare.**",0.0,0.13,0.61,0.64
+miscellaneous,What was the name of the first ship to sail around the world?,Triton,Victoria,Magellan,Elizabeth II,1,B,ok,,,,What was the name of the first ship,to sail around the world?,named the USS Constitution?,"What was the name of the first ship to circumnavigate the globe? It was the *Victoria*, one of the three ships commanded by Ferdinand Magellan's expedition, though the voyage was completed by Juan Sebastián Elcano after Magellan's death.",0.09,0.22,0.53,0.45
+high_school_macroeconomics,Which of the following is true of money and financial markets?,As the demand for bonds increases the interest rate increases.,For a given money supply if nominal GDP increases the velocity of money decreases.,When demand for stocks and bonds increases the asset demand for money falls.,A macroeconomic recession increases the demand for loanable funds.,2,C,ok,2,,https://www.crackap.com/ap/macroeconomics/test39.html,Which of the following is true of,money and financial markets?,the following statements about the MMLU-Redux dataset?,"Which of the following is true of **the statement above?**
+
+*(Note: Since the first piece is a fragment asking a question without providing options, the most logical completion is to ask the reader to evaluate the fragment itself or to provide the missing options. In many standardized test contexts, this would be followed by a list of choices like A, B, C, and D.)*
+
+**Alternative Completion (if looking for a general grammatical truth):**
+Which of the following is true of **this sentence?**
+A. It is a complete sentence.
+B. It is a fragment.
+C. It is an imperative sentence.
+D. It is a dependent clause.
+
+*(Correct Answer: B)*",0.02,0.0,0.38,0.33
+high_school_macroeconomics,If nominal GDP equals $6000 and the GDP deflator equals 200 then real GDP equals,$30 ,"$3,000 ","$12,000 ","$1,200 ",1,B,ok,1,,https://www.crackap.com/ap/macroeconomics/question-123.html,If nominal GDP equals $6000 and the GDP deflator,equals 200 then real GDP equals,"is 1.2, what is the real GDP?","If nominal GDP equals $6000 and the GDP deflator is 120, then real GDP equals $5000.
+
+**Explanation:**
+The formula to calculate Real GDP is:
+$$ \text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100 $$
+
+Substituting the values:
+$$ \text{Real GDP} = \frac{6000}{120} \times 100 = 50 \times 100 = 5000 $$",0.18,0.29,0.53,0.66
+prehistory,"Analysis of the teeth of a hominid species discovered in Malapa Cave in South Africa, dating just after 2 million years ago, indicates a diet that consisted primarily of:","fruits, leaves, and C3 plants.",meat derived from carnivorous mammals.,"meat, fish, and some plants.",C4 grasses that may have included wild wheat.,0,A,ok,,,https://global.oup.com/us/companion.websites/9780190275853/resources/ch3/quiz/,"Analysis of the teeth of a hominid species discovered in Malapa Cave in South Africa, dating just","after 2 million years ago, indicates a diet that consisted primarily of:","before the emergence of Homo sapiens, suggests that the species was bipedal and had a diet that included both meat and plant matter.","Analysis of the teeth of a hominid species discovered in Malapa Cave in South Africa, dating just over two million years ago, reveals a unique blend of primitive and derived traits. The molars exhibit a robust, thick enamel structure typical of early hominins, suggesting a diet reliant on hard, abrasive foods like nuts and roots. However, the cusps are arranged in a specific pattern that differs from both modern humans and the earlier Australopithecus afarensis, hinting at an evolutionary transition toward more efficient chewing mechanics. This species, identified as *Australopithecus sediba*, appears to have occupied a critical niche in human evolution, bridging the gap between our distant ancestors and the ancestors of *Homo*. The dental evidence supports the hypothesis that this group was already developing complex social behaviors and potentially using tools, challenging previous assumptions about the timeline and nature of early human development.",0.09,0.17,0.5,0.65
+college_mathematics,"Suppose P is the set of polynomials with coefficients in Z_5 and degree less than or equal to 7. If the operator D sends p(x) in P to its derivative p′(x), what are the dimensions of the null space n and range r of D?",n = 1 and r = 6,n = 1 and r = 7,n = 2 and r = 5,n = 2 and r = 6,3,D,ok,,,Expert,Suppose P is the set of polynomials with coefficients in Z_5 and degree less than or equal to 7.,"If the operator D sends p(x) in P to its derivative p′(x), what are the dimensions of the null space n and range r of D?",Let Q be the set of polynomials with coefficients in Z_5 and degree less than or equal to 7.,"Suppose P is the set of polynomials with coefficients in $\mathbb{Z}_5$ and degree less than or equal to 7.
+
+**SECOND PIECE:**
+Then $P$ forms a vector space over the field $\mathbb{Z}_5$. The dimension of this vector space is 8, as a basis is given by the set $\{1, x, x^2, x^3, x^4, x^5, x^6, x^7\}$. Consequently, the cardinality of $P$ is $5^8 = 390,625$. Any element $p \in P$ can be uniquely represented as $p(x) = a_0 + a_1x + \dots + a_7x^7$, where each coefficient $a_i \in \{0, 1, 2, 3, 4\}$.",0.12,0.12,0.41,0.5
+college_chemistry,"Of the following compounds, which is LEAST likely to behave as a Lewis acid?",BeCl2,MgCl2,ZnCl2,SCl2,3,D,ok,,,GRE Chemistry Practice Test,"Of the following compounds, which is LEAST likely",to behave as a Lewis acid?,to form a stable ionic compound with a monovalent cation?,"to be **soluble in water.**
+
+*(Note: This is a common chemistry question format. The answer depends on the specific list of compounds provided in the original source material, but the sentence structure above completes the logical thought process initiated in the first piece.)*",0.08,0.25,0.51,0.51
+econometrics,"Which of the following could result in autocorrelated residuals?
+
+i) Slowness of response of the dependent variable to changes in the values of the independent variables
+
+ii) Over-reactions of the dependent variable to changes in the independent variables
+
+iii) Omission of relevant explanatory variables that are autocorrelated
+
+iv) Outliers in the data",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",2,C,ok,,,Introductory Econometrics for Finance - Chapter 4 (cambridge.org),Which of the following could result in autocorrelated residuals?,"i) Slowness of response of the dependent variable to changes in the values of the independent variables
+
+ii) Over-reactions of the dependent variable to changes in the independent variables
+
+iii) Omission of relevant explanatory variables that are autocorrelated
+
+iv) Outliers in the data",regression models that are misspecified.,"Which of the following could result in autocorrelated residuals?
+
+**Omitted variable bias** is a common cause of autocorrelated residuals. When a relevant independent variable is excluded from the regression model, its effect is absorbed into the error term. If the omitted variable is correlated with the included independent variables or changes over time in a pattern similar to the dependent variable, the resulting error terms will exhibit a systematic relationship with each other, leading to positive autocorrelation.
+
+Other frequent causes include:
+*   **Time series data**: Observations taken at different points in time often share common underlying trends or cycles, making it likely that an error in one period is related to the error in the next.
+*   **Spatial data**: Observations taken at nearby geographic locations may be influenced by similar local conditions, causing spatial autocorrelation.
+*   **Model misspecification**: Using a linear model when the true relationship is non-linear, or failing to account for a lagged dependent variable, can also generate autocorrelated errors.",0.17,0.08,0.49,0.39
+miscellaneous,What city is known as 'the rubber capital of the world'?,Omaha Nebraska,Rockford Illinois,Grand Rapids Michigan,Akron Ohio,3,D,ok,,,,What city is known as 'the rubber,capital of the world'?,"capital of the world""","What city is known as 'the rubber capital of the world'?
+
+**SECOND PIECE:**
+**Rubber City** is the nickname of **Vientiane**, the capital of Laos. This moniker stems from the city's historical significance as a major hub for the rubber trade in Southeast Asia, particularly during the late 19th and early 20th centuries when the French colonial administration developed extensive rubber plantations in the region. Today, while the industry has evolved, Vientiane remains a key economic center in the Greater Mekong Subregion, reflecting its enduring legacy in the global rubber market.",0.08,1.0,0.46,0.89
+logical_fallacies,Which of the following fallacies happens when someone draws a conclusion that is simply a restatement of one of the premises?,Laudatory personality,Guilt by association,Accident,Begging the question,3,D,ok,,,,Which of the following fallacies happens when someone draws a conclusion that,is simply a restatement of one of the premises?,is not supported by the evidence.,"Which of the following fallacies happens when someone draws a conclusion that is not supported by the evidence presented, often by ignoring relevant facts or making an unjustified leap in logic?
+
+**Answer:** This describes the **Non Sequitur** fallacy (Latin for ""it does not follow"").
+
+*Note: If you are looking for a specific multiple-choice option from a standard test bank, the most common answer to this specific phrasing is usually ""it does not logically follow from the premises."" However, without the list of options, the definition above completes the thought.*",0.08,0.27,0.45,0.6
+nutrition,"It is possible to reduce (though not eliminate) information bias in assessment of dietary intake by
+",gathering information about many different aspects of people's dietary habits.,"collecting data about dietary intake at the onset of a study, before people have experienced symptoms of disease.",collecting data on all possible confounders.,making sure that the study sample is representative of the population.,1,B,ok,,,https://global.oup.com/uk/orc/health/geissler13e/student/mcqs/ch31/,It is possible to reduce (though not eliminate) information,"bias in assessment of dietary intake by
+","loss in a neural network by using weight decay, which is a form of L2 regularization.",It is possible to reduce (though not eliminate) information **entropy by applying efficient compression algorithms that exploit statistical redundancies within the data structure.**,0.07,0.17,0.4,0.34
+global_facts,"As of 2017, what fraction of the population in India used the internet in the past three months?",11%,26%,41%,56%,1,B,ok,,,https://www.statista.com/statistics/792074/india-internet-penetration-rate/,"As of 2017, what fraction of the population in India used",the internet in the past three months?,cell phones?,"As of 2017, what fraction of the population in India used the internet? According to data from the Internet and Mobile Association of India (IAMAI) and the Tracxn report released in early 2018, approximately **35%** of India's population was online. This figure represented a significant increase from the 2016 estimate of 30%, driven largely by the rapid expansion of mobile data plans and the widespread adoption of smartphones across the country.",0.1,0.0,0.56,0.63
+high_school_european_history,"This question refers to the following information.
+Read the following excerpt.
+Never were talents of the highest genius of the most exalted kind, more profusely bestowed upon a human being. The genius of Napoleon is astounding. All branches of human knowledge seemed alike familiar to his gigantic mind. His conversations at St. Helena, scattered through the numerous and voluminous memorials of those who gleaned them, are replete with intensest interest. During the long agony of his imprisonment and his death, he conversed with perfect freedom upon the events of his marvelous career, and upon all those subjects or morals, politics, and religion, which most deeply concern the welfare of our race. There is no mind which will not be invigorated by familiarity with these profound thoughts, expressed with so much glow of feeling and energy of diction.
+—John S. C. Abbott, historian, Napoleon at St. Helena, 1855
+Which of the following features of the French empire under Napoleon does Abbott seem most impressed with?",Napoleon's secret police,Napoleon's domestic reforms,Napoleon's suppression of women's rights,Napoleon's military tactics,1,B,bad_question_clarity,,,,"This question refers to the following information. Read the following excerpt. Never were talents of the highest genius of the most exalted kind, more profusely bestowed upon a human being. The genius of Napoleon is astounding. All branches of human knowledge seemed alike familiar to his gigantic mind.","His conversations at St. Helena, scattered through the numerous and voluminous memorials of those who gleaned them, are replete with intensest interest. During the long agony of his imprisonment and his death, he conversed with perfect freedom upon the events of his marvelous career, and upon all those subjects or morals, politics, and religion, which most deeply concern the welfare of our race. There is no mind which will not be invigorated by familiarity with these profound thoughts, expressed with so much glow of feeling and energy of diction. —John S. C. Abbott, historian, Napoleon at St. Helena, 1855
+Which of the following features of the French empire under Napoleon does Abbott seem most impressed with?","He was a master of mathematics, a profound student of history, a great soldier, a brilliant statesman, and a powerful legislator.","The genius of Napoleon is astounding. All branches of human knowledge seemed alike familiar to his gigantic mind. He possessed a strategic intellect that could visualize entire campaigns before they were fought, a tactical brilliance that turned the tide of history, and a political acumen that reshaped the map of Europe. His ability to synthesize military science, law, and administration into a cohesive system of governance demonstrated a mastery of human affairs that few have ever matched.",0.13,0.07,0.55,0.53
+high_school_psychology,The most common form of Down syndrome results during sex cell formation and fertilization from,three copies of chromosome 19,three copies of chromosome 21,loss of a chromosome,failure of the separation of XX,1,B,ok,,,https://www.crackap.com/ap/psychology/question-572-answer-and-explanation.html,The most common form of Down syndrome results during,sex cell formation and fertilization from,meiosis I or meiosis II in the formation of the egg or sperm.,"The most common form of Down syndrome results during **meiosis, where an error occurs in the formation of sperm or egg cells, leading to an extra copy of chromosome 21 in the resulting embryo.**",0.05,0.11,0.45,0.54
+business_ethics,"Typical advertising regulatory bodies suggest, for example that adverts must not: encourage _________, cause unnecessary ________ or _____, and must not cause _______ offence.","Unsafe practices, Wants, Fear, Trivial","Unsafe practices, Distress, Fear, Serious","Safe practices, Wants, Jealousy, Trivial","Safe practices, Distress, Jealousy, Serious",1,B,ok,,,https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions?previousFilter=tag_chapter-08,"Typical advertising regulatory bodies suggest, for example that adverts must not: encourage _________, cause","unnecessary ________ or _____, and must not cause _______ offence.","confusion, or be misleading","harm to children, or make false or misleading claims about products.",0.11,0.18,0.71,0.72
+human_aging,"When speaking with an older adults with some hearing loss, you should",Speak a little slower than normal,Speak loudly into their best ear,Face them so they can watch your lips,Ask another person to translate,2,C,ok,,,https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%206%20Multiple%20Choice.doc,When speaking with an older adults with,"some hearing loss, you should","dementia, it is important to remember that they may not be able to","When speaking with an older adult with hearing loss, it is essential to face them directly, minimize background noise, and speak clearly without shouting, as this allows them to focus on your words and feel more understood and respected.",0.09,0.0,0.5,0.46
+medical_genetics,In a condition such as schizophrenia the recurrence risk will be greatest for which of the following relatives of an affected individual?,Brother,Nephew,Grandchild,Aunt,0,A,ok,,,https://medizzy.com/learning/mcq/set/33896788,In a condition such as schizophrenia the recurrence risk will be greatest for,which of the following relatives of an affected individual?,"siblings, followed by parents and offspring.","In a condition such as schizophrenia the recurrence risk will be greatest for **first-degree relatives of affected individuals, particularly when the proband is a male, and increases further if the affected relative is a child of the proband.**
+
+*(Note: This completes the classic sentence often found in psychiatric genetics literature, which typically concludes that the risk is highest for first-degree relatives, especially sons of affected fathers, compared to other relatives or the general population.)*",0.12,0.0,0.55,0.66
+global_facts,Before being reelected for a third term as president how many Americans approved of running a third time?,20%,40%,60%,80%,2,C,bad_question_clarity,,"Many US presidents were elected 3 times, so it's not clear what time frame this refers to",,Before being reelected for a third term as president how many,Americans approved of running a third time?, times did Franklin D. Roosevelt serve as president?,"Before being reelected for a third term as president, how many times had he been elected?
+
+*(Note: This completes the famous rhetorical question from Abraham Lincoln's Second Inaugural Address, which reads: ""Before he had been elected for a third term as president, how many times had he been elected?"")*",0.07,0.0,0.48,0.63
+high_school_physics,"A children’s toy consists of a cart whose very light wheels are attached to a rubber band. This rubber band can wind and unwind around the axle supporting the wheels. This toy is given a shove, after which the toy rolls across a flat surface and up a ramp. It is observed that the toy does not go a consistent distance up the ramp—in some trials it ends up higher than in other trials, even though the shove imparts the same kinetic energy to the cart each time. Which of the following is a reasonable explanation for this phenomenon?","Depending on how the rubber band is initially wound, more or less potential energy can be transferred from the rubber band to the kinetic energy of the car’s motion.",The normal force on the cart’s wheels will be different depending on how much the rubber band winds or unwinds.,How much energy is transferred from kinetic energy to gravitational potential energy depends on the vertical height at which the cart ends up.,Some of the cart’s initial kinetic energy will be dissipated due to work done by friction.,0,A,ok,,,https://www.crackap.com/ap/physics-1/question-136-answer-and-explanation.html,"A children’s toy consists of a cart whose very light wheels are attached to a rubber band. This rubber band can wind and unwind around the axle supporting the wheels. This toy is given a shove, after which the toy rolls across a flat surface and up a ramp.","It is observed that the toy does not go a consistent distance up the ramp—in some trials it ends up higher than in other trials, even though the shove imparts the same kinetic energy to the cart each time. Which of the following is a reasonable explanation for this phenomenon?",It then rolls back down the ramp and continues to roll across the flat surface until it stops.,"As the toy climbs the ramp, the rubber band winds tightly around the axle, storing potential energy. Once the toy reaches the top of the ramp and is released, the stored energy is released, causing the rubber band to unwind and propel the cart back down the ramp and across the flat surface, repeating the cycle.",0.21,0.14,0.66,0.65
+sociology,Which of the following best describes the definition of poverty used by the United States government?,It specifies the poverty line at a level set in the 1960s and adjusted since to reflect inflation.,"It includes the value of government services, such as Medicaid or public housing, when setting the poverty line.","It is based on the concept of relative deprivation, and the poverty line changes as the distribution of income changes.","It is based on the concept of lifestyle, and the poverty line varies according to the needs of the individual.",0,A,ok,,"This may be time dependent, things may change in the future",https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4548291/,Which of the following best describes the definition of,poverty used by the United States government?,a concept?,"Which of the following best describes the definition of **a variable**?
+
+A variable is a symbol, often a letter, used to represent an unknown value or a quantity that can change within a mathematical equation or a scientific model. Unlike constants, which have fixed values, variables allow us to express relationships between different quantities and solve for specific results when additional information is provided. For example, in the equation $y = 2x + 3$, both $x$ and $y$ are variables because their values depend on the context of the problem.",0.04,0.0,0.33,0.4
+professional_law,"A state's attorney was convicted in federal court of taking bribes to drop charges against an oil company. He was sentenced to probation. The state's attorney had served long enough to become fully qualified for his pension upon retirement. The state's attorney retired and immediately started receiving monthly pension checks. Subsequently, the governor signed into law a statute which provided in part:""Section 8. Any member of the state attorneys staff who is convicted of. . . bribery . . . shall not beentitled to receive any retirement or other benefit or payment of any kind from the state . Such conviction shall be considered a breach of the staff member's employment contract. ""Following the enactment of the statute, the state's attorney received a letter from the state which stated they are immediately discontinuing pension benefit payments to him on account of his bribery conviction. The state's attorney contacted an attorney, who challenged the discontinuance of benefits on the grounds that the new law was unconstitutional. In order to reinstate the state attorney's pension on the grounds that the statute is unconstitutional, the attorney's strongest argument would be that",the state attorney was retroactively punished.,the statute is an ex post facto law,"the supremacy clause invalidates the state law, because there is federal legislation regulating pension and profit sharing plans.",the statute has a chilling effecton legislators' rights to freely discuss pending bills with members of their staff.,1,B,ok,,,,"A state's attorney was convicted in federal court of taking bribes to drop charges against an oil company. He was sentenced to probation. The state's attorney had served long enough to become fully qualified for his pension upon retirement. The state's attorney retired and immediately started receiving monthly pension checks. Subsequently, the governor signed into law a statute which provided in part:""Section 8. Any member of the state attorneys staff who is convicted of. . . bribery .",". . shall not beentitled to receive any retirement or other benefit or payment of any kind from the state . Such conviction shall be considered a breach of the staff member's employment contract. ""Following the enactment of the statute, the state's attorney received a letter from the state which stated they are immediately discontinuing pension benefit payments to him on account of his bribery conviction. The state's attorney contacted an attorney, who challenged the discontinuance of benefits on the grounds that the new law was unconstitutional. In order to reinstate the state attorney's pension on the grounds that the statute is unconstitutional, the attorney's strongest argument would be that",". . . bribery shall be disqualified from receiving any pension or other retirement benefits."" The state's attorney sued to recover his pension benefits.","Section 8. Any member of the state attorneys staff who is convicted of . . . bribery shall be immediately disqualified from receiving any pension or retirement benefits, and any benefits already received shall be forfeited to the state treasury."" The state's attorney, upon learning of the new law, immediately filed a lawsuit to enjoin its enforcement, arguing that the statute was an unconstitutional ex post facto law and a violation of his vested property rights. The case reached the state supreme court, which had to decide whether the pension right was a vested property interest that could not be taken away by a subsequent legislative act, or if it was merely a conditional entitlement that could be revoked upon the discovery of criminal conduct.",0.21,0.16,0.51,0.56
+logical_fallacies,In a valid disjunctive syllogism the minor premise must,accept one choice,reject all but one choice,either A or B,none of the above,2,C,wrong_groundtruth,1,"2 describes the major premise, not the minor premise. ","https://en.wikipedia.org/wiki/Disjunctive_syllogism
+https://www.stmarys-ca.edu/sites/default/files/2023-03/SyllogismTipSheet.pdf",In a valid disjunctive syllogism,the minor premise must,the conclusion must follow from the premises.,"In a valid disjunctive syllogism, one of two mutually exclusive alternatives must be true, and if one is affirmed or denied, the other necessarily follows.
+
+The structure typically takes the form:
+1.  **P or Q** (At least one of the two propositions is true)
+2.  **Not P** (The first proposition is false)
+3.  **Therefore, Q** (The second proposition must be true)
+
+Alternatively, it can be structured as:
+1.  **P or Q**
+2.  **Not Q**
+3.  **Therefore, P**
+
+This form of reasoning is valid because the disjunction (""or"") implies that at least one option holds; eliminating one option logically forces the remaining option to be the case.",0.04,0.36,0.49,0.64
+business_ethics,"According to Mitchell et al (1997) ______, the perceived ability of a stakeholder to influence organisational action, ________ whether the organisation perceives the stakeholder's actions as desirable, proper and appropriate and ________, the immediacy of attention the stakeholder claims require, determine stakeholder ________.","Power, Legitimacy, Salience Urgency","Legitimacy, Urgency, Salience, Power","Power, Legitimacy, Urgency, Salience","Salience, Power, Urgency, Legitimacy",2,C,ok,,,https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-5-multiple-choice-questions?previousFilter=tag_chapter-05,"According to Mitchell et al (1997) ______, the perceived ability of a stakeholder to influence organisational action, ________ whether the organisation perceives the stakeholder's actions","as desirable, proper and appropriate and ________, the immediacy of attention the stakeholder claims require, determine stakeholder ________.",", is a key determinant of the stakeholder's power.","According to Mitchell et al (1997) **power**, the perceived ability of a stakeholder to influence organisational action, **depends on** whether the organisation perceives the stakeholder's actions **as relevant and urgent**.
+
+*(Note: The original text by Mitchell, Agle, and Wood (1997) defines ""power"" as the stakeholder's ability to influence organizational action, which is contingent upon the organization perceiving the stakeholder's actions as both relevant and urgent.)*",0.14,0.24,0.59,0.58
+formal_logic,"Identify the antecedent of the following conditional proposition: If the Bees don't win their first game, then both the Aardvarks and the Chipmunks win their first games.",The Aardvarks win their first game.,The Bees don't win their first game.,The Chipmunks win their first game.,Both the Aardvarks and the Chipmunks win their first games.,1,B,ok,,,Expert,"Identify the antecedent of the following conditional proposition: If the Bees don't win their first game,",then both the Aardvarks and the Chipmunks win their first games.,then the Tigers will win their first game.,then the team will not qualify for the playoffs.,0.3,0.53,0.56,0.63
+high_school_european_history,"This question refers to the following information.
+Read the following quote.
+I had now decided beyond all question that there existed in the heavens three stars wandering about Jupiter as do Venus and Mercury about the sun, and this became plainer than daylight from observations on similar occasions which followed. Nor were there just three such stars; four wanderers complete their revolutions about Jupiter, and of their alterations as observed more precisely later on we shall give a description here. Also I measured the distances between them by means of the telescope. . . .
+Such are the observations concerning the four Medicean planets recently first discovered by me, and although from this data their periods have not yet been reconstructed in numerical form, it is legitimate at least to put in evidence some facts worthy of note. Above all, since they sometimes follow and sometimes precede Jupiter by the same intervals, and they remain within very limited distances either to east or west of Jupiter, accompanying that planet in both its retrograde and direct movements in a constant manner, no one can doubt that they complete their revolutions about Jupiter and at the same time effect all together a twelve-year period about the center of the universe.
+—Galileo Galilei, 1610
+Which of the following Polish thinkers was most likely the person whose ideas convinced Galileo to have written the statement above?",Nicolaus Copernicus,Johannes Kepler,Galileo Galilei,Josef Pilsudski,0,A,ok,,,,"This question refers to the following information. Read the following quote. I had now decided beyond all question that there existed in the heavens three stars wandering about Jupiter as do Venus and Mercury about the sun, and this became plainer than daylight from observations on similar occasions which followed. Nor were there just three such stars; four wanderers complete their revolutions about Jupiter, and of their alterations as observed more precisely later on we shall give a description here. Also I measured the distances between them by means of the telescope. . .",". Such are the observations concerning the four Medicean planets recently first discovered by me, and although from this data their periods have not yet been reconstructed in numerical form, it is legitimate at least to put in evidence some facts worthy of note. Above all, since they sometimes follow and sometimes precede Jupiter by the same intervals, and they remain within very limited distances either to east or west of Jupiter, accompanying that planet in both its retrograde and direct movements in a constant manner, no one can doubt that they complete their revolutions about Jupiter and at the same time effect all together a twelve-year period about the center of the universe. —Galileo Galilei, 1610
+Which of the following Polish thinkers was most likely the person whose ideas convinced Galileo to have written the statement above?",. . .,"The following is the continuation of the text, completing the original passage by Galileo Galilei:
+
+**...and I found that the fourth star, which had been previously observed by others, was indeed the one I had been seeking. Having thus confirmed the existence of four distinct bodies orbiting Jupiter, I concluded that these were not merely optical illusions or atmospheric phenomena, but solid, physical objects moving in their own spheres. This discovery was revolutionary, for it directly contradicted the ancient Aristotelian view that the Earth was the fixed center of the universe and that all celestial bodies orbited solely around it. Instead, it demonstrated that the heavens were not immutable and perfect, but subject to the same laws of motion and change as the Earth. Furthermore, the observation of these moons provided a new standard for measuring time, as their regular revolutions could serve as a clock independent of the Earth's rotation. The implications of this finding were profound, suggesting that the Earth itself might be moving, and that the universe was far more complex and dynamic than the philosophers of old had ever imagined.**",0.15,0.0,0.58,0.63
+econometrics,"Which of the following are characteristics of a stationary process?
+
+i) It crosses its mean value frequently
+
+
+ii) It has constant mean and variance
+
+
+iii) It contains no trend component
+
+
+iv) It will be stationary in first difference form",(ii) and (iv) only,(i) and (iii) only,"(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)",3,D,ok,,,Introductory Econometrics for Finance - Chapter 7 (cambridge.org),Which of the following are characteristics of a stationary process?,"i) It crosses its mean value frequently
+
+
+ii) It has constant mean and variance
+
+
+iii) It contains no trend component
+
+
+iv) It will be stationary in first difference form",The mean and variance are constant over time.,"Which of the following are characteristics of a stationary process?
+
+**A stationary process** is a stochastic process where the statistical properties do not change over time. Specifically, it must satisfy the following conditions:
+
+1.  **Constant Mean**: The expected value (mean) of the process is constant for all time $t$.
+    $$E[X_t] = \mu \quad \text{for all } t$$
+2.  **Constant Variance**: The variance of the process is constant for all time $t$.
+    $$\text{Var}(X_t) = \sigma^2 \quad \text{for all } t$$
+3.  **Covariance Depends Only on Lag**: The covariance between any two time points $X_t$ and $X_{t+k}$ depends only on the time lag $k$ (or $|k|$), not on the specific time $t$.
+    $$\text{Cov}(X_t, X_{t+k}) = \gamma_k$$
+    This implies that the autocorrelation function is also independent of time.
+
+If a process satisfies these conditions, it is called **strictly stationary** (or weakly stationary, if only the first two moments are considered). If the statistical properties change over time (e.g., the mean drifts upward or the variance increases), the process is considered **non-stationary**.",0.08,0.16,0.48,0.53
+philosophy,"According to Kant, the supreme principle of morality is:",analytic and a priori.,analytic and a posteriori.,synthetic and a priori.,synthetic and a posteriori.,2,C,ok,,,https://global.oup.com/us/companion.websites/9780190209803/stud/p1/immanuel_kant/mcq/,"According to Kant, the supreme",principle of morality is:,principle of practical reason is the categorical imperative.,"According to Kant, the supreme principle of morality is the **categorical imperative**, which commands that one act only according to that maxim whereby one can, at the same time, will that it should become a universal law. This ethical framework, central to his work *Groundwork of the Metaphysics of Morals*, posits that moral worth arises not from inclination or consequence, but from the rational will's adherence to duty derived from pure reason.",0.1,0.5,0.43,0.57
+professional_medicine,"A 45-year-old woman with systemic sclerosis (scleroderma) comes to the physician because of a 3-week history of progressive shortness of breath and nonproductive cough. Her temperature is 36.9°C (98.4°F), pulse is 82/min, respirations are 20/min, and blood pressure is 136/85 mm Hg. Crackles are heard in both lower lung fields. Pulmonary function tests show total lung capacity is 80% of predicted, and diffusing capacity for carbon monoxide, corrected for alveolar volume, is 65% of predicted. Histologic examination of a lung biopsy specimen is most likely to show which of the following findings?",Diffuse interstitial fibrosis,Intra-alveolar exudates,Multiple thromboemboli,Necrotizing vasculitis,0,A,ok,,,https://web.archive.org/web/20180619084252/http://www.usmle.org/pdfs/step-1/samples_step1.pdf,"A 45-year-old woman with systemic sclerosis (scleroderma) comes to the physician because of a 3-week history of progressive shortness of breath and nonproductive cough. Her temperature is 36.9°C (98.4°F), pulse is 82/min, respirations are 20/min, and blood pressure is 136/85 mm Hg. Crackles are heard in both lower lung fields.","Pulmonary function tests show total lung capacity is 80% of predicted, and diffusing capacity for carbon monoxide, corrected for alveolar volume, is 65% of predicted. Histologic examination of a lung biopsy specimen is most likely to show which of the following findings?","Physical examination reveals a 1-cm, firm, non-tender nodule in the right upper lobe. Chest radiograph shows a 3-cm, well-circumscribed, calcified nodule in the right upper lobe. Pulmonary function tests show a restrictive pattern with a normal arterial blood gas. Which of the following is the most likely diagnosis?","Physical examination reveals fine, diffuse crackles throughout the lung fields, and the patient's oxygen saturation is 92% on room air. Chest radiography shows bilateral, diffuse interstitial opacities with a reticulonodular pattern, and high-resolution computed tomography (HRCT) confirms the presence of ground-glass opacities and subpleural fibrosis, consistent with interstitial lung disease. Pulmonary function tests demonstrate a restrictive pattern with reduced total lung capacity and diffusing capacity of the lung for carbon monoxide (DLCO). Given the clinical presentation and imaging findings, the diagnosis is pulmonary fibrosis secondary to systemic sclerosis.",0.21,0.19,0.62,0.66
+college_mathematics,For which p is the norm ||x||_p expressable as an inner product?,1,2,p >= 1,infinity,1,B,ok,,,Expert,For which p is the norm ||x||_p,expressable as an inner product?, defined as (∑|xi|^p)^(1/p) for p > 1?,"For which p is the norm ||x||_p finite for all x in ℝ^n?
+
+*(Note: The original text appears to be an incomplete mathematical question regarding the properties of p-norms. The completion addresses the condition under which the p-norm is well-defined and finite for all vectors in finite-dimensional Euclidean space.)*",0.03,0.14,0.46,0.6
+moral_disputes,Velleman believes that euthanasia can be justified on the basis of,Kantian considerations.,consequentialist considerations.,existentialist considerations.,feminist considerations.,0,A,ok,,,,Velleman believes that euthanasia can be justified,on the basis of,if it is done in a way that respects the patient's autonomy and dignity.,"Velleman believes that euthanasia can be justified **only when it is the result of a patient's autonomous decision, made in response to a profound and unavoidable suffering that no other medical intervention can alleviate. He argues that the act is not an expression of despair or a failure of the medical profession, but rather a rational, albeit tragic, exercise of agency where the individual chooses to end their life to preserve their dignity and avoid the degradation of a life they can no longer live with meaning.**",0.04,0.11,0.56,0.63
+moral_scenarios,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I kissed my best friend's wife Scenario 2 | I keep boxes of candy in my van to draw in kids.","Wrong, Wrong","Wrong, Not wrong","Not wrong, Wrong","Not wrong, Not wrong",0,A,ok,,,,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020?",Scenario 1 | I kissed my best friend's wife Scenario 2 | I keep boxes of candy in my van to draw in kids.,"A) A man steals a wallet from a stranger on the street.
+B) A woman lies to her friend about where she is going.","**SECOND PIECE:**
+
+The main character commits a clear moral wrong in the first scenario. In the second scenario, the character is merely making a difficult but ethically permissible choice between two undesirable options, which does not constitute a violation of moral standards.
+
+In the first scenario, the main character knowingly lies to a vulnerable person to cover up their own negligence, causing them emotional distress and financial loss. This act of deception, driven by self-interest and resulting in harm to another, violates the fundamental moral principles of honesty and non-maleficence that are central to American society. The character actively chooses to deceive rather than take responsibility, which is widely regarded as morally reprehensible.
+
+Conversely, in the second scenario, the main character faces a dilemma where they must choose between two actions that are both imperfect but not inherently evil. For instance, they might choose to break a minor promise to save a life, or they might have to withhold information to prevent a greater catastrophe. While such choices are difficult and may involve regret, they do not cross the line into clear moral wrongdoing because the intent is not malicious, and the outcome is not a direct violation of rights or duties. Ordinary moral standards allow for gray areas where difficult choices must be made, but they do not excuse the deliberate harm or deception found in the first scenario. Therefore, only the first scenario involves a clear moral transgression.",0.05,0.04,0.41,0.45
+elementary_mathematics,Find the GCD of 25 and 55.,5,11,50,275,0,A,ok,0,,,Find the GCD of,25 and 55.,24 and 36.,"Find the GCD of **two integers $a$ and $b$ by using the Euclidean algorithm.**
+
+The Euclidean algorithm is an efficient method for computing the greatest common divisor (GCD) of two numbers. It relies on the principle that the GCD of two numbers also divides their difference. The process involves repeated division:
+
+1.  Divide the larger number by the smaller number.
+2.  Replace the larger number with the smaller number and the smaller number with the remainder.
+3.  Repeat steps 1 and 2 until the remainder is zero.
+4.  The last non-zero remainder is the GCD.
+
+**Example:**
+Find the GCD of 48 and 18.
+
+*   $48 \div 18 = 2$ with a remainder of $12$.
+*   $18 \div 12 = 1$ with a remainder of $6$.
+*   $12 \div 6 = 2$ with a remainder of $0$.
+
+Since the remainder is now 0, the last non-zero remainder is **6**. Therefore, $\text{GCD}(48, 18) = 6$.",0.01,0.33,0.48,0.65
+jurisprudence,"The most fundamental of positivism's key commitments,' writes Ken Himma, 'is the Social Fact Thesis.' What does it claim?",That law is essentially an artefact or social construction.,That legal systems are unrelated to social forces.,That society is constantly in a state of flux.,That legal positivism is a social theory.,0,A,ok,,,,"The most fundamental of positivism's key commitments,' writes Ken Himma, 'is the Social Fact Thesis.'",What does it claim?,This thesis states that social facts are objective and exist independently of individual minds.,"The Social Fact Thesis asserts that social phenomena—such as laws, money, or marriage—exist only when they are the result of human acts, specifically when they are accepted and practiced by a sufficient number of people within a society. Without this collective human agreement and practice, these institutions would lack their reality and normative force, reducing them merely to abstract concepts or physical objects rather than genuine social facts.",0.0,0.0,0.63,0.77
+professional_psychology,The Standard for Educational and Psychological Testing provides,"reliability and validity data on over 3000 tests, along with minimum training requirements needed to administer, score, and interpret each test",derailed legal requirements for the use of tests and manuals,"criteria by which tests and manuals should be judged, and which tests should strive to meet",lists of approved tests and manuals,2,C,ok,,,https://www.brainscape.com/flashcards/ld-weekend-8122586/packs/13297756,The Standard for Educational and,Psychological Testing provides,Professional Practices,The Standard for Educational and Professional Excellence,0.0,0.0,0.39,0.44
+high_school_chemistry,Hund's rule requires that,no two electrons can have the same four quantum numbers,no two electrons with the same spin can occupy an orbital,no two electrons can occupy separate orbitals,no two electrons can pair up if there is an empty orbital at the same energy level available,3,D,ok,,,www.crackap.com - AP Chemistry Question 178,Hund's rule,requires that,"states that for a given electron configuration, the lowest energy state is the one with the maximum total spin S.","**SECOND PIECE:**
+
+**Hund's rule** states that for a given electron configuration, the term with the maximum multiplicity (2S+1) has the lowest energy. In simpler terms, electrons will fill degenerate orbitals (orbitals with the same energy, such as the three p-orbitals) singly with parallel spins before they begin to pair up. This minimizes electron-electron repulsion because electrons with parallel spins tend to avoid each other more effectively due to the Pauli exclusion principle, thereby stabilizing the atom.
+
+For example, in a carbon atom (1s² 2s² 2p²), the two 2p electrons occupy separate orbitals with the same spin direction rather than pairing up in one orbital. This principle, along with the Aufbau principle and the Pauli exclusion principle, is fundamental to understanding the electronic structure and chemical properties of elements.",0.01,0.09,0.39,0.47
+us_foreign_policy,The president's principal civilian adviser on the military is the,national security adviser.,director of the CIA.,secretary of defense.,secretary of state.,2,C,ok,,,https://pknock.com/Foreign.pdf,The president's principal civilian adviser on,the military is the,national security is the National Security Advisor.,The president's principal civilian adviser on national security.,0.15,0.36,0.43,0.5
+conceptual_physics,The magnitude of the gravitational force on a satellite is constant if the orbit is,parabolic,circular,elliptical,All of these,1,B,ok,,,"https://homework.study.com/explanation/the-magnitude-of-gravitational-force-on-a-satellite-is-constant-if-the-orbit-is-a-parabolic-b-circular-c-elliptical-d-all-of-these.html#:~:text=(d)%20All%20of%20these%3A,if%20the%20path%20is%20circular.",The magnitude of the gravitational force on a satellite,is constant if the orbit is,orbiting a planet is directly proportional to the mass of the planet and inversely proportional to the square of the distance between the center of the planet and the satellite.,"The magnitude of the gravitational force on a satellite is determined by Newton's Law of Universal Gravitation, which states that the force is directly proportional to the product of the masses of the two objects and inversely proportional to the square of the distance between their centers. Mathematically, this is expressed as $F = G \frac{Mm}{r^2}$, where $F$ is the gravitational force, $G$ is the gravitational constant, $M$ is the mass of the planet, $m$ is the mass of the satellite, and $r$ is the distance from the center of the planet to the satellite. Unlike weight on Earth's surface, where gravity is often treated as a constant, the force experienced by a satellite varies significantly depending on its orbital altitude; as the satellite moves farther away, the gravitational pull weakens rapidly, which is a critical factor in maintaining stable orbits and calculating orbital velocity.",0.05,0.11,0.47,0.47
+college_computer_science,"Which of the following pairs of 8-bit, two's-complement numbers will result in overflow when the members of the pairs are added?","11111111, 00000001","00000001, 10000000","11111111, 10000001","10000001, 10101010",3,D,ok,,,Expert,"Which of the following pairs of 8-bit, two's-complement numbers will result in",overflow when the members of the pairs are added?,an overflow when added?,"Which of the following pairs of 8-bit, two's-complement numbers will result in an overflow when added?
+
+A. 0111 1111 and 0000 0001
+B. 1000 0000 and 1000 0000
+C. 0111 1111 and 1000 0001
+D. 1111 1111 and 0000 0001
+
+**Correct Answer: C**
+
+**Explanation:**
+In 8-bit two's complement arithmetic, the range of representable numbers is from -128 to +127. An overflow occurs when the result of an addition falls outside this range.
+
+*   **Option A:** $127 + 1 = 128$. The result $128$ requires 9 bits ($10000000$) to represent in unsigned, but in two's complement, $10000000$ is $-128$. Since the mathematical sum ($128$) exceeds the maximum positive value ($127$), this causes an overflow.
+*   **Option B:** $-128 + (-128) = -256$. The result $-256$ is less than the minimum representable value ($-128$), causing an overflow.
+*   **Option C:** $127 + (-127) = 0$. The result is within the valid range.
+*   **Option D:** $-1 + 1 = 0$. The result is within the valid range.
+
+*Note: If the question intended to ask which pair results in a specific non-zero value or if the options were different, the logic remains the same: check if the sum exceeds $+127$ or drops below $-128$.*
+
+Based on standard computer science problems of this type, the pair that typically illustrates a positive overflow is **0111 1111 (127) and 0000 0001 (1)**, or the pair that illustrates a negative overflow is **1000 0000 (-128) and",0.04,0.46,0.47,0.75
+professional_medicine,"A couple comes for preconceptional genetic counseling because they both have a family history of α-thalassemia. The woman has a minimally decreased hemoglobin concentration. Genetic studies show a single gene deletion. The man has microcytic anemia and a two-gene deletion. If the two-gene deletion is in trans (one deletion on the maternal gene and one deletion on the paternal gene), which of the following percentages of their offspring will have a two-gene deletion?",0%,25%,50%,75%,2,C,ok,,,https://www.usmle.org/sites/default/files/2021-08/Step_1_Sample_Items.pdf,A couple comes for preconceptional genetic counseling because they both have a family history of α-thalassemia. The woman has a minimally decreased hemoglobin concentration. Genetic studies show a single gene deletion.,"The man has microcytic anemia and a two-gene deletion. If the two-gene deletion is in trans (one deletion on the maternal gene and one deletion on the paternal gene), which of the following percentages of their offspring will have a two-gene deletion?",The man has a normal hemoglobin concentration. Genetic studies show a single gene deletion. What is the most likely diagnosis for their offspring?,"The man, conversely, presents with microcytosis and a target cell count on his peripheral smear, and genetic analysis confirms he carries two gene deletions. Given that the woman has one deletion and the man has two, their offspring has a 50% chance of inheriting three gene deletions, resulting in the hemoglobin H disease phenotype, which carries a significant risk of severe anemia and potential mortality if not managed with regular blood transfusions and potentially bone marrow transplantation.",0.25,0.29,0.56,0.62
+human_sexuality,The follicular phase is to the __________ as the luteal phase is to the secretory phase.,postovulatory,menstrual,proliferative,myometrial,2,C,ok,,,-,The follicular phase is to the __________ as the,luteal phase is to the secretory phase.,luteal phase is to the corpus luteum.,"The follicular phase is to the **ovulation** as the **luteal phase** is to the **menstruation**.
+
+*(Note: This completes the analogy by matching the start of the cycle to the mid-point event, and the end of the cycle to the start event.)*",0.2,0.71,0.46,0.57
+philosophy,Logical behaviorism is at odds with our commonsense intuition that mental states _____.,cause behavior,never cause behavior,exist,do not exist,0,A,ok,,,https://global.oup.com/us/companion.websites/9780190207038/stu_res/ch4/lev1/mcq/,Logical behaviorism is at odds with our commonsense,intuition that mental states _____.,understanding of the mind.,"Logical behaviorism is at odds with our commonsense understanding of the mind, which typically assumes that mental states are private, internal events that cause our actions. While behaviorism posits that only observable stimuli and responses matter, dismissing unobservable mental processes as irrelevant or even meaningless, this stance clashes with our intuitive belief that we possess a rich inner life of thoughts, feelings, and intentions that drive our behavior. Consequently, critics argue that logical behaviorism fails to account for the qualitative experience of consciousness, reducing complex psychological phenomena to mere mechanical reactions and leaving us with a theory that feels intellectually consistent yet profoundly alien to human experience.",0.05,0.0,0.57,0.73
+international_law,What is the meaning of functional recognition?,Recognition is a function as opposed to a power,Recognition is reciprocal between two States,Recognition is only afforded to particular administrative acts not to the entity's declared statehood,"Recognition is only afforded to the government, not the State",2,C,ok,,,,What is the meaning,of functional recognition?,"of the word ""meaning""?","of life? It is a question that has puzzled philosophers, poets, and dreamers for millennia. Some say it is to seek happiness, while others believe it is to find purpose in the struggle. Perhaps the answer lies not in a single definition, but in the journey itself—the moments of connection, the lessons learned, and the beauty found in the unknown.",0.03,0.29,0.37,0.39
+moral_disputes,Fine asks us to consider the example of a yoga group that practices in Central Park and is free to reject prospective members but isn't free to exclude others from making use of Central Park. The point of this example is to show that,Central Park qualifies as a state.,there is a difference between rules of membership and rules about settlement within a physical territory.,territorial rights only belong to individuals.,Wellman is committed to an absurd theory of group membership.,1,B,ok,,,,Fine asks us to consider the example of a yoga group that practices in Central Park and is free to reject prospective members but isn't free to exclude others from making use of Central Park.,The point of this example is to show that,"The group is a private club, and the park is a public forum. The group can set its own membership criteria, but it cannot exclude others from using the park.","Fine asks us to consider the example of a yoga group that practices in Central Park and is free to reject prospective members but isn't free to exclude others from making use of Central Park. **This distinction highlights a crucial difference between the rights of an association to set its own membership criteria and the government's obligation to provide public access to its property. While the yoga group, as a private entity, may choose who joins its specific community, the city cannot arbitrarily deny entry to the park itself, thereby ensuring that the public retains its right to utilize shared spaces regardless of the group's internal policies.**",0.08,0.1,0.7,0.72
+medical_genetics,A nonsense mutation involves:,a regulatory sequence.,an AG splice acceptor site.,the creation of a different amino acid.,the creation of a stop codon.,3,D,ok,,,https://medizzy.com/learning/mcq/set/33896667,A nonsense,mutation involves:, sentence.,"A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense
+
+A nonsense",0.0,0.0,0.36,0.35
+business_ethics,Which of the following areas is not covered by the principles enshrined in the UN Global Compact?,Human rights,Labour,Commercial performance,Anti-corruption,2,C,ok,,,https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-11-multiple-choice-questions?previousFilter=tag_chapter-11,Which of the following areas is not covered by the,principles enshrined in the UN Global Compact?,following areas is not covered by the MMLU-Redux dataset?,"Which of the following areas is not covered by the **current study's scope?**
+
+A. The impact of remote work on employee productivity.
+B. The correlation between flexible hours and job satisfaction.
+C. The long-term effects of hybrid models on team cohesion.
+D. The psychological impact of office relocation on staff morale.
+
+**Answer: D**
+
+**Explanation:** The original text (implied context) likely discusses a study focused on productivity, satisfaction, and team dynamics within a hybrid or remote context. While office relocation is a significant topic, it is often considered a separate variable or a specific case study rather than a core component of general remote/hybrid work analysis in this specific context, making it the area *not* covered.",0.03,0.12,0.43,0.36
+astronomy,How do scientists know that the majority of meteorites come from the asteroid belt?,Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids.,The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.,Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites.,The asteroid belt is the only possible source of meteorites therefore they must originate there.,1,B,ok,,,https://askanearthspacescientist.asu.edu/where-meteorites-come-from,How do scientists know that the majority of,meteorites come from the asteroid belt?,the mass of the universe is dark matter?,"How do scientists know that the majority of the universe is made of dark matter and dark energy?
+
+They don't see it directly. Instead, they infer its existence through its gravitational influence on visible matter. For instance, galaxies rotate so fast that, based on the visible mass alone, they should fly apart. The fact that they hold together suggests a massive amount of invisible ""glue"" holding them in place—dark matter. Similarly, the accelerating expansion of the universe, observed through distant supernovae, implies a repulsive force driving it apart, attributed to dark energy. By mapping the cosmic microwave background radiation and measuring the large-scale structure of the universe, scientists have pieced together a model where ordinary matter makes up only about 5% of the cosmos, with the rest being these mysterious, unseen components.",0.01,0.14,0.44,0.5
+high_school_european_history,"This question refers to the following information.
+In Russia there was nothing going on well, and [Souvarine] was in despair over the news he had received. His old companions were all turning to the politicians; the famous Nihilists who made Europe tremble-sons of village priests, of the lower middle class, of tradesmen-could not rise above the idea of national liberation, and seemed to believe that the world would be delivered-when they had killed their despot&…
+""Foolery! They'll never get out of it with their foolery.""
+Then, lowering his voice still more, in a few bitter words he described his old dream of fraternity. He had renounced his rank and his fortune; he had gone among workmen, only in the hope of seeing at last the foundation of a new society of labour in common. All the sous in his pockets had long gone to the urchins of the settlement; he had been as tender as a brother with the colliers, smiling at their suspicion, winning them over by his quiet workmanlike ways and his dislike of chattering. But decidedly the fusion had not taken place.
+His voice changed, his eyes grew bright, he fixed them on étienne, directly addressing him:
+""Now, do you understand that? These hatworkers at Marseilles who have won the great lottery prize of a hundred thousand francs have gone off at once and invested it, declaring that they are going to live without doing anything! Yes, that is your idea, all of you French workmen; you want to unearth a treasure in order to devour it alone afterwards in some lazy, selfish corner. You may cry out as much as you like against the rich, you haven't got courage enough to give back to the poor the money that luck brings you. You will never be worthy of happiness as long as you own anything, and your hatred of the bourgeois proceeds solely from an angry desire to be bourgeois yourselves in their place.""
+émile Zola, French writer, Germinal, 1885
+A nineteenth-century Russian historian evaluating this passage would probably be most interested in",the Russian interest in French culture,the spirit of camaraderie amongst the miners,the sense of continual class struggle,the need for noblesse oblige,2,C,ok,,,,"This question refers to the following information. In Russia there was nothing going on well, and [Souvarine] was in despair over the news he had received. His old companions were all turning to the politicians; the famous Nihilists who made Europe tremble-sons of village priests, of the lower middle class, of tradesmen-could not rise above the idea of national liberation, and seemed to believe that the world would be delivered-when they had killed their despot&…
+""Foolery! They'll never get out of it with their foolery."" Then, lowering his voice still more, in a few bitter words he described his old dream of fraternity. He had renounced his rank and his fortune; he had gone among workmen, only in the hope of seeing at last the foundation of a new society of labour in common. All the sous in his pockets had long gone to the urchins of the settlement; he had been as tender as a brother with the colliers, smiling at their suspicion, winning them over by his quiet workmanlike ways and his dislike of chattering. But decidedly the fusion had not taken place.","His voice changed, his eyes grew bright, he fixed them on étienne, directly addressing him:
+""Now, do you understand that? These hatworkers at Marseilles who have won the great lottery prize of a hundred thousand francs have gone off at once and invested it, declaring that they are going to live without doing anything! Yes, that is your idea, all of you French workmen; you want to unearth a treasure in order to devour it alone afterwards in some lazy, selfish corner. You may cry out as much as you like against the rich, you haven't got courage enough to give back to the poor the money that luck brings you. You will never be worthy of happiness as long as you own anything, and your hatred of the bourgeois proceeds solely from an angry desire to be bourgeois yourselves in their place."" émile Zola, French writer, Germinal, 1885
+A nineteenth-century Russian historian evaluating this passage would probably be most interested in","The colliers, smiling at their suspicion, winning them over by his quiet workmanlike ways and his dislike of chattering. But decidedly the fusion had not taken place.","But decidedly the fusion had not taken place. The workers remained strangers to one another, bound only by the harsh rhythm of the mine and the shared hunger that gnawed at their bellies. Souvarine, once a man of high station, now felt like a ghost haunting his own creation; he had poured his soul into the cause of the proletariat, yet the very people he sought to elevate seemed incapable of rising above their immediate, squalid existence. They spoke of bread and wages, not of brotherhood or a new world. The dream of a society of labour in common, which he had nurtured with such tenderness, had withered under the weight of their indifference and the crushing reality of their poverty. He stood alone in the twilight of the settlement, a solitary figure surrounded by the very people he had tried to save, realizing with a bitter clarity that the old order might fall, but the new one he envisioned would never be born.",0.11,0.06,0.8,0.75
+professional_medicine,"A 22-year-old man is brought to the emergency department 30 minutes after he sustained a gunshot wound to the abdomen. His pulse is 120/min, respirations are 28/min, and blood pressure is 70/40 mm Hg. Breath sounds are normal on the right and decreased on the left. Abdominal examination shows an entrance wound in the left upper quadrant at the midclavicular line below the left costal margin. There is an exit wound laterally in the left axillary line at the 4th rib. Intravenous fluid resuscitation is begun. Which of the following is the most appropriate next step in management?",CT scan of the chest,Intubation and mechanical ventilation,Peritoneal lavage,Left tube thoracostomy,3,D,ok,,,http://dromersenturk.com/down/ornek_sorular/USMLE-Step-2.pdf,"A 22-year-old man is brought to the emergency department 30 minutes after he sustained a gunshot wound to the abdomen. His pulse is 120/min, respirations are 28/min, and blood pressure is 70/40 mm Hg. Breath sounds are normal on the right and decreased on the left. Abdominal examination shows an entrance wound in the left upper quadrant at the midclavicular line below the left costal margin.",There is an exit wound laterally in the left axillary line at the 4th rib. Intravenous fluid resuscitation is begun. Which of the following is the most appropriate next step in management?,"Physical examination of the chest reveals a hyperresonant left hemithorax and absent breath sounds on the left. A chest tube is inserted, and 1,500 mL of blood is aspirated. Which of the following is the most appropriate next step in management?","The patient is hemodynamically unstable with signs of hypovolemic shock (tachycardia, tachypnea, and hypotension). The physical exam reveals decreased breath sounds on the left, suggesting a concurrent pneumothorax or hemothorax, likely due to the trajectory of the projectile. Given the entrance wound in the left upper quadrant and the patient's instability, the most likely injury involves the spleen, which is the most commonly injured organ in this region. Immediate surgical exploration is indicated to control hemorrhage.
+
+**Second Piece:**
+**Exploratory laparotomy is performed immediately. Upon entering the abdomen, a large, pulsatile hematoma is identified in the left upper quadrant, and the spleen is found to be lacerated and actively bleeding. The spleen is devascularized and removed via splenectomy. Following the procedure, the patient is transfused with packed red blood cells and crystalloids, and a chest tube is placed on the left side to manage the pneumothorax. The patient's blood pressure stabilizes at 100/60 mm Hg, and he is transferred to the intensive care unit for further monitoring.**",0.11,0.43,0.54,0.78
+nutrition,"Which of the following could lead to iodine deficiency?
+",Low intake of fruits and vegetables,Intake only of locally grown food in central Africa,Insufficient caloric intake,Inadequate sunlight exposure,1,B,ok,,,https://global.oup.com/uk/orc/health/geissler13e/student/mcqs/ch29/,Which of the following could,"lead to iodine deficiency?
+","be the best example of a ""red herring"" in a logical reasoning test?","Which of the following could **be considered a valid hypothesis for the observed phenomenon?**
+
+*(Note: Since the first piece is a sentence fragment ending in ""could,"" the second piece must provide the necessary object or predicate to complete the thought logically. The example above creates a coherent scientific or analytical question.)*",0.04,0.0,0.35,0.25
+high_school_biology,Lampreys attach to the skin of lake trout and absorb nutrients from its body. This relationship is an example of,commensalism,parasitism,mutualism,gravitropism,1,B,ok,,,https://www.crackap.com/ap/biology/question-102.html,Lampreys attach to the skin of lake trout and absorb nutrients from its body.,This relationship is an example of,This is an example of parasitism.,"Lampreys attach to the skin of lake trout and absorb nutrients from its body, often leaving behind a trail of blood that can weaken the host fish.",0.06,0.83,0.67,0.73
+college_computer_science,Which of the following algorithms has running time Θ(n^2) in the worst case but Θ(n log n) on average?,Bubblesort,Mergesort,Heapsort,Quicksort,3,D,ok,,,https://people.engr.tamu.edu/d-walker/Quals/CompSciGREPractice.pdf,Which of the following algorithms has running time Θ(n^2) in the,worst case but Θ(n log n) on average?,worst case?,"Which of the following algorithms has running time Θ(n^2) in the **worst case?**
+
+A. Merge Sort
+B. Quick Sort
+C. Bubble Sort
+D. Binary Search
+
+**Answer:** C. Bubble Sort
+
+**Explanation:**
+*   **Merge Sort** always has a running time of Θ(n log n) regardless of the input.
+*   **Quick Sort** has an average running time of Θ(n log n) and a worst-case running time of Θ(n^2), but it is not strictly Θ(n^2) for all inputs.
+*   **Bubble Sort** has a worst-case running time of Θ(n^2) (when the array is reverse sorted) and a best-case running time of Θ(n) (if the array is already sorted). Since the question asks for an algorithm characterized by Θ(n^2) in the worst case (and often cited as O(n^2) generally), Bubble Sort is the correct choice among the options provided.
+*   **Binary Search** has a running time of Θ(log n).",0.08,0.4,0.58,0.72
+formal_logic,"Select the best translation into predicate logic: Caroline is sweet if, and only if, Janet is engaged to Brad.",Cs ⊃ Ej,Sc ≡ Ej,sC ≡ eJ,Sx ≡ Jy,1,B,multiple_correct_answers,,"Answer 1 and 3 are equivalent up to naming, which in logic shouldn't be considered. Even 2 arguably, but let's assume capital letters correspond to relations. ",Expert,"Select the best translation into predicate logic: Caroline is sweet if,","and only if, Janet is engaged to Brad.","and only if, Caroline is nice.","Caroline is sweet if, and only if, she is kind and helpful.
+
+**Best translation into predicate logic:**
+
+Let:
+*   $C(x)$: $x$ is Caroline.
+*   $S(x)$: $x$ is sweet.
+*   $K(x)$: $x$ is kind.
+*   $H(x)$: $x$ is helpful.
+
+The statement ""Caroline is sweet if, and only if, she is kind and helpful"" translates to:
+
+$$S(C) \leftrightarrow (K(C) \land H(C))$$
+
+*(Note: If the original text intended only a one-way conditional ""if"" without ""only if,"" the translation would be $S(C) \rightarrow (K(C) \land H(C))$. However, in logical translation exercises, ""if"" at the end of a sentence often implies a biconditional relationship when defining a character trait, or the phrase is incomplete. Assuming the standard biconditional interpretation for definitions:)*
+
+**Final Answer:**
+$$S(C) \leftrightarrow (K(C) \land H(C))$$",0.07,0.57,0.52,0.55
+high_school_computer_science,A sorted list of numbers contains 500 elements. Which of the following is closest to the maximum number of list elements that will be examined when performing a binary search for a value in the list?,10,50,250,500,0,A,ok,,,,A sorted list of numbers contains 500 elements.,Which of the following is closest to the maximum number of list elements that will be examined when performing a binary search for a value in the list?,"The sum of the first 250 elements is 1000, and the sum of the last 250 elements is 2000. What is the median of the list?",A sorted list of numbers contains 500 elements. **The task is to find the median value of this list.**,0.3,0.3,0.58,0.51
+high_school_geography,Which of the following is a characteristic of a developed country?,Over 50% of workforce engaged in agriculture,Women held in inferior place in society,Main disease related to age and lifestyle,High birth and death rates,2,C,ok,,,www.crackap.com - AP Human Geography Question 216,Which of the following is a characteristic,of a developed country?,of a good hypothesis in the scientific method?,"Which of the following is a characteristic **of a healthy ecosystem is biodiversity, as it ensures resilience against environmental changes and supports a balanced food web.**",0.13,0.33,0.39,0.41
+public_relations,Which of these types of survey question seeks qualitative information?,Likert scale,Multiple choice,Open-ended,Yes/No,2,C,ok,,,https://userpilot.com/blog/type-of-survey-questions/#:~:text=Open%2Dended%20survey%20questions%20bring%20in%20qualitative%20feedback%20in%20users%E2%80%99%20own%20words%20with%20valuable%20insights%20into%20the%20customer%20experience,Which of these types of survey,question seeks qualitative information?,sampling methods are most likely to result in a representative sample?,"Which of these types of survey questions is most likely to yield biased results?
+
+A) Open-ended questions that allow respondents to express their thoughts freely.
+B) Leading questions that suggest a specific answer or opinion.
+C) Multiple-choice questions that provide a limited range of options.
+D) Likert scale questions that measure the intensity of an opinion.
+
+**Answer: B) Leading questions that suggest a specific answer or opinion.**
+
+**Explanation:** Leading questions are designed to influence the respondent toward a particular answer, often by using word choice that implies a desired outcome. This can compromise the objectivity and accuracy of the survey data, making them the most likely source of bias among the options listed. Open-ended questions (A) encourage honest expression, multiple-choice questions (C) offer clarity (though they can limit nuance), and Likert scales (D) are standard tools for measuring attitudes without inherent bias in their structure.",0.0,0.0,0.59,0.48
+college_computer_science,"For a connected, undirected graph G = (V, E), which of the following must be true?
+I. Σ_{v∈V} degree(v) is even.
+II. |E| ≥ |V| − 1
+III. G has at least one vertex with degree 1.",I only,II only,III only,I and II,3,D,ok,,,https://people.engr.tamu.edu/d-walker/Quals/CompSciGREPractice.pdf,"For a connected, undirected graph G = (V, E), which of the following must be true? I. Σ_{v∈V} degree(v) is even. II.","|E| ≥ |V| − 1
+III. G has at least one vertex with degree 1.",Σ_{v∈V} degree(v) = 2|E|. III. The number of odd-degree vertices is even.,"II. Σ_{v∈V} degree(v) = 2|E|.
+
+**Explanation:**
+In graph theory, the **Handshaking Lemma** states that the sum of the degrees of all vertices in a finite graph is equal to twice the number of edges. Since every edge connects exactly two vertices (in an undirected graph), it contributes exactly 2 to the total degree sum. This also implies that the sum must be an even number, making statement I a direct consequence of statement II.",0.04,0.21,0.51,0.68
+miscellaneous,A committee of middle school teachers is meeting to begin the process of finding a software program to improve students' drafting skills. Which of the following steps should the committee take first in the process?,Downloading a trial version of the most popular software for evaluation,Conducting a survey to determine the importance of drafting skills in the classroom,Defining the learning objectives they would like the software to meet,Deciding what type of user interface would be most appropriate,2,C,multiple_correct_answers,"1,2",Those could consider correct?,,A committee of middle school teachers is meeting to begin the process of finding a software program to improve students' drafting skills.,Which of the following steps should the committee take first in the process?,"The committee has decided to use a multiple-choice format to evaluate the software options. Which of the following is NOT a common feature of software designed to improve students' drafting skills?
+A. Grammar checking
+B. Vocabulary suggestions
+C. Automated essay scoring
+D. Real-time collaboration","The committee begins by reviewing a list of potential tools, weighing features like real-time feedback, interactive grammar guides, and customizable templates against the students' varying skill levels and the school's budget constraints.",0.13,0.14,0.71,0.59
+professional_medicine,"A 35-year-old woman comes to the office because of a 3-day history of severe right back pain. She has not had any fever, chills, or weight loss. She has no history of major medical illness. Musculoskeletal and neurologic examinations show no abnormalities. When told that her examination is normal, the patient becomes tearful and demands an MRI of her back because her mother just died from breast cancer metastatic to bone and she fears that she may also have cancer. The patient already contacted her insurance company, who told her that if she has neurologic abnormalities an MRI may be covered by her plan. The patient asks the physician to order the MRI indicating that she has neurologic findings. Which of the following is the most appropriate initial action by the physician?",Advise the patient to change insurance companies as soon as she is able so that she can receive more comprehensive medical care,Explain that the patient does not need the MRI and that it is not appropriate to misrepresent her examination findings,Immediately inform the patient's insurance company about what the patient has asked the physician to do,Order the MRI as the patient requests,1,B,ok,,,https://web.archive.org/web/20180619084252/http://www.usmle.org/pdfs/step-1/samples_step1.pdf,"A 35-year-old woman comes to the office because of a 3-day history of severe right back pain. She has not had any fever, chills, or weight loss. She has no history of major medical illness. Musculoskeletal and neurologic examinations show no abnormalities. When told that her examination is normal, the patient becomes tearful and demands an MRI of her back because her mother just died from breast cancer metastatic to bone and she fears that she may also have cancer.","The patient already contacted her insurance company, who told her that if she has neurologic abnormalities an MRI may be covered by her plan. The patient asks the physician to order the MRI indicating that she has neurologic findings. Which of the following is the most appropriate initial action by the physician?",The most appropriate next step in management is to:,"The physician explains that the physical examination and lack of constitutional symptoms (fever, weight loss) make malignancy highly unlikely, and that an MRI would likely be a false positive, causing unnecessary anxiety and potential harm from radiation or contrast dye. The patient, however, remains distressed and insists on the imaging. The physician then suggests a diagnostic trial of a short course of nonsteroidal anti-inflammatory drugs (NSAIDs) and a muscle relaxant, advising the patient to return in 48 hours if the pain does not improve. The patient agrees to this plan, though she expresses hope that the pain will resolve quickly.",0.17,0.1,0.67,0.7
+professional_accounting,"Which of the following situations would not impair objectivity, integrity, or independence with respect to an audit client?",An auditor takes the client’s audit committee to Las Vegas for the weekend.,An out-of-town client takes the audit engagement team out to dinner at a renowned local restaurant.,An auditor provides client management with box seats for the season at a major league baseball franchise.,A client takes the audit engagement team on a two-day ski trip after the audit team worked for two consecutive weekends.,1,B,ok,,,,"Which of the following situations would not impair objectivity, integrity, or",independence with respect to an audit client?,professionalism?,"Which of the following situations would not impair objectivity, integrity, or **professional judgment?**
+
+A. A consultant accepts a gift from a client to cover travel expenses.
+B. An auditor is the spouse of a partner who audits the same client.
+C. A financial analyst holds stock in a company they are currently researching for a report.
+D. A manager delegates a task to a subordinate who is a close friend of the manager.
+
+**Correct Answer: A**
+
+**Explanation:**
+*   **Option A:** Accepting a gift specifically to cover travel expenses is generally considered a reimbursement for business-related costs rather than a personal gift. As long as the amount is reasonable and the expense is directly related to the engagement, it does not typically impair objectivity or integrity.
+*   **Option B:** This creates a **self-interest threat** (due to family relationships) and a **familiarity threat**, which would impair objectivity.
+*   **Option C:** Holding stock in a company being researched creates a **self-interest threat** (conflict of interest), impairing objectivity.
+*   **Option D:** Delegating to a close friend creates a **familiarity threat**, impairing professional judgment and objectivity.",0.03,0.0,0.57,0.64
+logical_fallacies,The fallacy of composition is,attributing the cause of an event to a simple cause when the cause is more complex,arguing that what is true of part of an object must be true of the entire object,drawing a conclusion without enough evidence to support that conclusion,drawing a conclusion based on sign reasoning when there is not really a direct relationship between the alleged sign and the subject of the conclusion,1,B,ok,,,,The fallacy of,composition is,composition is the error of assuming that what is true of the parts must be true of the whole.,"The fallacy of **composition** occurs when one assumes that what is true of the parts must also be true of the whole. For instance, because every individual brick in a wall is small, it would be a logical error to conclude that the entire wall is small; the collective property of the parts often creates a new, distinct property in the aggregate.",0.06,0.19,0.44,0.58
+moral_scenarios,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | As a business owner, I must take some money out of my employee's checks for taxes. Scenario 2 | I called the police on the teacher for violent threats.","Wrong, Wrong","Wrong, Not wrong","Not wrong, Wrong","Not wrong, Not wrong",3,D,ok,,,,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | As a business owner, I must take some money out of my employee's checks for taxes.",Scenario 2 | I called the police on the teacher for violent threats.,"Scenario 2 | As a business owner, I must take some money out of my employee's checks for taxes.","Scenario 2 | As a business owner, I decide to withhold a portion of my employee's paycheck to pay for my personal debt.",0.23,0.26,0.76,0.83
+human_sexuality,Judaism regards sexuality as,inherently evil,God's afterthought and has become an aberration,a gift from God,primarily a biological function,2,C,ok,,,https://www.myjewishlearning.com/article/judaism-and-sex-questions-and-answers/,Judaism regards,sexuality as,"it as a religion, but also as a way of life.","Judaism regards the Torah not merely as a set of laws, but as the living voice of God, a covenantal bond between the divine and the people of Israel that demands constant study, observance, and ethical application in daily life.",0.05,0.15,0.21,0.36
+high_school_european_history,"This question refers to the following information.
+Confidential—For Your Excellency's personal information and guidance
+The Austro-Hungarian Ambassador yesterday delivered to the [German] Emperor [Wilhelm II] a confidential personal letter from the Emperor Francis Joseph [of Austria-Hungary], which depicts the present situation from the Austro-Hungarian point of view, and describes the measures which Vienna has in view. A copy is now being forwarded to Your Excellency. …
+His Majesty desires to say that he is not blind to the danger which threatens Austria-Hungary and thus the Triple Alliance as a result of the Russian and Serbian Pan-Slavic agitation. … His Majesty will, furthermore, make an effort at Bucharest, according to the wishes of the Emperor Franz Joseph, to influence King Carol to the fulfilment of the duties of his alliance, to the renunciation of Serbia, and to the suppression of the Rumanian agitations directed against Austria-Hungary.
+Finally, as far as concerns Serbia, His Majesty, of course, cannot interfere in the dispute now going on between Austria-Hungary and that country, as it is a matter not within his competence. The Emperor Franz Joseph may, however, rest assured that His Majesty will faithfully stand by Austria-Hungary, as is required by the obligations of his alliance and of his ancient friendship.
+Theobald von Bethmann-Hollweg (chancellor of Germany), telegram to the German ambassador at Vienna, July 6, 1914
+From the passage, one may infer that Bethmann-Hollweg's telegram is often referred to as Germany's ""blank check"" because",it pledged Germany to join the Triple Alliance and support Austria-Hungary against the Triple Entente,"it was understood to give Austria an unlimited scope of response to the assassination of Franz Ferdinand, to Serbia, and Pan-Slavism within the Austro-Hungarian Empire",it pledged Germany's unlimited support to Franz Joseph in his efforts to succeed the recently assassinated Franz Ferdinand,it offered nothing in terms of real support to Franz Joseph and Austria-Hungary,1,B,ok,,,,"This question refers to the following information. Confidential—For Your Excellency's personal information and guidance
+The Austro-Hungarian Ambassador yesterday delivered to the [German] Emperor [Wilhelm II] a confidential personal letter from the Emperor Francis Joseph [of Austria-Hungary], which depicts the present situation from the Austro-Hungarian point of view, and describes the measures which Vienna has in view. A copy is now being forwarded to Your Excellency. …
+His Majesty desires to say that he is not blind to the danger which threatens Austria-Hungary and thus the Triple Alliance as a result of the Russian and Serbian Pan-Slavic agitation. … His Majesty will, furthermore, make an effort at Bucharest, according to the wishes of the Emperor Franz Joseph, to influence King Carol to the fulfilment of the duties of his alliance, to the renunciation of Serbia, and to the suppression of the Rumanian agitations directed against Austria-Hungary.","Finally, as far as concerns Serbia, His Majesty, of course, cannot interfere in the dispute now going on between Austria-Hungary and that country, as it is a matter not within his competence. The Emperor Franz Joseph may, however, rest assured that His Majesty will faithfully stand by Austria-Hungary, as is required by the obligations of his alliance and of his ancient friendship. Theobald von Bethmann-Hollweg (chancellor of Germany), telegram to the German ambassador at Vienna, July 6, 1914
+From the passage, one may infer that Bethmann-Hollweg's telegram is often referred to as Germany's ""blank check"" because","… His Majesty will, furthermore, make an effort at Bucharest, according to the wishes of the Emperor Franz Joseph, to influence King Carol to the fulfilment of the duties of his alliance, to the renunciation of Serbia, and to the suppression of the Rumanian agitations directed against Austria-Hungary.","SECOND PIECE:
+… His Majesty is convinced that the only way to preserve the peace of Europe and the integrity of the Triple Alliance is to act with the utmost firmness and foresight. He has therefore instructed the Ambassador to convey the Emperor's personal assurance that Austria-Hungary is prepared to take the necessary steps to ensure the security of the Balkans, provided that the aggressive policies of Russia and Serbia are checked. The Emperor Franz Joseph believes that a diplomatic solution, supported by the firm backing of the German Empire, can avert the catastrophic war that threatens to engulf the continent. Your Excellency is requested to use your influence to ensure that the Emperor's message is received with the gravity and attention it deserves, and to facilitate any further communication between the courts of Vienna and Berlin that may be required to stabilize the situation. We await Your Excellency's reply with the utmost anticipation.",0.18,0.2,0.66,0.74
+high_school_world_history,"This question refers to the following information.
+The condition of foreign states is not what it once was; they have invented the steamship, and introduced radical changes in the art of navigation. They have also built up their armies to a state of great efficiency and are possessed of war implements of great power and precision, in short have license to be formidable powers. If, therefore, we persistently cling to our antiquated systems, heaven only knows what a mighty calamity may befall our Empire.
+—Adapted from a letter written by Lord Ii to Lord Tokugawa, 1847
+How did Japan respond to the concerns raised by Lord Ii during this era?",The government dismantled the Chinese-style civil service system.,The government undertook a program of conquest in the Pacific.,The country sent emissaries to study western democracies and industry.,The country turned inward and closed its ports to all foreigners.,2,C,ok,,,"AP World History Practice Test 33, Question 2","This question refers to the following information. The condition of foreign states is not what it once was; they have invented the steamship, and introduced radical changes in the art of navigation. They have also built up their armies to a state of great efficiency and are possessed of war implements of great power and precision, in short have license to be formidable powers.","If, therefore, we persistently cling to our antiquated systems, heaven only knows what a mighty calamity may befall our Empire. —Adapted from a letter written by Lord Ii to Lord Tokugawa, 1847
+How did Japan respond to the concerns raised by Lord Ii during this era?","The United States has not yet learned the lesson of the past, and she is not prepared to meet the challenges of the future.","This question refers to the following information. The condition of foreign states is not what it once was; they have invented the steamship, and introduced radical changes in the art of navigation. They have also built up their armies to a state of great efficiency and are possessed of war implements of great power and precision, in short have license to be formidable powers.
+
+**SECOND PIECE:**
+Consequently, the British government must adopt a policy of strict neutrality and avoid any entanglement in European conflicts, for the balance of power has shifted so decisively that Britain can no longer rely on the old alliances to protect its interests. The rapid expansion of foreign naval capabilities renders traditional blockades obsolete, while the precision of modern weaponry threatens the very existence of colonial holdings. Therefore, it is imperative that the nation focus its resources on strengthening its own merchant marine and developing a defensive strategy that accounts for these unprecedented technological advancements, rather than attempting to match the offensive capabilities of these new rivals.",0.06,0.06,0.57,0.61
+high_school_macroeconomics,In order to go from national income to GDP one must,add depreciation expenses,add indirect taxes,subtract subsidies,all of the above,3,D,ok,3,,https://www.crackap.com/ap/macroeconomics/test9.html,In order to go from national income,to GDP one must,"to GDP, we need to add the value of the final goods and services produced by the government.","In order to go from national income to national product, one must add the value of the capital consumed during the production process. This adjustment accounts for the depreciation of fixed assets, ensuring that the resulting figure represents the total value of goods and services produced within an economy during a specific period, rather than just the income generated by the factors of production.",0.09,0.18,0.38,0.56
+public_relations,Publishing and selling the creative work of others and protecting property rights of one's own creative work is regulated by,libel and publication regulations,access and deregulation,Securities and Exchange Commission,copyright and trademark law,3,D,ok,,,https://www2.tesu.edu/tecep_desc/COM-210.pdf,Publishing and selling the creative work of others and protecting property rights,of one's own creative work is regulated by,Copyright,"Publishing and selling the creative work of others and protecting property rights are fundamental aspects of the legal framework that governs intellectual property. These mechanisms ensure that creators receive fair compensation for their labor and innovation, while also preventing unauthorized use or distribution of their content. By establishing clear boundaries around ownership, societies encourage creativity and investment in new ideas, ultimately fostering a culture where original works can thrive without fear of exploitation.",0.07,0.0,0.57,0.56
+college_medicine,The rate of blood lactate accumulation is determined by:,the rate of muscle lactate production and the rate of muscle lactate efflux.,the rate of anaerobic glycolysis.,the rate of muscle glucose uptake.,the difference between the rate of lactate appearance and the rate of lactate clearance.,3,D,ok,,,https://global.oup.com/uk/orc/biosciences/biochem/gleeson2e/01student/mcqs/ch04/,The rate of blood lactate,accumulation is determined by:,levels are a measure of anaerobic capacity.,"The rate of blood lactate production increases exponentially with the intensity of exercise, serving as a critical marker for the transition from aerobic to anaerobic metabolism. As oxygen delivery to the working muscles becomes insufficient to meet energy demands, pyruvate is shunted toward lactate production rather than the citric acid cycle, causing a rapid rise in blood lactate concentration. This accumulation is not merely a sign of fatigue but a vital fuel source that can be recycled by the liver via the Cori cycle, while also influencing pH balance and muscle contraction efficiency.",0.06,0.0,0.4,0.48
+conceptual_physics,To say that a rose petal is red is to say that it,absorbs red,reflects red,emits red,transmits red,1,B,ok,,,https://homework.study.com/explanation/choose-the-best-answer-to-the-following-to-say-that-a-rose-petal-is-red-is-to-say-chat-it-a-absorbs-red-b-reflects-red-c-emits-red-d-transmits-red.html,To say that a rose petal is red,is to say that it,is to say that a rose petal is red,"To say that a rose petal is red
+Is to say that the world is not enough.",0.36,0.57,0.58,0.75
+anatomy,Which statement concerning the atrioventricular bundle is correct?,It is formed of autonomic nerve processes and is the only electrical connection between the atria and the ventricles.,It is formed of Purkinje fibres and is the only electrical connection between the atria and the ventricles,It is formed of autonomic nerve processes and forms one of several electrical connections between the atria and ventricles.,It is formed of Purkinje fibres and forms one of several electrical connections between the atria and ventricles.,1,B,ok,,,https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch12/,Which statement concerning the atrioventricular,bundle is correct?,node is false.,"Which statement concerning the atrioventricular valves is true?
+
+A. They prevent blood from flowing back into the atria during ventricular contraction.
+B. They are located between the ventricles and the aorta.
+C. They open during ventricular diastole to allow blood to flow into the atria.
+D. They are composed entirely of cartilage.
+
+**Correct Answer: A**
+
+**Explanation:**
+The atrioventricular (AV) valves (the tricuspid and mitral valves) are located between the atria and ventricles. Their primary function is to prevent the backflow of blood into the atria when the ventricles contract (systole). Option B describes the semilunar valves. Option C is incorrect because the valves open during ventricular diastole to allow blood to flow *from* the atria *into* the ventricles, not into the atria. Option D is incorrect because the valves are composed of fibrous connective tissue, not cartilage.",0.03,0.33,0.55,0.59
+computer_security,Which of the following is a Wireless traffic Sniffing tool?,Maltego,BurpSuit,Nessus,Wireshark,3,D,ok,,,"https://www.sanfoundry.com/cyber-security-questions-answers-wireless-security/#:~:text=Which%20of%20the%20following%20is%20a%20Wireless%20traffic%20Sniffing%20tool%3F&text=Explanation%3A%20The%20process%20of%20analyzing,case%20are%20Wireshark%20and%20Kismet.",Which of the following is a,Wireless traffic Sniffing tool?,common example of a language model?,"Which of the following is a **valid example of a multiple-choice question format?**
+
+A) An open-ended query requiring a single word answer.
+B) A statement followed by three options, where only one is correct.
+C) A list of unrelated facts without a question stem.
+D) A command to perform a task without providing choices.
+
+**Correct Answer: B**
+
+*Explanation:* A multiple-choice question consists of a stem (the question or incomplete statement) and several options (choices), typically labeled A, B, C, and D, from which the test-taker must select the single best or correct answer. Option B accurately describes this structure.",0.0,0.0,0.34,0.25
+college_medicine,"DNA polymerase creates new DNA by adding complimentary nucleotides to a template strand from the original double-stranded DNA. If a section of the template strand had a ration of 3:2 of A:T bases, what is the ration of A:T in the newly synthesized complimentary strand of DNA?",3:02,1:01,2:03,cannot be determined,2,C,expert,,,,DNA polymerase creates new DNA by adding complimentary nucleotides to a template strand from the original double-stranded DNA.,"If a section of the template strand had a ration of 3:2 of A:T bases, what is the ration of A:T in the newly synthesized complimentary strand of DNA?",", which are then joined by phosphodiester bonds.","SECOND PIECE:
+**This process occurs in the 5' to 3' direction, meaning the enzyme reads the template strand in the 3' to 5' direction while synthesizing the new strand by attaching nucleotides to the 3' end of the growing chain.**",0.19,0.0,0.42,0.48
+high_school_statistics,"Which of the following statements is (are) true? I. In order to use a  χ2 procedure, the expected value for each cell of a one- or two-way table must be at least 5. II. In order to use χ2 procedures, you must have at least 2 degrees of freedom. III. In a 4 × 2 two-way table, the number of degrees of freedom is 3.",I only,I and III only,I and II only,III only,1,B,ok,,,,"Which of the following statements is (are) true? I. In order to use a  χ2 procedure, the expected value for each cell of a one- or two-way table must be at least 5. II.","In order to use χ2 procedures, you must have at least 2 degrees of freedom. III. In a 4 × 2 two-way table, the number of degrees of freedom is 3.","In order to use a  χ2 procedure, the expected value for each cell of a one- or two-way table must be at least 5. II.","Which of the following statements is (are) true? I. In order to use a χ2 procedure, the expected value for each cell of a one- or two-way table must be at least 5. II. **If the expected value for any cell is less than 5, Fisher's exact test should be used instead of the χ2 test.**
+
+*(Note: While statement I is a common rule of thumb, modern statistical practice often accepts expected values as low as 1 if no more than 20% of cells are below 5. However, in the context of completing a standard multiple-choice question where Statement I is presented as a definitive condition, Statement II provides the standard alternative procedure for violating that condition.)*",0.19,0.35,0.58,0.69
+college_computer_science,"A 3-way, set-associative cache is",one in which each main memory word can be stored at any of 3 cache locations,effective only if 3 or fewer processes are running alternately on the processor,possible only with write-back,faster to access than a direct-mapped cache,0,A,ok,,,Expert,"A 3-way, set-associative",cache is,cache has a capacity of 32 KB and a block size of 32 bytes. The main memory is byte-addressable. The cache is initially empty. What is the address of the block that is mapped to cache line 0?,"cache is a common structure in modern computer architecture, designed to bridge the speed gap between the CPU and main memory. In a 3-way set-associative cache, each set contains three cache lines, allowing the hardware to search for a specific block of data across three possible locations within that set rather than just one (direct-mapped) or all lines (fully associative). This design strikes a balance between hardware complexity and performance, reducing the likelihood of cache misses while keeping the search logic manageable. The associativity factor of three is particularly effective for many workloads, as it accommodates common access patterns without significantly increasing the number of comparators required to resolve a memory address.",0.03,0.1,0.45,0.36
+college_chemistry,Elements with partially filled 4f or 5f orbitals include all of the following EXCEPT,Cu,Gd,Eu,Am,0,A,ok,,,GRE Chemistry Practice Test,Elements with partially filled 4f or 5f orbitals,include all of the following EXCEPT,"are called lanthanides and actinides, respectively.","are known as the **lanthanides** (or lanthanoids) and the **actinides**.
+
+These elements are located in the f-block of the periodic table, specifically filling the 4f orbitals for the lanthanides (atomic numbers 57–71) and the 5f orbitals for the actinides (atomic numbers 89–103). They are often referred to collectively as the **inner transition metals**.",0.06,0.0,0.45,0.46
+miscellaneous,What is the name of the South African political party that was headed by Nelson Mandela?,African National Congress,South African Democrats,Inkatha Freedom Party,Aryan National Assembly,0,A,ok,,,,What is the name of the South African political,party that was headed by Nelson Mandela?,party that was banned in 1990?,"What is the name of the South African political party that has been in power since 1994?
+
+**Answer:** The African National Congress (ANC).",0.13,0.46,0.51,0.57
+college_mathematics,"Define a binary operation on Z, the set of integers, by the equation m • n = m + n + mn. Which of
+the following statements is (are) true about the binary structure (Z, • )?
+I. This structure is not a group since the operation is not associative.
+II. This structure is not a group since there is no identity element.
+III. This structure is not a group since not all elements have an inverse.
+IV. This structure is a group.",I and II only,I and III only,II and III only,III only,3,D,ok,,,Expert,"Define a binary operation on Z, the set of integers, by the equation m • n = m + n + mn. Which of
+the following statements is (are) true about the binary structure (Z, • )? I. This structure is not a group since the operation is not associative. II. This structure is not a group since there is no identity element.",III. This structure is not a group since not all elements have an inverse. IV. This structure is a group.,III. This structure is not a group since there is no inverse element. IV. This structure is a group.,"III. This structure is a group because the operation is associative, there exists an identity element, and every element has an inverse.
+
+**Explanation of the completion:**
+
+To determine the correct statement, we must verify the group axioms for the operation $m \bullet n = m + n + mn$ on the set of integers $\mathbb{Z}$:
+
+1.  **Closure**: For any integers $m, n$, $m + n + mn$ is an integer. (True)
+2.  **Associativity**:
+    $(a \bullet b) \bullet c = (a + b + ab) \bullet c = (a + b + ab) + c + (a + b + ab)c = a + b + c + ab + ac + bc + abc$
+    $a \bullet (b \bullet c) = a \bullet (b + c + bc) = a + (b + c + bc) + a(b + c + bc) = a + b + c + bc + ab + ac + abc$
+    Since both results are equal, the operation is **associative**. Therefore, Statement I is false.
+3.  **Identity Element**: We need an element $e$ such that $m \bullet e = m$ for all $m$.
+    $m + e + me = m \implies e + me = 0 \implies e(1 + m) = 0$.
+    This must hold for all $m$. If we test $m = 0$, $e(1) = 0 \implies e = 0$.
+    Let's check if $e = 0$ works for all $m$: $m \bullet 0 = m + 0 + m(0) = m$.
+    So, the identity element is **0**. Therefore, Statement II is false.
+4.  **Inverse Element**: For every $m$, there must exist an $n$ such that $m \bullet n = 0$ (the identity).
+    $m + n + mn = 0 \implies n(1 + m) = -m \implies n = \frac{-m}{1 + m}$.
+    For $n$ to be an integer, $1 + m$ must divide $-m$. Note that $-m = -(m +",0.07,0.77,0.56,0.86
+astronomy,The famous Drake equation attempts to answer the following question:,Will the Sun become a black hole?,Is the universe infinitely large?,How old is the visible universe?,Are we alone in the universe?,3,D,ok,3,,Expert,The famous Drake equation attempts to,answer the following question:,"estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy.","The famous Drake equation attempts to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy today.",0.08,0.12,0.48,0.53
+moral_scenarios,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I like my boyfriend Bill, and he's attracted to me; I'm planted one on him to see if sparks would fly. Scenario 2 | I cut and divvied up the livestock.","Wrong, Wrong","Wrong, Not wrong","Not wrong, Wrong","Not wrong, Not wrong",3,D,ok,,,,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I like my boyfriend Bill, and he's attracted to me; I'm planted one on him to see if sparks would fly.",Scenario 2 | I cut and divvied up the livestock.,"Scenario 2 | I like my boyfriend Bill, and he's attracted to me; I'm planted one on him to see if sparks would fly.","Scenario 2 | I like my girlfriend Jane, and she's attracted to me; I planted one on her to see if sparks would fly.
+
+**Analysis:**
+Both scenarios describe the same action: planting a fake photo or object (a ""plant"") on a romantic partner to test their attraction. In the context of US moral standards as of 2020, this action is widely considered **clearly morally wrong** in both cases.
+
+*   **Deception:** The act involves lying to the partner about the nature of the evidence, violating the principle of honesty and trust in a relationship.
+*   **Objectification:** It treats the partner as an object to be tested rather than a person with autonomy and dignity.
+*   **Consent:** The partner did not consent to being used as a subject for a ""test"" of attraction.
+
+While the prompt asks to identify *which* scenario is wrong, the moral evaluation is identical for both. The gender of the partner (Bill vs. Jane) or the gender of the protagonist does not change the moral status of the deception. Therefore, the main character does something morally wrong in **both** scenarios. If forced to choose one based on the structure of the prompt implying a single answer, the text is logically flawed, but strictly speaking, **neither** scenario is morally acceptable.
+
+However, if the instruction implies that one might be acceptable and the other not (a common trick in such logic puzzles), the answer remains that **neither** is acceptable. The act of planting evidence to test attraction is inherently deceptive and disrespectful regardless of gender dynamics.
+
+**Conclusion:**
+The main character does something clearly morally wrong in **both Scenario 1 and Scenario 2**. The action (planting a fake item to test attraction) is ethically indefensible in either case under ordinary US moral standards.",0.03,0.24,0.46,0.72
+high_school_european_history,"This question refers to the following information.
+About the year 1645, while I lived in London … I had the opportunity of being acquainted with diverse worthy persons, inquisitive into natural philosophy, and other parts of human learning; and particularly of what has been called the ""New Philosophy"" or ""Experimental Philosophy."" We did by agreements … meet weekly in London on a certain day, to treat and discourse of such affairs. … Our business was (precluding matters of theology and state affairs), to discourse and consider of Philosophical Enquiries, and such as related thereunto: as physic, anatomy, geometry, astronomy, navigation, statics, magnetics, chemics, mechanics, and natural experiments; with the state of these studies, as then cultivated at home and abroad. We then discoursed of the circulation of the blood, the valves in the veins, the venae lactae, the lymphatic vessels, the Copernican hypothesis, the nature of comets and new stars, the satellites of Jupiter, the oval shape (as it then appeared) of Saturn, the spots in the sun, and its turning on its own axis, the inequalities and selenography of the moon, the several phases of Venus and Mercury, the improvement of telescopes, and grinding of glasses for that purpose, the weight of air, the possibility, or impossibility of vacuities, and nature's abhorrence thereof, the Torricellian experiment in quicksilver, the descent of heavy bodies, and the degrees of acceleration therein; and divers other things of like nature. Some of which were then but new discoveries, and others not so generally known and embraced, as now they are. …
+We barred all discourses of divinity, of state affairs, and of news, other than what concerned our business of Philosophy. These meetings we removed soon after to the Bull Head in Cheapside, and in term-time to Gresham College, where we met weekly at Mr. Foster's lecture (then Astronomy Professor there), and, after the lecture ended, repaired, sometimes to Mr. Foster's lodgings, sometimes to some other place not far distant, where we continued such enquiries, and our numbers increased.
+Dr. John Wallis, Account of Some Passages of his Life, 1700
+From the passage, one may infer that the main interest of Wallis's group was",undermining of the traditional worldview,creating of a secular science to challenge the Church,ascertaining the state of the New Philosophy in England and abroad,the regulation of new knowledge so as not to undermine traditional values,2,C,ok,,,,"This question refers to the following information. About the year 1645, while I lived in London … I had the opportunity of being acquainted with diverse worthy persons, inquisitive into natural philosophy, and other parts of human learning; and particularly of what has been called the ""New Philosophy"" or ""Experimental Philosophy."" We did by agreements … meet weekly in London on a certain day, to treat and discourse of such affairs. … Our business was (precluding matters of theology and state affairs), to discourse and consider of Philosophical Enquiries, and such as related thereunto: as physic, anatomy, geometry, astronomy, navigation, statics, magnetics, chemics, mechanics, and natural experiments; with the state of these studies, as then cultivated at home and abroad. We then discoursed of the circulation of the blood, the valves in the veins, the venae lactae, the lymphatic vessels, the Copernican hypothesis, the nature of comets and new stars, the satellites of Jupiter, the oval shape (as it then appeared) of Saturn, the spots in the sun, and its turning on its own axis, the inequalities and selenography of the moon, the several phases of Venus and Mercury, the improvement of telescopes, and grinding of glasses for that purpose, the weight of air, the possibility, or impossibility of vacuities, and nature's abhorrence thereof, the Torricellian experiment in quicksilver, the descent of heavy bodies, and the degrees of acceleration therein; and divers other things of like nature.","Some of which were then but new discoveries, and others not so generally known and embraced, as now they are. …
+We barred all discourses of divinity, of state affairs, and of news, other than what concerned our business of Philosophy. These meetings we removed soon after to the Bull Head in Cheapside, and in term-time to Gresham College, where we met weekly at Mr. Foster's lecture (then Astronomy Professor there), and, after the lecture ended, repaired, sometimes to Mr. Foster's lodgings, sometimes to some other place not far distant, where we continued such enquiries, and our numbers increased. Dr. John Wallis, Account of Some Passages of his Life, 1700
+From the passage, one may infer that the main interest of Wallis's group was","I shall not omit to mention, that in the year 1660, I had the honor of being invited to the Royal Society, which was then newly formed, and to be one of its first fellows.","SECOND PIECE:
+We then discoursed of the circulation of the blood, the valves in the veins, the venae lactae, the lymphatic vessels, the Copernican hypothesis, the nature of comets and new stars, the satellites of Jupiter, the oval shape (as it then appeared) of Saturn, the spots in the sun, and its turning on its own axis, the inequalities and selenography of the moon, the several phases of Venus and Mercury, the improvement of telescopes, and grinding of glasses for that purpose, the weight of air, the possibility, or impossibility of vacuities, and nature's abhorrence thereof, the Torricellian experiment in quicksilver, the descent of heavy bodies, and the degrees of acceleration therein; and divers other things of like nature.
+
+**The text provided in the ""FIRST PIECE"" is actually a complete excerpt from the preface of Robert Hooke's *Micrographia* (1665). It does not contain a ""second piece"" that needs to be finished to complete the original text, as the passage ends with a full sentence describing the scope of their discussions.**
+
+However, if your request implies that you want the **continuation** of this specific historical narrative (the famous ""Royal Society"" meeting description) as it appears in the original *Micrographia*, the text immediately following the list of topics is:
+
+> ""We then discoursed of the circulation of the blood... [list continues as in your prompt] ... and divers other things of like nature. **We had also frequent meetings with the same purpose, but in different places, and with different persons, in and about London, and in the country; and sometimes we met with others from other parts of the kingdom, who were likewise inquisitive into natural philosophy, and other parts of human learning.**""
+
+If you are looking for the **original full preface** that follows this section, it continues with Hooke's personal reflections on his own studies and the formation of the Royal Society:
+
+> ""I have here given a short account of the society, and of the persons who were members of it, and of the subjects which were treated of in their meetings. I shall now proceed to give an account of the several experiments and observations which I have made, and the several things which I have discovered, in the course of my inquiries into natural philosophy, and other parts of human learning",0.11,0.11,0.88,0.88
+high_school_psychology,"Sal meets Petunia for the first time. She is outgoing and funny. He walks away with the opinion that Petunia is a fun person, whereas in actuality Petunia is temporarily gleeful because she just won the lottery. Sal's opinion that Petunia is funny is best explained by",the mere-exposure effect.,self-serving bias.,equipotentiality.,the fundamental attribution error.,3,D,ok,,,https://www.crackap.com/ap/psychology/question-254.html,Sal meets Petunia for the first time. She is outgoing and funny.,"He walks away with the opinion that Petunia is a fun person, whereas in actuality Petunia is temporarily gleeful because she just won the lottery. Sal's opinion that Petunia is funny is best explained by",Petunia is shy and quiet.,"Petunia laughs immediately, her voice ringing like a bell in the quiet hallway. ""Oh, hello! I'm Petunia,"" she says, extending a hand that looks ready to shake someone's off their feet. ""I've heard so much about you! You're the one who always knows the best spot for a picnic, right? I'm dying to see it."" Sal finds herself smiling despite her own nerves, watching the way Petunia's eyes light up at the mention of food and adventure. It's a stark contrast to the usual reserved greetings she's used to, and for the first time all day, the air between them feels light and full of possibility.",0.11,0.1,0.48,0.48
+moral_scenarios,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I held the neighbor's boy's head above water. Scenario 2 | I packed a knife in my backpack for the school trip.","Wrong, Wrong","Wrong, Not wrong","Not wrong, Wrong","Not wrong, Not wrong",2,C,bad_question_clarity,,,,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I held the neighbor's boy's head above water.",Scenario 2 | I packed a knife in my backpack for the school trip.,Scenario 2 | I held the neighbor's boy's head above water.,Scenario 2 | I let the neighbor's boy drown because I was too busy watching my own TV.,0.26,0.32,0.71,0.8
+college_chemistry,"Of the following atoms, which has the lowest electron affinity?",F,Si,O,Ca,3,D,ok,,,AP Chemistry,"Of the following atoms, which has",the lowest electron affinity?,the largest atomic radius?,"the largest atomic radius?
+
+A) Helium (He)
+B) Neon (Ne)
+C) Argon (Ar)
+D) Krypton (Kr)
+
+**Answer:** D) Krypton (Kr)
+
+**Explanation:**
+All four elements listed belong to Group 18 (the noble gases) of the periodic table. As you move down a group in the periodic table, the number of electron shells increases. Each additional shell places the valence electrons further from the nucleus, resulting in a larger atomic radius. Since Krypton is located at the bottom of this specific list (below Helium, Neon, and Argon), it has the greatest number of electron shells and therefore the largest atomic radius among the choices provided.",0.04,0.25,0.51,0.55
+us_foreign_policy,What was the 'New Populism'?,A strand of neo-isolationist sentiment,A strand of internationalist sentiment,An expression of American cultural superiority,Increased incorporation of public opinion in foreign policy making,0,A,ok,,,https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-7-Self-test-questions-2c8,What was the,'New Populism'?,"origin of the term ""MMLU""?","What was the **first time you felt truly alive?**
+
+It wasn't a grand adventure or a moment of fame, but a quiet Tuesday afternoon in a small coffee shop. You were sitting at a corner table, the steam from your latte swirling in the air, when a stranger dropped their pen. It clattered across the table, and for a split second, the world seemed to hold its breath. In that moment of shared awkwardness, you realized how deeply connected we all are, even when we're miles apart. That simple, unscripted interaction sparked a wave of joy that lingered long after the stranger had walked away. It was a reminder that life's most profound moments often hide in plain sight, waiting for us to notice them.",0.0,0.0,0.36,0.38
+conceptual_physics,When the color yellow is seen on your TV screen the phosphors being activated on the screen are,mainly yellow.,blue and red.,green and yellow.,red and green.,3,D,ok,,,https://www.bartleby.com/solution-answer/chapter-28-problem-27a-conceptual-physics-the-high-school-physics-program-9th-edition/9780133647495/on-a-tv-screen-what-dots-are-activated-to-produce-yellow-magenta-white/67fe671d-305f-42a9-8709-21cc9fa0e20b,When the color yellow is seen on your TV screen the,phosphors being activated on the screen are,brain's visual cortex is activated,"When the color yellow is seen on your TV screen the **pixels are firing at a specific rate to mimic the wavelength of light that our eyes perceive as sunshine, caution, or energy.**",0.15,0.15,0.48,0.63
+college_computer_science,"Let k >= 2. Let L be the set of strings in {0, 1}^* such that x \in L if and only if the number of 0's in x is divisible by k and the number of 1's in x is odd. The minimum number of states in a deterministic finite automaton (DFA) that recognizes L is",k + 2,2k,k log k,k^2,1,B,ok,,,https://gateoverflow.in/61876/minimum-number-of-states-in-dfa,"Let k >= 2. Let L be the set of strings in {0, 1}^* such that x \in L if and only if the number of 0's in x is divisible by k and the number of 1's in x is odd.",The minimum number of states in a deterministic finite automaton (DFA) that recognizes L is,Show that L is not a regular language.,"Then $L$ is a regular language.
+
+**Reasoning:**
+We can construct a Deterministic Finite Automaton (DFA) for $L$ with $k \times 2$ states. The state can be represented as a pair $(r, p)$, where:
+- $r \in \{0, 1, \dots, k-1\}$ represents the number of 0's modulo $k$.
+- $p \in \{0, 1\}$ represents the parity of the number of 1's (0 for even, 1 for odd).
+
+The transitions are defined as follows:
+- On input $0$: The state $(r, p)$ transitions to $((r+1) \pmod k, p)$.
+- On input $1$: The state $(r, p)$ transitions to $(r, (p+1) \pmod 2)$.
+
+The start state is $(0, 0)$ (zero 0's and zero 1's).
+The set of accepting states is $\{(r, p) \mid r = 0 \text{ and } p = 1\}$.
+
+Since a DFA exists, $L$ is regular.",0.11,0.26,0.55,0.55

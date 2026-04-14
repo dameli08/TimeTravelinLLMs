@@ -20,7 +20,6 @@ class OpenAIClient:
         presence_penalty=0.0,
         system_message=None,
         thinking_mode=False,
-        thinking_budget=1000,
     ):
         messages = []
         if system_message:
@@ -28,18 +27,13 @@ class OpenAIClient:
         messages.append({"role": "user", "content": text})
 
         if thinking_mode:
-            chat_tmpl_kwargs = {"enable_thinking": True}
-            if thinking_budget and thinking_budget > 0:
-                chat_tmpl_kwargs["thinking_budget"] = thinking_budget
-            extra_body = {"chat_template_kwargs": chat_tmpl_kwargs}
-            # Inject </think> as an assistant prefix.  The Qwen3 chat template
-            # prepends <think> to every assistant turn, so the model receives
-            # <think></think> — an empty thinking block — and skips straight to
-            # generating the answer, avoiding the endless thinking loop that
-            # occurs when the model is asked to do exact recall in thinking mode.
-            messages.append({"role": "assistant", "content": "</think>\n\n"})
+            # Enable thinking and give the model enough tokens to think + answer.
+            extra_body = {"chat_template_kwargs": {"enable_thinking": True}}
+            max_tokens = 12000
         else:
-            extra_body = {}
+            # Explicitly disable thinking — Qwen3 models default to thinking-enabled
+            # in their chat template, so we must pass False to suppress it.
+            extra_body = {"chat_template_kwargs": {"enable_thinking": False}}
 
         # Try making the API call
         try:
@@ -64,16 +58,11 @@ class OpenAIClient:
                 content = str(first_choice.message.content)
                 if thinking_mode:
                     if '</think>' in content:
-                        # Server echoed our injected prefix; strip up to </think>.
+                        # Strip everything up to and including </think>, keep only the answer.
                         content = content[content.find('</think>') + len('</think>'):].strip()
-                    elif first_choice.finish_reason == 'length':
-                        # Token limit hit while still inside the thinking block —
-                        # assistant-prefill not supported or not enforced by the server.
-                        # No usable answer was produced.
+                    else:
+                        # Model hit token limit mid-thinking — no answer produced.
                         content = ""
-                    # else: finish_reason='stop', no </think> in content.
-                    # The server stripped our injected prefix before returning;
-                    # content is already the clean answer — return it as-is.
                 return content
             else:
                 raise Exception(

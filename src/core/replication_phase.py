@@ -83,30 +83,12 @@ class ReplicationPhase(ExperimentResultSaver):
             logger.info(f"Input prompt:\n\n{formatted_prompt}")
 
         thinking_mode = getattr(self.args, 'thinking_mode', False)
-        thinking_budget = getattr(self.args, 'thinking_budget', 1000)
-        # Resolve effective max_tokens: use explicit --max_tokens if provided,
-        # otherwise default to thinking_budget+1000 (thinking) or 500 (normal).
+        # max_tokens: openai_api.py sets 12000 automatically when thinking_mode=True,
+        # so only pass explicit --max_tokens if user provided one, otherwise use 500.
         explicit_max_tokens = getattr(self.args, 'max_tokens', None)
-        if explicit_max_tokens is not None:
-            max_tokens = explicit_max_tokens
-        elif thinking_mode:
-            max_tokens = 20000
-        else:
-            max_tokens = 500
+        max_tokens = explicit_max_tokens if explicit_max_tokens is not None else 500
 
-        # In thinking mode, use a brevity system message unless the user
-        # provided their own via --system_message.  This prevents the model
-        # from spiralling into dozens of pages of reasoning before answering.
-        user_system_message = getattr(self.args, 'system_message', None)
-        if thinking_mode and not user_system_message:
-            system_message = (
-                "You are a concise text-completion assistant. "
-                "Reason in at most 2–3 short sentences, then output ONLY "
-                "the exact completion text that was requested. "
-                "Do not explain, analyse, or add any commentary."
-            )
-        else:
-            system_message = user_system_message
+        system_message = getattr(self.args, 'system_message', None)
 
         self.df.at[index, self.generated_text_column] = self.openai_client.get_text(
             text=formatted_prompt,
@@ -114,7 +96,6 @@ class ReplicationPhase(ExperimentResultSaver):
             max_tokens=max_tokens,
             system_message=system_message,
             thinking_mode=thinking_mode,
-            thinking_budget=thinking_budget,
         )
 
     def _prepare_prompt(self, prompt, row, first_piece):
