@@ -61,11 +61,11 @@ class ReplicationPhase(ExperimentResultSaver):
         with tqdm(total=len(self.df), desc="Generating completions") as pbar:
             for index, row in self.df.iterrows():
                 self._perform_task(index, row)
+                self.save_to_csv()
                 pbar.update(1)
                 time.sleep(self.sleep_time)
 
             pbar.close()
-            self.save_to_csv()
 
         return self.df
 
@@ -83,19 +83,22 @@ class ReplicationPhase(ExperimentResultSaver):
             logger.info(f"Input prompt:\n\n{formatted_prompt}")
 
         thinking_mode = getattr(self.args, 'thinking_mode', False)
-        # max_tokens: openai_api.py sets 12000 automatically when thinking_mode=True,
-        # so only pass explicit --max_tokens if user provided one, otherwise use 500.
-        explicit_max_tokens = getattr(self.args, 'max_tokens', None)
-        max_tokens = explicit_max_tokens if explicit_max_tokens is not None else 500
-
         system_message = getattr(self.args, 'system_message', None)
 
         self.df.at[index, self.generated_text_column] = self.openai_client.get_text(
             text=formatted_prompt,
             model=self.args.model,
-            max_tokens=max_tokens,
+            max_tokens=getattr(self.args, 'max_tokens', None),
+            temperature=getattr(self.args, 'temperature', None),
+            top_p=getattr(self.args, 'top_p', None),
+            top_k=getattr(self.args, 'top_k', None),
+            min_p=getattr(self.args, 'sampling_min_p', None),
+            frequency_penalty=getattr(self.args, 'frequency_penalty', None),
+            presence_penalty=getattr(self.args, 'presence_penalty', None),
+            repetition_penalty=getattr(self.args, 'repetition_penalty', None),
             system_message=system_message,
             thinking_mode=thinking_mode,
+            thinking_budget=getattr(self.args, 'thinking_budget', 12000),
         )
 
     def _prepare_prompt(self, prompt, row, first_piece):

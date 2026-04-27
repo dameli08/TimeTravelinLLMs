@@ -97,21 +97,30 @@ class Alg1EvalPhase(ExperimentResultSaver):
 
 
 class Alg2EvalPhase(ExperimentResultSaver):
-    def __init__(self, df, args, scorer, pattern_severity, save_intermediate_results):
+    def __init__(
+        self,
+        df,
+        args,
+        scorer,
+        metric_name,
+        pattern_severity,
+        save_intermediate_results,
+    ):
         super().__init__(df, args.filepath, args.experiment, save_intermediate_results)
         self.df = df
         self.args = args
         self.scorer = scorer
+        self.metric_name = metric_name
         self.pattern_severity = pattern_severity
         self.filepath = Path(self.args.filepath)
         self.sleep_time = getattr(args, 'sleep_time', 3.0)
 
     def evaluate(self):
-        logger.info("Starting evaluation using GPT-4 ICL ...")
+        logger.info(f"Starting evaluation using {self.metric_name} ...")
 
         if "generated_guided_completion" not in self.df.columns:
             raise ValueError(
-                "For evaluation using bleurt, completions from guided "
+                "For evaluation using ICL, completions from guided "
                 "instructions must be provided. If you have these completions, "
                 "make sure they are listed as 'generated_guided_completion' "
                 "in the csv file. Otherwise, you need to get these "
@@ -135,21 +144,28 @@ class Alg2EvalPhase(ExperimentResultSaver):
                 icl_evaluation = self.scorer.score(
                     reference=reference, candidate=candidate
                 )
-                self.df.at[index, "gpt4_icl_evaluation"] = icl_evaluation
+                self.df.at[index, "icl_evaluation"] = icl_evaluation
+                self.save_to_csv()
 
                 pbar.update(1)
                 time.sleep(self.sleep_time)
 
             pbar.close()
-            self.save_to_csv()
 
         pattern_counter = PatternCounter(
-            evaluations=list(self.df["gpt4_icl_evaluation"]),
+            evaluations=list(self.df["icl_evaluation"]),
             pattern_severity=self.pattern_severity,
+            metric_name=self.metric_name,
         )
 
+        safe_metric_name = (
+            self.metric_name.lower()
+            .replace(" ", "_")
+            .replace("/", "_")
+            .replace(".", "_")
+        )
         result_filepath = (
-            self.experiment / f"gpt4_icl_evaluations_for_{self.filepath.stem}.txt"
+            self.experiment / f"{safe_metric_name}_evaluations_for_{self.filepath.stem}.txt"
         )
 
         pattern_counter.evaluate_and_save_results(result_filepath=result_filepath)

@@ -39,6 +39,7 @@ SECOND PIECE:
 """,
             "qa": """INSTRUCTION:
 Finish the SECOND PIECE based on the FIRST PIECE to complete the original text.
+Do NOT generate answer options for this question. ONLY generate the SECOND PIECE of the question. There is no need to generate options.
 
 FIRST PIECE:
 {first_piece}

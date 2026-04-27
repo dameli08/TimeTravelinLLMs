@@ -49,6 +49,7 @@ SECOND PIECE:
 You are provided with the FIRST PIECE of a question from the {split_name} split of the {dataset_name} dataset.
 Finish the SECOND PIECE of the question as EXACTLY appeared in the dataset.
 ONLY rely on the original form of the question in the dataset to finish the SECOND PIECE.
+Do NOT generate answer options for this question. ONLY generate the SECOND PIECE of the question. There is no need to generate options.
 Output ONLY the raw text of the SECOND PIECE. Do NOT explain, analyze, or add any commentary. Output the continuation text and nothing else.
 
 FIRST PIECE:

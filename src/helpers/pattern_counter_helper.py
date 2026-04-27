@@ -2,9 +2,10 @@ import re
 
 
 class PatternCounter:
-    def __init__(self, evaluations, pattern_severity):
+    def __init__(self, evaluations, pattern_severity, metric_name="ICL"):
         self.evaluations = evaluations
         self.pattern_severity = pattern_severity
+        self.metric_name = metric_name
 
     def count_patterns(self):
         counts = {pattern: 0 for pattern in self.pattern_severity.keys()}
@@ -22,7 +23,7 @@ class PatternCounter:
             f.write(f"{'-' * 75}\n")
             for pattern, count in counts.items():
                 f.write(
-                    f"{'GPT-4 ICL:':<15} {pattern:<30}{count:<10} {'Yes' if count >= self.pattern_severity[pattern] else 'No'}\n"
+                    f"{self.metric_name + ':':<15} {pattern:<30}{count:<10} {'Yes' if count >= self.pattern_severity[pattern] else 'No'}\n"
                 )
 
     def evaluate_and_save_results(self, result_filepath):

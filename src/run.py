@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 
 from core.evaluation_phase import Alg1EvalPhase, Alg2EvalPhase
@@ -13,6 +15,13 @@ logger = configure_logger(__name__)
 
 def main():
     args = ArgumentParser().parse_args()
+    if args.icl_eval and not getattr(args, 'icl_base_url', None) and not os.getenv("OPENAI_API_KEY"):
+        raise ValueError(
+            "ICL evaluation uses the official OpenAI API by default. "
+            "Set OPENAI_API_KEY before running, or provide --icl_base_url "
+            "for an OpenAI-compatible judge endpoint."
+        )
+
     df = pd.read_csv(args.filepath, encoding="utf-8")
 
     if args.sample_size is not None:
@@ -59,9 +68,11 @@ def main():
             df=df,
             args=args,
             scorer=ICL(
-                base_url=getattr(args, 'base_url', None),
-                model=args.model,
+                base_url=getattr(args, 'icl_base_url', None),
+                model=getattr(args, 'icl_model', 'gpt-5'),
+                max_tokens=getattr(args, 'icl_max_tokens', 1000),
             ),
+            metric_name=f"{getattr(args, 'icl_model', 'gpt-5')} ICL",
             pattern_severity={
                 "Yes \\(exact match\\)": 1,
                 "Yes \\(near\\-exact match\\)": 2,

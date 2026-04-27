@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================
 # Reusable script for checking QA/MCQ datasets for contamination
-# using the TimeTravelInLLMs method (ROUGE-L + BLEURT).
+# using the TimeTravelInLLMs method (ROUGE-L + BLEURT + ICL judge).
 #
 # Usage:
 #   bash run_qa_dataset.sh <DATASET_FILE> <DATASET_NAME> <MODEL_PATH> <MODEL_NAME> [SPLIT] [BASE_URL]
@@ -31,7 +31,7 @@ EXPERIMENT="$(dirname "$0")/../results/${MODEL_NAME}/${DATASET_BASENAME}"
 # with vLLM for GPU memory.
 export CUDA_VISIBLE_DEVICES=""
 
-python "$(dirname "$0")/../src/run.py" \
+/home/dameli/miniconda3/envs/TTinLLMs/bin/python "$(dirname "$0")/../src/run.py" \
     --experiment "${EXPERIMENT}" \
     --filepath "${DATASET_FILE}" \
     --task qa \
@@ -48,4 +48,7 @@ python "$(dirname "$0")/../src/run.py" \
     --process_guided_replication \
     --process_general_replication \
     --rouge_eval \
-    --bleurt_eval
+    --bleurt_eval \
+    --icl_eval \
+    --icl_model gpt-5 \
+    --icl_max_tokens 1000

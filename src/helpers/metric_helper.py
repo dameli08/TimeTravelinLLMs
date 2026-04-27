@@ -51,10 +51,11 @@ class Rouge:
 
 
 class ICL:
-    def __init__(self, base_url=None, model="gpt-4-0613"):
+    def __init__(self, base_url=None, model="gpt-5", max_tokens=1000):
         self.icl_eval = ICLEvaluation()
         self.openai_client = OpenAIClient(base_url=base_url)
         self.model = model
+        self.max_tokens = max_tokens
 
     def score(
         self,
@@ -70,7 +71,8 @@ class ICL:
         evaluation = self.openai_client.get_text(
             text=formatted_icl_prompt,
             model=self.model,
-            max_tokens=10,
+            max_tokens=self.max_tokens,
+            reasoning_effort="minimal" if str(self.model).startswith("gpt-5") else None,
         )
 
         return evaluation

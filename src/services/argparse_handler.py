@@ -127,18 +127,60 @@ class ArgumentParser:
         self.parser.add_argument(
             "--thinking_budget",
             type=int,
-            default=1000,
+            default=12000,
             help="Maximum number of tokens the model may use for thinking (reasoning) when "
             "--thinking_mode is set. Passed as thinking_budget in chat_template_kwargs. "
             "Prevents the model from exhausting max_tokens on thinking alone. "
-            "Set to 0 to disable the budget (unlimited thinking). Default: 4096.",
+            "Set to 0 to disable the budget (unlimited thinking).",
         )
         self.parser.add_argument(
             "--max_tokens",
             type=int,
             default=None,
-            help="Maximum number of tokens to generate. In thinking mode the default is "
-            "thinking_budget + 1000. In normal mode the default is 500.",
+            help="Maximum number of tokens to generate. In thinking mode the default is 12000. "
+            "In normal mode the default is 500.",
+        )
+        self.parser.add_argument(
+            "--temperature",
+            type=float,
+            default=None,
+            help="Sampling temperature. Defaults to 1.0 in thinking mode and 0.0 otherwise.",
+        )
+        self.parser.add_argument(
+            "--top_p",
+            type=float,
+            default=None,
+            help="Nucleus sampling probability. Defaults to 0.95 in thinking mode and 1.0 otherwise.",
+        )
+        self.parser.add_argument(
+            "--top_k",
+            type=int,
+            default=None,
+            help="Top-k sampling value for OpenAI-compatible local endpoints. Defaults to 20 in thinking mode.",
+        )
+        self.parser.add_argument(
+            "--sampling_min_p",
+            type=float,
+            default=None,
+            help="Minimum probability sampling value for OpenAI-compatible local endpoints. Defaults to 0.0 in thinking mode.",
+        )
+        self.parser.add_argument(
+            "--frequency_penalty",
+            type=float,
+            default=None,
+            help="Frequency penalty. Defaults to 0.0.",
+        )
+        self.parser.add_argument(
+            "--presence_penalty",
+            type=float,
+            default=None,
+            help="Presence penalty. Defaults to 1.5 in thinking mode and 0.0 otherwise.",
+        )
+        self.parser.add_argument(
+            "--repetition_penalty",
+            type=float,
+            default=None,
+            help="Repetition penalty for OpenAI-compatible local endpoints. Defaults to 1.0 in thinking mode.",
         )
         self.parser.add_argument(
             "--bleurt_eval",
@@ -153,7 +195,27 @@ class ArgumentParser:
         self.parser.add_argument(
             "--icl_eval",
             action="store_true",
-            help="If the evaluation should be performed based on the GPT-4 ICL prompt.",
+            help="If the evaluation should be performed based on the ICL judge prompt.",
+        )
+        self.parser.add_argument(
+            "--icl_model",
+            type=str,
+            default="gpt-5",
+            help="Model used only for ICL judging. This is separate from --model, "
+            "which is the model being evaluated for contamination.",
+        )
+        self.parser.add_argument(
+            "--icl_base_url",
+            type=str,
+            default=None,
+            help="Optional OpenAI-compatible base URL for the ICL judge. "
+            "If omitted, the official OpenAI API is used with OPENAI_API_KEY.",
+        )
+        self.parser.add_argument(
+            "--icl_max_tokens",
+            type=int,
+            default=1000,
+            help="Maximum tokens for each ICL judge response.",
         )
         self.parser.add_argument(
             "--process_guided_replication",
@@ -161,7 +223,7 @@ class ArgumentParser:
             action="store_true",
             help="Whether to perform replication using guided instructions. "
             "If false, guided replication is disabled. When provided without "
-            "--process_general_replication, it only performs GPT-4 ICL "
+            "--process_general_replication, it only performs ICL "
             "evaluation.",
         )
         self.parser.add_argument(

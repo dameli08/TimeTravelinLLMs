@@ -1,15 +1,14 @@
 #!/bin/bash
 # ============================================================
-# Same as run_qa_dataset.sh but runs the model in thinking mode.
-# Results are saved under results/<MODEL_NAME>-thinking/<DATASET_BASENAME>/
-# so they never overwrite non-thinking results.
+# One-sample smoke test for QA/MCQ contamination detection in
+# thinking mode. This mirrors run_qa_dataset_thinking.sh but uses
+# exactly one sampled row and saves under <MODEL_NAME>-thinking-one.
 #
 # Usage:
-#   bash run_qa_dataset_thinking.sh <DATASET_FILE> <DATASET_NAME> <MODEL_PATH> <MODEL_NAME> [SPLIT] [BASE_URL] [SAMPLE_SIZE]
+#   bash run_qa_dataset_thinking_one.sh <DATASET_FILE> <DATASET_NAME> <MODEL_PATH> <MODEL_NAME> [SPLIT] [BASE_URL]
 #
-# Examples:
-#   bash run_qa_dataset_thinking.sh /home/dameli/DCQ-OpenAI-Version/8_datasets/mmlu_all.csv MMLU /data/models/Qwen3.5-2B qwen3.5-2b
-#   bash run_qa_dataset_thinking.sh /home/dameli/DCQ-OpenAI-Version/8_datasets/mmlu_pro_all.csv MMLU-Pro /data/models/Qwen3.5-2B qwen3.5-2b
+# Example:
+#   bash scripts/run_qa_dataset_thinking_one.sh /home/dameli/DCQ-OpenAI-Version/8_datasets/mmlu_all.csv MMLU /data/models/Qwen3.5-2B qwen3.5-2b
 # ============================================================
 
 DATASET_FILE="${1}"
@@ -18,17 +17,15 @@ MODEL="${3}"
 MODEL_NAME="${4}"
 SPLIT="${5:-test}"
 BASE_URL="${6:-http://localhost:23333/v1}"
-SAMPLE_SIZE="${7:-100}"
 
 if [[ -z "$DATASET_FILE" || -z "$DATASET_NAME" || -z "$MODEL" || -z "$MODEL_NAME" ]]; then
-    echo "Usage: bash run_qa_dataset_thinking.sh <DATASET_FILE> <DATASET_NAME> <MODEL_PATH> <MODEL_NAME> [SPLIT] [BASE_URL] [SAMPLE_SIZE]"
-    echo "Example: bash run_qa_dataset_thinking.sh /home/dameli/DCQ-OpenAI-Version/8_datasets/mmlu_all.csv MMLU /data/models/Qwen3.5-2B qwen3.5-2b"
+    echo "Usage: bash run_qa_dataset_thinking_one.sh <DATASET_FILE> <DATASET_NAME> <MODEL_PATH> <MODEL_NAME> [SPLIT] [BASE_URL]"
+    echo "Example: bash scripts/run_qa_dataset_thinking_one.sh /home/dameli/DCQ-OpenAI-Version/8_datasets/mmlu_all.csv MMLU /data/models/Qwen3.5-2B qwen3.5-2b"
     exit 1
 fi
 
 DATASET_BASENAME=$(basename "${DATASET_FILE}" .csv)
-# Append -thinking to model name so results are kept separate from non-thinking runs
-EXPERIMENT="$(dirname "$0")/../results/${MODEL_NAME}-thinking/${DATASET_BASENAME}"
+EXPERIMENT="$(dirname "$0")/../results/${MODEL_NAME}-thinking-one/${DATASET_BASENAME}"
 
 # Force TensorFlow (used by BLEURT) to run on CPU so it doesn't compete
 # with vLLM for GPU memory.
@@ -47,7 +44,7 @@ export CUDA_VISIBLE_DEVICES=""
     --should_split_text \
     --min_p 40 \
     --max_p 70 \
-    --sample_size "${SAMPLE_SIZE}" \
+    --sample_size 1 \
     --thinking_mode \
     --thinking_budget 12000 \
     --max_tokens 12000 \
