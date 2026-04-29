@@ -1,0 +1,4 @@
+Metric          Match Type                    Count      Contaminated
+---------------------------------------------------------------------------
+gpt-5 ICL:      Yes \(exact match\)           0          No
+gpt-5 ICL:      Yes \(near\-exact match\)     0          No
